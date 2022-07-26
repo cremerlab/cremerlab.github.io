@@ -10,19 +10,19 @@ header_settings:
 menu_settings:
   menu_items:
     - title: 'People'
-      url: '/people/'
+      url: '/people/' # For formatting reasons, trailing '/' is needed 
     - title: 'Research'
-      url: '/research/'
+      url: '/research'
     - title: 'Publications'
-      url: '/publications/'
+      url: '/publications'
     - title: 'Software'
-      url: '/software/'
+      url: '/software'
     - title: 'Courses'
       url: '/courses'
     - title: 'Join the Lab'
-      url: '/join/'
+      url: '/join'
     - title: 'Contact'
-      url: '/contact/'
+      url: '/contact'
 
 
 footer_settings:
