@@ -16,7 +16,7 @@ featured_image: /images/blackboard.jpg
 {% for paper in year[1] %}
 <a href="https://doi.org/{{paper.doi}}"><b>{{paper.title}}</b></a><br/>
 {{paper.authors}}<br/>
-<i>{{paper.journal}}</i>{{paper.volume}}<b>{{paper.issue}}</b> ({{year[0]}}) doi: `{{paper.doi}}`
+<i>{{paper.journal}}</i> {{paper.volume}}<b>{{paper.issue}}</b> ({{year[0]}}) doi: `{{paper.doi}}`
 {% endfor %}
 {% endfor %}
 
