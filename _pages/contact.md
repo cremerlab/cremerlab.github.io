@@ -11,13 +11,14 @@ to the Clark Center is limited, so please arrange a virtual meeting or contact a
 <a href="{{site.baseurl}}/people">lab member</a> first.
 
 
-## Address
+### Address
 Need to send us something? Please address as follows:
 
     Jonas Cremer
     Assistant Professor
     Department of Biology
     Clark Center
-    318 Campus DriveRooms W3.3/W300B
+    318 Campus Drive
+    Rooms W3.3/W300B
     Stanford, CA
     94305
