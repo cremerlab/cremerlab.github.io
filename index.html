@@ -1,0 +1,72 @@
+---
+layout: default
+title: A sleek, modern Jekyll theme for personal websites.
+description: A sleek, modern Jekyll theme for personal websites. Personal is the perfect theme for developers, designers and other creatives.
+featured_image: /images/cdc.jpg
+---
+
+<section class="hero">
+
+	<div class="hero__image" style="background-image: url({{ page.featured_image | relative_url }})">
+		<div class="hero__overlay"></div>
+	</div>
+
+	<div class="wrap">
+
+		<!-- <h1>Cremer Lab</h1> -->
+		<h1>Laboratory of Quantitative Microbial Physiology</h1>
+		<h4 style="color:white;">Jonas Cremer lab at Stanford University</h4>
+		<p>
+			Welcome! We are a highly interdisciplinary research team at Stanford
+			University, joined in our desire to better understand microbial
+			life. To elucidate how bacterial cells accumulate biomass and
+			grow, we work with the model organism <i>Escherichia coli</i>. Our
+			approaches tightly combine quantitative experimentation with
+			mathematical modeling to consider the coordination of major
+			physiological processes across scales; from metabolism and protein
+			synthesis, via cell-size control, to swimming. We further focus on
+			gut bacteria and their interactions with the human host. Our
+			analyses include considerations of intestinal physiology and diet
+			patterns on the host side, as well as metabolism, growth-physiology,
+			and ecology on the bacterial side. 
+		</p>
+
+		{% include socials.html %}
+	<center>
+	<a href="{{site.baseurl}}/people" class="button button--light button--large">People</a>&nbsp;
+	<a href="{{site.baseurl}}/research" class="button button--light button--large">Research</a> &nbsp;
+	<a href="{{site.baseurl}}/publications" class="button button--light button--large">Publications</a> &nbsp;
+	<a href="{{site.baseurl}}/courses" class="button button--light button--large">Courses</a> &nbsp;
+	<a href="{{site.baseurl}}/software" class="button button--light button--large">Software</a> &nbsp;
+	</center>
+	</div>
+
+</section>
+<!-- 
+<section class="listing">
+
+	<div class="wrap">
+
+		{% for project in site.projects reversed %}
+
+		<article class="post">
+
+			<div class="post__image-wrap">
+				<div class="post__image" style="background-image: url({{ project.featured_image | relative_url }})"></div>
+			</div>
+
+			<div class="post__content-wrap">
+				<div class="post__content">
+					<h2 class="post__title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
+					<p class="post__subtitle">{{ project.subtitle }}</p>
+					<p class="post__description">{{ project.description }}</p>
+				</div>
+			</div>
+
+		</article>
+
+		{% endfor %}
+
+	</div>
+
+</section> -->

@@ -1,0 +1,8 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+*.DS_*tore
+*.swp
+*.log
+*.bbl
+*.pdf

@@ -1,0 +1,57 @@
+- title: Optimal Allocation and the Flux Parity Model 
+  language: Python
+  author: Griffin Chure
+  year: 2022
+  description: >
+    This repository houses all of our work related to our recent paper presenting 
+    the flux-parity model of ribosomal allocation. Custom software (`growth.py`)
+    provides utilities for numerical integration of different allocation models 
+    with various features.
+  link: "https://github.com/cremerlab/flux_parity"
+
+- title: Collective movement by chemotaxis
+  author: Jonas Cremer
+  language: Python
+  year: 2019 
+  description: >
+    This Python code can be used to numerically solve the Growth Expansion
+    Model we recently formulated to describe the collective growth of
+    chemotactic bacterial populations moving (and competing) along self-driven
+    gradients. 
+  link: "https://github.com/cremerlab/chemotaxis_simulation"
+
+- title: Analyzing bacterial swimming behavior
+  author: Jonas Cremer
+  language: Python
+  year: 2019 
+  description: >
+    We used this Python based script to track swimming bacterial cells and to
+    get a statistics of their swimming behavior, including the fraction of
+    non-motile cells. 
+  link: "https://github.com/cremerlab/swimming_analysis"
+
+- title: Analyzing the collective migration of chemotactic bacteria
+  author: Jonas Cremer
+  language: Python
+  year: 2019 
+  description: >
+    We used this Python script to analyze expansion and growth dynamics of
+    fluorescently labeled cells expanding in soft-agar.
+  link: "https://github.com/cremerlab/chemotaxis_imageanalysisexpansiondynamics"
+
+- title: Modeling growth of the human gut microbiota
+  author: Jonas Cremer
+  language: Python
+  year: 2019 
+  description: >
+    Towards a mechanistic understanding of the human gut microbiota and its
+    composition,  we developed a spatiotemporal model of bacterial growth within
+    the human large intestine, considering key factors like nutrient
+    availability, flow conditions and pH. Send an email to Jonas if you are
+    interested in the code.
+
+
+
+
+
+

@@ -1,0 +1,152 @@
+2022: 
+  - title: >
+      Changing flows balance nutrient absorption and bacterial growth along the gut
+    authors:
+      Agnese Codutti, Jonas Cremer, and Karen Alim
+    journal: bioRxiv
+    doi: /10.1101/2022.02.16.480685 
+  - title: >
+      An optimal regulation of fluxes dictates microbial growth in and out of
+      steady-state
+    authors: Griffin Chure and Jonas Cremer
+    journal: bioRxiv
+    doi: 0.1101/2022.01.27.477569v1
+  - title: >
+      Coordination of gene expression with cell size enables <i>Escherichia coli</i>
+      to efficiently maintain motility across conditions
+    authors: >
+      Tomoya Honda, Jonas Cremer, Leonardo Mancini, Zhongge Zhang, Teuta
+      Pilizota, and Terence Hwa
+    journal: bioRxiv      
+    doi: 10.1101/2021.05.12.443892 
+2021:
+  - title: >
+      Suboptimal resource allocation during changing environments constrains
+      bacterial response and growth recovery 
+    authors:
+      Rohan Balakrishnan, Roshali T. de Silva, Terrence Hwa, and Jonas Cremer
+    journal: Molecular Systems Biology
+    volume: 17
+    doi: 10.15252/msb.202110597
+  - title: A traveling-wave solution for bacterial chemotaxis with growth
+    authors: Avaneesh V. Narla, Jonas Cremer, and Terrence Hwa 
+    journal: PNAS
+    volume: 118
+    issue: (48)
+    doi: 10.1073/pnas.2105138118
+2019:
+  - title: >
+      Cooperation in microbial populations: Theory and experimental model
+      systems
+    authors: >
+      Jonas Cremer, Anna Melbinger, Karl Wienand, Tania Henriquez, Heinrich
+      Jung, and Erwin Frey.
+    journal: Journal of Molecular Biology
+    volume: 431
+    doi: 10.1016/j.jmb.2019.09.023
+  - title: Chemotaxis as a navigation strategy to boost range expansion
+    authors: >
+      Jonas Cremer<sup>*</sup>, Tomoya Honda <sup>*</sup>, Ying Tang, Jerome
+      Wong-Ng, Massimo Vergassola, and Terrence Hwa
+    journal: Nature
+    volume: 575
+    doi: 10.1038/s41586-019-1733-y
+  - title: >
+      An evolutionarily stable strategy to colonize spatially extended habitats
+    authors: >
+      Weirong Liu<sup>*</sup>, Jonas Cremer, Dengjin Li, Terence Hwa, and Chenli
+      Liu.
+    journal: Nature
+    volume: 575
+    doi: 10.1038/s41586-019-1734-x
+  - title: > 
+      Spatiotemporal establishment of dense bacterial colonies growing on hard
+      agar 
+    authors: >
+      Mya R. Warren, Hui Sun, Yue Yan, Jonas Cremer, Bo Li, and Terence Hwa.
+    journal: eLife
+    doi: 10.7554/eLife.41093
+2018:
+  - title: >
+      Bacterial growth, flow, and mixing shape human gut microbiota density and
+      composition
+    authors: Markus Arnoldini, Jonas Cremer, and Terence Hwa.
+    journal: Gut Microbes
+    volume: 9
+    issue: (6)
+    doi: 10.1080/19490976.2018.1448741
+2017:
+  - title: >
+      Effect of water flow adn chemical environment on microbiota growth and 
+      composition in the human colon
+    authors: Jonas Cremer, Markus Arnoldini, and Terence Hwa.
+    journal: PNAS
+    volume: 114
+    issue: (25)
+    doi: 10.1073/pnas.1619598114
+2016:
+  - title: >
+      Effect of flow and peristaltic mixing on bacterial growth in a gut-like
+      channel
+    authors: >
+       Jonas Cremer, Igor Segota, Chih-yu Yang, Markus Arnoldini, John T. Sauls,
+       Zhongge Zhang, Edgar Guitierrez, Alex Groisman, and Terence Hwa.
+    journal: PNAS
+    volume: 113
+    issue: (41)
+    doi: 10.1073/pnas.1601306113
+2015:
+  - title: >
+      The emergence of cooperation from a single mutant during microbial life
+      cycles
+    authors: Anna Melbinger, Jonas Cremer, and Erwin Frey.
+    journal: Interface 
+    volume: 12
+    issue: (108)
+    doi: 10.1098/rsif.2015.0171
+2013:
+  - title: Mobility, fitness collection, and the breakdown of cooperation
+    authors: Anatolij Gelimson, Jonas Cremer, and Erwin Frey.
+    journal: Physical Review E
+    issue: 87
+    doi: 10.1103/PhysRevE.87.042711
+2012:
+  - title: >
+      Growth dynamics and the evolution of cooperation in microbial populations
+    authors: Jonas Cremer, Anna Melbinger, and Erwin Frey.
+    journal: Scientific Reports
+    volume: 281
+    doi: 10.1038/srep00281
+2011:
+  - title: "Evolutionary and population dynamics: A coupled approach"
+    authors: Jonas Cremer, Anna Melbinger, and Erwin Frey.
+    journal: Physical Review E
+    volume: 84
+    doi: 10.1103/PhysRevE.84.051921
+2010: 
+  - title: Evolutionary game theory in growting populations
+    authors: Anna Melbinger, Jonas Cremer, and Erwin Frey
+    journal: Physical Review Letters
+    volume: 105
+    doi: 10.1103/PhysRevLett.105.178101
+  - title: Entropy production of cyclic population dynamics
+    authors: Benjamin Andrae, Jonas Cremer, Tobias Reichenbach, and Erwin Frey.
+    journal: Physical Review Letters
+    volume: 104
+    doi: 10.1103/PhysRevLett.104.218102
+2009:
+  - title: The edge of neutral evolution in social dilemmas
+    authors: Jonas Cremer, Tobial Reichenbach, and Erwin Frey.
+    journal: New Journal of Physics
+    volume: 11
+    doi: 10.1088/1367-2630/11/9/093029
+2008:
+  - title: Anomalous finite-size effects in the battle of the sexes
+    authors: Jonas Cremer, Tobias Reichenbach, and Erwin Frey.
+    journal: European Physical Journal B
+    volume: 63
+    doi: 10.1140/epjb/e2008-00036-x
+
+
+
+
