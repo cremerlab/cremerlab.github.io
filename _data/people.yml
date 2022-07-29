@@ -67,17 +67,24 @@
     website: "https://gchure.github.io"
     github: "https://github.com/gchure"
 
-
 - name: Leron Perez
   title: PhD Candidate in Biophysics
   dates: July 2021 - present
   bio: > 
-    Coming soon! 
-  image: leron.jpg
+    Leron Perez (he/him) is a PhD student Biophysics, and is jointly advised by
+    Jonas Cremer and Drew Endy. Leron is interested in understanding microbial
+    adaptation to uncertain and changing environments to improve synthetic
+    biological design. His current research explores how <i>Escherichia coli</i>
+    in the human gut survive in environments that change faster than protein
+    synthesis can keep up. Outside of the lab, Leron enjoys spending time in
+    nature, playing soccer, and reading. Leron received his B.S. in Molecular
+    Engineering at the University of Chicago in 2020.
+  image: leron.png
   socials:
     email: leron@stanford.edu 
-    twitter: https://twitter.com/leron_perez
-
+    twitter: "https://twitter.com/leron_perez"
+    website: "https://leronperez.com"
+    github: "https://github.com/codercahol"
 
 - name: Shaili Mathur
   title: PhD Student in Biology
