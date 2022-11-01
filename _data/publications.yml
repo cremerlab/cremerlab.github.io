@@ -1,24 +1,27 @@
 2022: 
   - title: >
-      Changing flows balance nutrient absorption and bacterial growth along the gut
-    authors:
-      Agnese Codutti, Jonas Cremer, and Karen Alim
-    journal: bioRxiv
-    doi: /10.1101/2022.02.16.480685 
-  - title: >
       An optimal regulation of fluxes dictates microbial growth in and out of
       steady-state
     authors: Griffin Chure and Jonas Cremer
     journal: bioRxiv
     doi: 0.1101/2022.01.27.477569v1
   - title: >
+      Changing flows balance nutrient absorption and bacterial growth along the gut
+    authors:
+      Agnese Codutti, Jonas Cremer, and Karen Alim
+    journal: PRL
+    volume: 129
+    doi: 10.1103/PhysRevLett.129.138101
+  - title: >
       Coordination of gene expression with cell size enables <i>Escherichia coli</i>
       to efficiently maintain motility across conditions
     authors: >
       Tomoya Honda, Jonas Cremer, Leonardo Mancini, Zhongge Zhang, Teuta
       Pilizota, and Terence Hwa
-    journal: bioRxiv      
-    doi: 10.1101/2021.05.12.443892 
+    journal: PNAS
+    volume: 119
+    issue: (37)      
+    doi: 10.1073/pnas.2110342119
 2021:
   - title: >
       Suboptimal resource allocation during changing environments constrains
