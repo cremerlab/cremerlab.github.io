@@ -10,7 +10,7 @@ Current and previous teaching activities can be found on the Stanford course
 explore website. Major courses Jonas is teaching starting in the academic
 year 2022/23 are BIO165 and BIO120. 
 
-### [BIO165 Systems Biology: Cell Physiology and Growth](https://cremerlab.github.io/BIO165)
+### [BIO165 Quantitative Cell Biology - From molecules to evolution](https://cremerlab.github.io/BIO165)
 Starting winter quarter 2022/23. A combination of classical lectures and dry-lab
 classes to explore how major cellular processes need to be orchestrated and
 fine-tuned with the encountered environment to form a functional unit. Python
