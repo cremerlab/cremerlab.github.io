@@ -17,4 +17,7 @@ Reach out to Jonas if you are interested in our work and want to discuss researc
 We are participating in the Bio-X Summer Research Program and the B-SURP Program and encourage motivated students to apply. Feel free to contact Jonas via email, providing information about your background and your interests.
 
 ## Highschool students
-We currently do not accept applications from high school students for positions in the lab. 
+We currently do not accept applications from high school students for positions in the lab.
+
+## Lab community
+To learn more about our lab and our commitment to building an integrative lab community, have a look at [this statement and lab guidelines] (https://cremerlab.github.io/guidelines) we put together. 
