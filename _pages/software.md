@@ -1,6 +1,6 @@
 ---
 title: Software
-subtitle: >
+subtitle: > 
     We believe in the idea of open science and are commited to support the open
     source movement. Projects are available via our <a
     href="https://github.com/cremerlab" style="color:#FFF"><i>GitHub organization</i></a>.  A selection of

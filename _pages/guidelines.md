@@ -1,6 +1,6 @@
 ---
 title: Lab community
-subtitle: >
+subtitle: > 
     We have jointly formulated these lab guidelines and best practices to thrive as
     scientists and support each other
     featured_image: /images/seg.png 
