@@ -21,6 +21,8 @@ menu_settings:
       url: '/courses'
     - title: 'Join the Lab'
       url: '/join'
+    - title: 'Community'
+      url: '/guidelines'
     - title: 'Contact'
       url: '/contact'
 
