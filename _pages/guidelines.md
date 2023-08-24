@@ -1,9 +1,9 @@
 ---
 title: Lab community
 subtitle: >
-   description: We have jointly formulated these lab guidelines and best practices to thrive as
-   scientists and support each other
-   featured_image: /images/seg.png 
+    We have jointly formulated these lab guidelines and best practices to thrive as
+    scientists and support each other
+    featured_image: /images/seg.png 
 permalink: /courses
 ---
 

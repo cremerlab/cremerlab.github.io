@@ -1,8 +1,9 @@
 ---
 title: Research 
-subtitle: 
-description: We combine experimentation, data analysis, and mathematical modeling to elucidate the microbial cell and the impact microbes have on environments and the human body. 
-featured_image: /images/seg.png 
+subtitle: >
+    We combine experimentation, data analysis, and mathematical modeling to elucidate
+    the microbial cell and the impact microbes have on environments and the human body. 
+    featured_image: /images/seg.png 
 ---
 
 ## Microbial cell physiology
