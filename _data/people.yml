@@ -14,22 +14,6 @@
   socials:
     email: jonas.cremer@stanford.edu
     twitter: https://twitter.com/jonasbcremer
-   
-- name: Roshali de Silva
-  title: Postdoctoral Scholar
-  dates: January 2020 - present
-  bio: > 
-    Roshali de Silva is a postdoctoral research scholar at the Department of
-    Biology. She is interested in studying the cell shape dynamics of microbes.
-    Her PhD was focused on understanding the molecular mechanisms behind cell
-    shape changes in haloarchaea. She is currently working on characterizing the
-    cell size variations in <i>Escherichia coli</i>. She completed her Ph.D. in Molecular
-    Microbiology at the University of Technology Sydney, Australia in December
-    2019. She grew up in Sri Lanka.
-  image: roshali.jpg
-  socials:
-    email: roshali@stanford.edu
-    website: "https://web.stanford.edu/~roshali/"
 
 - name: Richa Sharma
   title: Postdoctoral Scholar 
@@ -119,23 +103,22 @@
     email: mleblan6@stanford.edu
     twitter: https://twitter.com/mathisjleblanc
 
-- name: Rebecca Christensen (RC)
-  title: Research Assistant 
-  dates: January 2022 - present
+   
+- name: Roshali de Silva
+  title: Postdoctoral Scholar
+  dates: January 2020 - August 2023
   bio: > 
-    Rebecca Christensen (“RC”, she/her, Hufflepuff) is a Research Assistant in
-    the Cremer lab interested in the relationship between diverse microbial
-    metabolic pathways in the human gut environment and human disease
-    development. Her current research uses a bioinformatics approach to identify
-    gut strains that produce hydrogen sulfide, a colorectal carcinogen, and
-    strains that produce short-chain fatty acids, a major energy source for the
-    gut epithelium. Outside of the world of science, she loves food (both eating
-    and making), roller blading, cats, non-Adam Sandler movies, and anything
-    outdoors!   
-  image: rc.jpg
+    Roshali de Silva is a postdoctoral research scholar at the Department of
+    Biology. She is interested in studying the cell shape dynamics of microbes.
+    Her PhD was focused on understanding the molecular mechanisms behind cell
+    shape changes in haloarchaea. She is currently working on characterizing the
+    cell size variations in <i>Escherichia coli</i>. She completed her Ph.D. in Molecular
+    Microbiology at the University of Technology Sydney, Australia in December
+    2019. She grew up in Sri Lanka.
+  image: roshali.jpg
   socials:
-    email: reb26@stanford.edu
-
+    email: roshali@stanford.edu
+    website: "https://web.stanford.edu/~roshali/"
 
 - name: August Burton
   title: Summer Undergraduate Researcher
@@ -152,4 +135,23 @@
   image: august.png
   socials:
     email: aburton6@stanford.edu
+    
+- name: Rebecca Christensen (RC)
+  title: Research Assistant 
+  dates: January 2022 - February 2023
+  bio: > 
+    Rebecca Christensen (“RC”, she/her, Hufflepuff) is a Research Assistant in
+    the Cremer lab interested in the relationship between diverse microbial
+    metabolic pathways in the human gut environment and human disease
+    development. Her current research uses a bioinformatics approach to identify
+    gut strains that produce hydrogen sulfide, a colorectal carcinogen, and
+    strains that produce short-chain fatty acids, a major energy source for the
+    gut epithelium. Outside of the world of science, she loves food (both eating
+    and making), roller blading, cats, non-Adam Sandler movies, and anything
+    outdoors!   
+  image: rc.jpg
+  socials:
+    email: reb26@stanford.edu
+
+
 
