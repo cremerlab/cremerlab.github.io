@@ -1,7 +1,7 @@
 2023:
  - title: >
       Stringent Control Over Cytoplasmic and Membrane Densities Defines Cell Geometry in Escherichia coli
-  authors: Griffin Chure, Roshali de Silva, Richa Sharma, Miachel C Lanz and Jonas Cremer
+  authors: Griffin Chure, Roshali de Silva, Richa Sharma, Michael C Lanz and Jonas Cremer
   journal: bioRxiv
   doi: 10.1101/2023.10.28.564462
  - title: >
@@ -12,8 +12,11 @@
  - title: >
       Conditionally unutilized proteins and their profound effects on growth and adaptation across microbial species
   authors: Rohan Balakrishnan and Jonas Cremer
-  journal: Current Opinion in Microbiology, in press
-  doi: 10.48550/arXiv.2306.11041
+  journal: Current Opinion in Microbiology
+  volume: 75
+  page: 102366
+  doi: 10.1016/j.mib.2023.102366
+  preprint: 10.48550/arXiv.2306.11041
 - title: >
       An optimal regulation of fluxes dictates microbial growth in and out of
       steady-state
