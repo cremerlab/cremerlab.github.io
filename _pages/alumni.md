@@ -6,8 +6,8 @@ featured_image: /images/blackboard.jpg
 ---
 
 {% for alumni in site.data.alumni %}
-<a href="{{alumni.link}}"><b>{{alumni.name}}</b></a><br/>
+<b>{{alumni.name}}</b><br/>
 {{alumni.title}} {{alumni.dates}}<br/>
-{{alumni.location}} <br/>
+<a href="{{alumni.link}}">{{alumni.location}}</a><br/>
 {% endfor %}
 
