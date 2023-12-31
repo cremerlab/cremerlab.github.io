@@ -17,6 +17,10 @@ featured_image: /images/blackboard.jpg
 <a href="https://doi.org/{{paper.doi}}"><b>{{paper.title}}</b></a><br/>
 {{paper.authors}}<br/>
 <i>{{paper.journal}}</i> {{paper.volume}}<b>{{paper.issue}}</b> ({{year[0]}}) doi: `{{paper.doi}}`
+{% if paper.github != "" %}
+<a href={{paper.github}}>GitHub Repository</a><br/>
+{% endif %}
+
 {% endfor %}
 {% endfor %}
 
