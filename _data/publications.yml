@@ -1,8 +1,15 @@
+#2024:
+#- title: >
+# authors: Markus Arnoldini, Richa Sharma, Claudia Moresi, Griffin Chure, Julien Chabbey, Emma Slack, and Jonas Cremer
+# github: https://github.com/cremerlab/fermentation_products
+# paper_website: https://cremerlab.github.io/microbiome-fermentation-products/study-explorer
+# doi: 
 2023:
 - title: >
       Stringent Control Over Cytoplasmic and Membrane Densities Defines Cell Geometry in Escherichia coli
   authors: Griffin Chure, Roshali de Silva, Richa Sharma, Michael C Lanz and Jonas Cremer
   journal: bioRxiv
+  github: https://github.com/cremerlab/density_maintenance
   doi: 10.1101/2023.10.28.564462
 - title: >
       The differing prevalences of propionate and butyrate-producing bacteria in the human gut microbiota
@@ -14,6 +21,7 @@
   authors: Griffin Chure and Jonas Cremer
   journal: chemRxiv
   doi: 10.26434/chemrxiv-2023-m2n4r
+  github: https://github.com/cremerlab/hplc-py
 - title: >
       Conditionally unutilized proteins and their profound effects on growth and adaptation across microbial species
   authors: Rohan Balakrishnan and Jonas Cremer
@@ -28,6 +36,10 @@
   authors: Griffin Chure and Jonas Cremer
   journal: eLife
   doi: 10.7554/eLife.84878
+  github: https://github.com/cremerlab/flux_parity
+  paper_website: https://cremerlab.github.io/flux_parity/
+  notes: Featured as a Spotlight Article by Avi Flamholz and Akshit Goyal: "Matching metabolic supply to demand optimizes microbial growth." Trends in Microbiology, 2023.
+
 2022: 
   - title: >
       Changing flows balance nutrient absorption and bacterial growth along the gut
@@ -55,6 +67,7 @@
     journal: Molecular Systems Biology
     volume: 17
     doi: 10.15252/msb.202110597
+    github: https://github.com/cremerlab/lagtimemodeling
   - title: A traveling-wave solution for bacterial chemotaxis with growth
     authors: Avaneesh V. Narla, Jonas Cremer, and Terrence Hwa 
     journal: PNAS
