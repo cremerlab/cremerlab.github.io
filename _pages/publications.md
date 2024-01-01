@@ -16,10 +16,7 @@ featured_image: /images/blackboard.jpg
 {% for paper in year[1] %}
 <a href="https://doi.org/{{paper.doi}}"><b>{{paper.title}}</b></a><br/>
 {{paper.authors}}<br/>
-<i>{{paper.journal}}</i> {{paper.volume}}<b>{{paper.issue}}</b> ({{year[0]}}) doi: `{{paper.doi}}`
-{% if paper.github != "" %}
-<a href={{paper.github}}>GitHub Repository</a><br/>
-{% endif %}
+<i>{{paper.journal}}</i> {{paper.volume}}<b>{{paper.issue}}</b> ({{year[0]}}) doi: `{{paper.doi}}`<br/>{% if paper.github|default() %} <a href="{{paper.github}}"> GitHub Repository</a>{% endif %}{% if paper.paper_website|default() %} <a href="{{paper.paper_website}}">Paper Website</a> {% endif %}{% if paper.notes|default() %}{{paper.notes}} {% endif %}
 
 {% endfor %}
 {% endfor %}

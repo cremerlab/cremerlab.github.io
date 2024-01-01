@@ -15,12 +15,14 @@
       The differing prevalences of propionate and butyrate-producing bacteria in the human gut microbiota
   authors: Rebecca Christensen, Yu Han Daisy Wang, Markus Arnoldini, and Jonas Cremer
   journal: bioRxiv
+  github: https://github.com/rchristensen26/Butyrate_Propionate_Comparative_Analysis
   doi: 10.1101/2023.11.27.568948
 - title: >
       hplc-py: A Python Package For Rapid Peak Quantification in Complex Chromatograms
   authors: Griffin Chure and Jonas Cremer
   journal: chemRxiv
   doi: 10.26434/chemrxiv-2023-m2n4r
+  paper_website: https://cremerlab.github.io/hplc-py/
   github: https://github.com/cremerlab/hplc-py
 - title: >
       Conditionally unutilized proteins and their profound effects on growth and adaptation across microbial species
@@ -38,7 +40,7 @@
   doi: 10.7554/eLife.84878
   github: https://github.com/cremerlab/flux_parity
   paper_website: https://cremerlab.github.io/flux_parity/
-  notes: "Featured as a Spotlight Article by Avi Flamholz and Akshit Goyal: Matching metabolic supply to demand optimizes microbial growth. Trends in Microbiology, 2023."
+  notes: 'Featured as a Spotlight Article by Avi Flamholz and Akshit Goyal: Matching metabolic supply to demand optimizes microbial growth. <a href="https://doi.org/10.1016/j.tim.2023.06.003"> Trends in Microbiology, 2023 </a>'
 
 2022: 
   - title: >
@@ -48,6 +50,7 @@
     journal: PRL
     volume: 129
     doi: 10.1103/PhysRevLett.129.138101
+    notes: 'Editor suggestion and featured in <a href="https://physics.aps.org/articles/v15/146" Physics>Physics</a>'
   - title: >
       Coordination of gene expression with cell size enables <i>Escherichia coli</i>
       to efficiently maintain motility across conditions
