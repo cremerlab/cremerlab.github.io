@@ -259,6 +259,17 @@ a {
 	}
 }
 
+.button--small {
+	padding: 5px 10px 5px;
+	font-size: 13px;
+
+	@include mq(tabletp) {
+		padding: 5px 10px 5px;
+		font-size: 14px;
+	}
+}
+
+
 .button--light {
 	background: transparent;
 	border-color:$background-color; 
