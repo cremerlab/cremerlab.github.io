@@ -1,9 +1,11 @@
-#2024:
-#- title: >
-# authors: Markus Arnoldini, Richa Sharma, Claudia Moresi, Griffin Chure, Julien Chabbey, Emma Slack, and Jonas Cremer
-# github: https://github.com/cremerlab/fermentation_products
-# paper_website: https://cremerlab.github.io/microbiome-fermentation-products/study-explorer
-# doi: 
+2024:
+- title: >
+      Quantifying the daily harvest of fermentation products from the human gut microbiota
+  authors: Markus Arnoldini, Richa Sharma, Claudia Moresi, Griffin Chure, Julien Chabbey, Emma Slack, and Jonas Cremer
+  github: https://github.com/cremerlab/fermentation_products
+  paper_website: https://cremerlab.github.io/microbiome-fermentation-products/study-explorer
+  journal: bioRxiv
+  doi: 10.1101/2024.01.05.573977
 2023:
 - title: >
       Stringent Control Over Cytoplasmic and Membrane Densities Defines Cell Geometry in Escherichia coli
