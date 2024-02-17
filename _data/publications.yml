@@ -22,10 +22,14 @@
 - title: >
       hplc-py: A Python Package For Rapid Peak Quantification in Complex Chromatograms
   authors: Griffin Chure and Jonas Cremer
-  journal: chemRxiv
-  doi: 10.26434/chemrxiv-2023-m2n4r
+  journal: Journal of Open Source Software
+  doi: 10.21105/joss.06270
+  volume: 9
+  issue: (94) 
   paper_website: https://cremerlab.github.io/hplc-py/
   github: https://github.com/cremerlab/hplc-py
+  preprint: 10.26434/chemrxiv-2023-m2n4r
+  page: 6270
 - title: >
       Conditionally unutilized proteins and their profound effects on growth and adaptation across microbial species
   authors: Rohan Balakrishnan and Jonas Cremer
