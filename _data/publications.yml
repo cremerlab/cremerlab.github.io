@@ -1,11 +1,30 @@
 2024:
 - title: >
+      Diurnal variations in microbial population dynamics along the human large intestine
+  authors: Alinaghi Salari and Jonas Cremer
+  github: https://github.com/cremerlab/diurnal_growthvariations
+  journal: bioRxiv
+  doi: 10.1101/2024.05.22.595260
+- title: >
+      hplc-py: A Python Package For Rapid Peak Quantification in Complex Chromatograms
+  authors: Griffin Chure and Jonas Cremer
+  journal: Journal of Open Source Software
+  doi: 10.21105/joss.06270
+  volume: 9
+  issue: (94) 
+  paper_website: https://cremerlab.github.io/hplc-py/
+  github: https://github.com/cremerlab/hplc-py
+  preprint: 10.26434/chemrxiv-2023-m2n4r
+  page: 6270
+- title: >
       Quantifying the daily harvest of fermentation products from the human gut microbiota
   authors: Markus Arnoldini, Richa Sharma, Claudia Moresi, Griffin Chure, Julien Chabbey, Emma Slack, and Jonas Cremer
   github: https://github.com/cremerlab/fermentation_products
   paper_website: https://cremerlab.github.io/microbiome-fermentation-products/study-explorer
   journal: bioRxiv
   doi: 10.1101/2024.01.05.573977
+  
+  
 2023:
 - title: >
       Stringent Control Over Cytoplasmic and Membrane Densities Defines Cell Geometry in Escherichia coli
@@ -19,17 +38,6 @@
   journal: bioRxiv
   github: https://github.com/rchristensen26/Butyrate_Propionate_Comparative_Analysis
   doi: 10.1101/2023.11.27.568948
-- title: >
-      hplc-py: A Python Package For Rapid Peak Quantification in Complex Chromatograms
-  authors: Griffin Chure and Jonas Cremer
-  journal: Journal of Open Source Software
-  doi: 10.21105/joss.06270
-  volume: 9
-  issue: (94) 
-  paper_website: https://cremerlab.github.io/hplc-py/
-  github: https://github.com/cremerlab/hplc-py
-  preprint: 10.26434/chemrxiv-2023-m2n4r
-  page: 6270
 - title: >
       Conditionally unutilized proteins and their profound effects on growth and adaptation across microbial species
   authors: Rohan Balakrishnan and Jonas Cremer
