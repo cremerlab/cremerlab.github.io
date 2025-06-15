@@ -15,8 +15,7 @@ permalink: /people/
 	<div class="wrap">
 
 		<h1>The Group</h1>
-		<p>We are an interdisciplinary team of scientists who place rigor, 
-		reproducibility, and equity at the center of their work. See also <a href="{{site.baseurl}}/alumni" class="button button--small"> Alumni</a>
+		<p>We’re an interdisciplinary team passionate about doing science that’s rigorous, reproducible, and built on open collaboration.
 	</div>
 
 </section>
@@ -63,6 +62,30 @@ permalink: /people/
 		</article>
 
 		{% endfor %}
+
+		<h2>Alumni</h2>
+		<ul class="alumni-list">
+			{% for alum in site.data.alumni %}
+			<li class="alumni-entry" style="margin-bottom: 1.5em;">
+				<strong>{{ alum.name }}</strong>
+				{% if alum.dates %} ({{ alum.dates }}){% endif %}
+				{% if alum.email %} — <a href="mailto:{{ alum.email }}">{{ alum.email }}</a>{% endif %}
+				{% if alum.website %} — <a href="{{ alum.website }}" target="_blank">Website</a>{% endif %}
+				
+				{% if alum.image or alum.profile %}
+				<details style="margin-top: 0.5em;">
+					<summary>More info</summary>
+					{% if alum.image %}
+						<img src="{{ alum.image }}" alt="{{ alum.name }}" style="max-width: 150px; margin-top: 0.5em;" />
+					{% endif %}
+					{% if alum.profile %}
+						<p>{{ alum.profile }}</p>
+					{% endif %}
+				</details>
+				{% endif %}
+			</li>
+			{% endfor %}
+		</ul>
 
 	</div>
 
