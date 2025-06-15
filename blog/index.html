@@ -71,14 +71,12 @@ permalink: /people/
 		<ul class="alumni-list" style="list-style: none; padding-left: 0;">
 		{% for alum in site.data.alumni %}
 		<li class="alumni-entry" style="margin-bottom: 2em;">
-			
-
 			<div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.5em;">
 			<p style="margin: 0;">
 				<strong>{{ alum.name }}</strong>
 				{% if alum.dates %} ({{ alum.dates }}){% endif %}
-				{% if alum.email %} — <a href="mailto:{{ alum.email }}">{{ alum.email }}</a>{% endif %}
-				{% if alum.website %} — <a href="{{ alum.website }}" target="_blank">Website</a>{% endif %}
+				{% if alum.socials.email %} — <a href="mailto:{{ alum.socials.email }}">{{ alum.socials.email }}</a>{% endif %}
+				{% if alum.socials.website %} — <a href="{{ alum.socials.website }}" target="_blank">Website</a>{% endif %}
 				{% if alum.now %} — <em>Now at {{ alum.now }}</em>{% endif %}
 			</p>
 			{% if alum.image or alum.bio or alum.title %}
