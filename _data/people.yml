@@ -31,26 +31,6 @@
   socials:
     email: sricha@stanford.edu
 
-- name: Griffin Chure
-  title: NSF Postdoctoral Fellow 
-  dates: January 2021 - present
-  bio: > 
-    Griffin Chure (he/him) is a National Science Foundation Postdoctoral
-    Research Fellow.  Broadly interested in the physics of adaptation, Griffin
-    uses a combination of physical modeling, experimental dissection, and
-    computational analysis to make quantitative predictions of eco-evolutionary 
-    dynamics in static and fluctuating conditions. Beyond obsessing over the
-    microbial world, he is interested in quantifying the myriad ways that humans
-    impact the Earth and understanding how they alter the global biosphere. He
-    studied Biology and Chemistry at the University of Utah (Bachelors) and
-    attained a PhD in Molecular Biophysics from Caltech in 2020.
-  image: griffin.png
-  socials:
-    email: gchure@stanford.edu
-    twitter: "https://twitter.com/gdchure"
-    website: "https://gchure.github.io"
-    github: "https://github.com/gchure"
-
 - name: Leron Perez
   title: PhD Candidate in Biophysics
   dates: July 2021 - present
@@ -102,20 +82,4 @@
   socials:
     email: mleblan6@stanford.edu
     twitter: https://twitter.com/mathisjleblanc
-
-- name: August Burton
-  title: Summer Undergraduate Researcher
-  dates: July 2022 - present
-  bio: > 
-    August Burton is an undergraduate at Stanford University studying Biomedical
-    Computation. He is interested in how the gut microbiome contributes to
-    common gut diseases such as colon cancer, especially through the production
-    of excess hydrogen sulfide. Currently, he uses a combination of
-    bioinformatics and experiments to investigate the gut strains and bacterial
-    proteases involved in hydrogen sulfide production in the large intestine.
-    Outside of school and research, August is an avid participant in sports not
-    quite cool enough to be in the Olympics. 
-  image: august.png
-  socials:
-    email: aburton6@stanford.edu
 
