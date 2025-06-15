@@ -1,10 +1,14 @@
-2024:
+2025:
 - title: >
-      Diurnal variations in microbial population dynamics along the human large intestine
+      Diurnal Variations in Digestion and Flow Drive Microbial Dynamics in the Gut
   authors: Alinaghi Salari and Jonas Cremer
   github: https://github.com/cremerlab/diurnal_growthvariations
-  journal: bioRxiv
-  doi: 10.1101/2024.05.22.595260
+  journal: PRX Life
+  doi: 10.1103/PRXLife.3.023012
+  volume: 3
+  page: 023012
+  preprint: 10.1101/2024.05.22.595260
+2024:
 - title: >
       hplc-py: A Python Package For Rapid Peak Quantification in Complex Chromatograms
   authors: Griffin Chure and Jonas Cremer
