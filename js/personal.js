@@ -97,73 +97,8 @@
     });
 
     // Function to render expandable alumni list
-function renderAlumniList(alumniData) {
-  const container = document.createElement('div');
-  container.classList.add('alumni-section');
-
-  const title = document.createElement('h2');
-  title.textContent = 'Alumni';
-  container.appendChild(title);
-
-  const list = document.createElement('ul');
-  list.classList.add('alumni-list');
-
-  alumniData.forEach(person => {
-    const item = document.createElement('li');
-    item.classList.add('alumni-entry');
-
-    const header = document.createElement('div');
-    header.classList.add('alumni-header');
-    let headerContent = person.name || '';
-
-    if (person.dates) {
-      headerContent += ' (' + person.dates + ')';
-    }
-
-    if (person.email) {
-      headerContent += ' — <a href="mailto:' + person.email + '">' + person.email + '</a>';
-    }
-
-    if (person.website) {
-      headerContent += ' — <a href="' + person.website + '" target="_blank">Website</a>';
-    }
-
-    header.innerHTML = headerContent;
-    header.style.cursor = 'pointer';
-
-    const detail = document.createElement('div');
-    detail.classList.add('alumni-detail');
-    detail.style.display = 'none';
-
-    if (person.image) {
-      const img = document.createElement('img');
-      img.src = person.image;
-      img.alt = person.name || '';
-      img.classList.add('alumni-img');
-      detail.appendChild(img);
-    }
-
-    if (person.profile) {
-      const bio = document.createElement('p');
-      bio.textContent = person.profile;
-      detail.appendChild(bio);
-    }
-
-    header.addEventListener('click', () => {
-      detail.style.display = detail.style.display === 'none' ? 'block' : 'none';
-    });
-
-    item.appendChild(header);
-    item.appendChild(detail);
-    list.appendChild(item);
-  });
-
-  container.appendChild(list);
-  document.querySelector('.page__content').appendChild(container);
-}
-
 // Load alumni.yml and render
-fetch('/_data/alumni.yml')
+fetch('/assets/data/alumni.yml')
   .then(response => response.text())
   .then(yamlText => {
     const alumniData = jsyaml.load(yamlText);
@@ -205,7 +140,7 @@ fetch('/_data/alumni.yml')
       document.querySelector('.page__content').appendChild(container);
     }
 
-    fetch('/_data/alumni.yml')
+    fetch('/assets/data/alumni.yml')
       .then(response => response.text())
       .then(yamlText => {
         const alumniData = jsyaml.load(yamlText);
