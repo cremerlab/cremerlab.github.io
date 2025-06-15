@@ -82,26 +82,29 @@ permalink: /people/
 				{% if alum.now %} — <em>Now at {{ alum.now }}</em>{% endif %}
 			</p>
 			{% if alum.image or alum.bio or alum.title %}
-			<details style="display: inline;">
-				<summary style="cursor: pointer; margin: 0; display: inline-flex; align-items: center;">
+			
+			<details style="margin-left: 0.5em; display: inline-block; vertical-align: middle;">
+			<summary style="cursor: pointer; margin: 0; display: inline-flex; align-items: center; list-style: none;">
 				<i class="fa fa-chevron-right" aria-hidden="true" style="margin-right: 0.3em;"></i>More info
-				</summary>
-				<div style="display: flex; flex-wrap: wrap; gap: 1.5em; margin-top: 1em; align-items: flex-start;">
+			</summary>
+			<div style="display: flex; flex-wrap: wrap; gap: 1.5em; margin-top: 1em; align-items: flex-start;">
 				{% if alum.image %}
 				<div style="flex: 0 0 150px;">
-					<img src="/images/{{ alum.image }}" alt="{{ alum.name }}" style="max-width: 100%;" />
+				<img src="/images/{{ alum.image }}" alt="{{ alum.name }}" style="max-width: 100%;" />
 				</div>
 				{% endif %}
 				<div style="flex: 1;">
-					{% if alum.title %}
-					<p><strong>Previous position:</strong> {{ alum.title }}</p>
-					{% endif %}
-					{% if alum.bio %}
-					<p>{{ alum.bio }}</p>
-					{% endif %}
+				{% if alum.title %}
+				<p><strong>Previous position:</strong> {{ alum.title }}</p>
+				{% endif %}
+				{% if alum.bio %}
+				<p>{{ alum.bio }}</p>
+				{% endif %}
 				</div>
-				</div>
+			</div>
 			</details>
+
+
 			{% endif %}
 			</div>
 
