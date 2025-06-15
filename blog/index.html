@@ -62,43 +62,41 @@ permalink: /people/
 		</article>
 
 		{% endfor %}
-
-		<h2 style="margin-top: 3em;">Alumni</h2>
+		<h2 style="margin-top: 4em;">Alumni</h2>
 		<ul class="alumni-list" style="list-style: none; padding-left: 0;">
 		{% for alum in site.data.alumni %}
-		<li class="alumni-entry" style="margin-bottom: 1em;">
-			<p>
-			<strong>{{ alum.name }}</strong>
-			{% if alum.dates %} ({{ alum.dates }}){% endif %}
-			{% if alum.email %} — <a href="mailto:{{ alum.email }}">{{ alum.email }}</a>{% endif %}
-			{% if alum.website %} — <a href="{{ alum.website }}" target="_blank">Website</a>{% endif %}
-			{% if alum.now %} — <em>Now at {{ alum.now }}</em>{% endif %}
-			{% if alum.image or alum.profile or alum.title %}
-			—
-			<details style="display: inline;">
-				<summary style="display: inline; cursor: pointer;">More info</summary>
-				<div style="display: flex; gap: 1em; margin-top: 0.5em; flex-wrap: wrap;">
-				{% if alum.image %}
+			<li class="alumni-entry" style="margin-bottom: 1.5em;">
 				<div>
-					{% if alum.title %}
-					<p style="margin-bottom: 0.5em;"><strong>Previous position:</strong> {{ alum.title }}</p>
+					<strong>{{ alum.name }}</strong>
+					{% if alum.dates %} ({{ alum.dates }}){% endif %}
+					{% if alum.email %} — <a href="mailto:{{ alum.email }}">{{ alum.email }}</a>{% endif %}
+					{% if alum.website %} — <a href="{{ alum.website }}" target="_blank">Website</a>{% endif %}
+					{% if alum.now %} — <em>Now at {{ alum.now }}</em>{% endif %}
+					{% if alum.image or alum.profile or alum.title %}
+					—
+					<details style="display: inline;">
+						<summary style="display: inline; cursor: pointer;">More info</summary>
+						<div style="display: flex; gap: 1em; margin-top: 0.5em; flex-wrap: wrap;">
+							{% if alum.image %}
+							<div>
+								{% if alum.title %}
+								<p style="margin-bottom: 0.5em;"><strong>Previous position:</strong> {{ alum.title }}</p>
+								{% endif %}
+								<img src="/images/{{ alum.image }}" alt="{{ alum.name }}" style="max-width: 150px;" />
+							</div>
+							{% endif %}
+							{% if alum.profile %}
+							<div style="flex: 1 1 200px;">
+								<p style="margin-top: 0;">{{ alum.profile }}</p>
+							</div>
+							{% endif %}
+						</div>
+					</details>
 					{% endif %}
-					<img src="/images/{{ alum.image }}" alt="{{ alum.name }}" style="max-width: 150px;" />
 				</div>
-				{% endif %}
-				{% if alum.profile %}
-				<div style="flex: 1 1 200px;">
-					<p style="margin-top: 0;">{{ alum.profile }}</p>
-				</div>
-				{% endif %}
-				</div>
-			</details>
-			{% endif %}
-			</p>
-		</li>
+			</li>
 		{% endfor %}
 		</ul>
-
 	</div>
 
 </section>
