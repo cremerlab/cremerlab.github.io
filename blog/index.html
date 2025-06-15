@@ -56,7 +56,7 @@ permalink: /people/
 								<a href="{{social[1]}}" target="_blank" class="socials__item__link" title="Google Scholar">
 								<i class="ai ai-google-scholar" aria-hidden="true"></i>
 								</a>
-								{% elseif  social[0] == "twitter" %}
+								{% elsif  social[0] == "twitter" %}
 								<a href="{{social[1]}}" target="_blank" class="socials__item__link" title="">
 								<i class="fab fa-{{ social[0] | replace: 'facebook', 'facebook-f' | remove: '_url' }}" aria-hidden="true"></i>
 								{% endif %}
