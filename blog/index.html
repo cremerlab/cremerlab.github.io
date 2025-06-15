@@ -75,7 +75,7 @@ permalink: /people/
 			{% if alum.email %} — <a href="mailto:{{ alum.email }}">{{ alum.email }}</a>{% endif %}
 			{% if alum.website %} — <a href="{{ alum.website }}" target="_blank">Website</a>{% endif %}
 			{% if alum.now %} — <em>Now at {{ alum.now }}</em>{% endif %}
-			{% if alum.image or alum.profile or alum.title %}
+			{% if alum.image or alum.bio or alum.title %}
 				— <details style="display: inline;">
 					<summary style="display: inline; cursor: pointer;">
 					<i class="fa fa-chevron-right" aria-hidden="true" style="margin-right: 0.3em;"></i>More info
@@ -90,8 +90,8 @@ permalink: /people/
 						{% if alum.title %}
 						<p><strong>Previous position:</strong> {{ alum.title }}</p>
 						{% endif %}
-						{% if alum.profile %}
-						<p>{{ alum.profile }}</p>
+						{% if alum.bio %}
+						<p>{{ alum.bio }}</p>
 						{% endif %}
 					</div>
 					</div>
