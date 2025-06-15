@@ -9,7 +9,7 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'People'
+    - title: 'Team'
       url: '/people/' # For formatting reasons, trailing '/' is needed 
     - title: 'Research'
       url: '/research'
