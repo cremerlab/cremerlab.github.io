@@ -144,4 +144,33 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
 @import "_includes/_listing";
 @import "_includes/_hero";
 
+// - - - - - - - - - - Adjustment icons
 
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.socials__item {
+  display: flex;
+  align-items: center;
+}
+
+.socials__item__link i {
+  font-size: 1.4em;
+  vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+i.ai {
+  position: relative;
+  top: 1px; // adjust slightly if needed
+}
