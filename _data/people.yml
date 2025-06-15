@@ -15,21 +15,38 @@
     email: jonas.cremer@stanford.edu
     twitter: https://twitter.com/jonasbcremer
 
-- name: Richa Sharma
-  title: Postdoctoral Scholar 
-  dates: January 2021 - present
+- name: Mathis Leblanc
+  title: PhD Student in Biophysics
+  dates: July 2022 - present
   bio: > 
-    Richa Sharma is a Postdoctoral Research Fellow in the lab since January,
-    2021. She is mainly interested in understanding the eco-physiology of human
-    gut strains including <i>Escherichia coli</i> and beyond. She is also keen
-    to understand the functional aspects of these resident strains and their
-    impact on human health. She studied Biotechnology in her Bachelors and
-    Energy Studies in Masters. She attained her doctoral degree in Soil
-    Microbial Ecology from Indian Institute of Technology-Delhi (IIT Delhi) in
-    November, 2019. 
-  image: richa.png
+    Mathis Leblanc is a graduate student in Biophysics. Trained in protein
+    thermodynamics, Mathis is now interested in the intersection of molecular
+    biophysics and bacterial physiology. He is currently using numerical
+    simulations to investigate the mechanisms of cell-shape regulation in
+    <i>Escherichia coli</i>. Outside of the lab, he can be found playing piano, tea
+    tasting, or reading to reach his annual goodreads goal. Mathis received his
+    B.A. in Biophysics at Johns Hopkins in 2021. 
+  image: mathis.jpg
   socials:
-    email: sricha@stanford.edu
+    email: mleblan6@stanford.edu
+    twitter: https://twitter.com/mathisjleblanc
+
+- name: Shaili Mathur
+  title: PhD Student in Biology
+  dates: June 2022- present
+  bio: > 
+    Shaili Mathur (she/her) is a PhD student in Biology in the Ecology and
+    Evolution Track, and is jointly advised by Jonas Cremer and Dmitri Petrov.
+    She is interested in combining mathematical, computational and experimental
+    techniques to study complex biological systems in dynamic environments. When
+    she isn't coding or pipetting, Shaili can be found playing ultimate frisbee,
+    cooking, or oil painting. Shaili received her B.S. in Computational and
+    Systems Biology with a minor in Mathematics and M.S. in Bioinformatics from
+    UCLA in 2021.
+  image: shaili.jpg
+  socials:
+    email: shailim@stanford.edu
+    twitter: https://twitter.com/MathurShaili
 
 - name: Leron Perez
   title: PhD Candidate in Biophysics
@@ -50,36 +67,21 @@
     website: "https://leronperez.com"
     github: "https://github.com/codercahol"
 
-- name: Shaili Mathur
-  title: PhD Student in Biology
-  dates: June 2022- present
+- name: Richa Sharma
+  title: Postdoctoral Scholar 
+  dates: January 2021 - present
   bio: > 
-    Shaili Mathur (she/her) is a PhD student in Biology in the Ecology and
-    Evolution Track, and is jointly advised by Jonas Cremer and Dmitri Petrov.
-    She is interested in combining mathematical, computational and experimental
-    techniques to study complex biological systems in dynamic environments. When
-    she isn't coding or pipetting, Shaili can be found playing ultimate frisbee,
-    cooking, or oil painting. Shaili received her B.S. in Computational and
-    Systems Biology with a minor in Mathematics and M.S. in Bioinformatics from
-    UCLA in 2021.
-  image: shaili.jpg
+    Richa Sharma is a Postdoctoral Research Fellow in the lab since January,
+    2021. She is mainly interested in understanding the eco-physiology of human
+    gut strains including <i>Escherichia coli</i> and beyond. She is also keen
+    to understand the functional aspects of these resident strains and their
+    impact on human health. She studied Biotechnology in her Bachelors and
+    Energy Studies in Masters. She attained her doctoral degree in Soil
+    Microbial Ecology from Indian Institute of Technology-Delhi (IIT Delhi) in
+    November, 2019. 
+  image: richa.png
   socials:
-    email: shailim@stanford.edu
-    twitter: https://twitter.com/MathurShaili
+    email: sricha@stanford.edu
 
-- name: Mathis Leblanc
-  title: PhD Student in Biophysics
-  dates: July 2022 - present
-  bio: > 
-    Mathis Leblanc is a graduate student in Biophysics. Trained in protein
-    thermodynamics, Mathis is now interested in the intersection of molecular
-    biophysics and bacterial physiology. He is currently using numerical
-    simulations to investigate the mechanisms of cell-shape regulation in
-    <i>Escherichia coli</i>. Outside of the lab, he can be found playing piano, tea
-    tasting, or reading to reach his annual goodreads goal. Mathis received his
-    B.A. in Biophysics at Johns Hopkins in 2021. 
-  image: mathis.jpg
-  socials:
-    email: mleblan6@stanford.edu
-    twitter: https://twitter.com/mathisjleblanc
+
 
