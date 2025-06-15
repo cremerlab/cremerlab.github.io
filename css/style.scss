@@ -172,5 +172,8 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
 
 i.ai {
   position: relative;
-  top: 1px; // adjust slightly if needed
+  top: 2px;  // bump it up a bit more
+  font-size: 1.4em; // match font-awesome size
+  line-height: 1;
+  display: inline-block;
 }
