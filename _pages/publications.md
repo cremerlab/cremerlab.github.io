@@ -11,36 +11,28 @@ featured_image: /images/blackboard.jpg
 
 {% for year in site.data.publications %}
 <hr/>
-<h3>{{year[0]}}</h3>
+<h3>{{ year[0] }}</h3>
 
 {% for paper in year[1] %}
-<a href="https://doi.org/{{paper.doi}}"><b>{{paper.title}}</b></a><br/>
-{{paper.authors}}<br/>
-<i>{{paper.journal}}</i> {{paper.volume}}<b>{{paper.issue}}</b> ({{year[0]}}) doi: `{{paper.doi}}`<br/>
+<a href="https://doi.org/{{ paper.doi }}"><b>{{ paper.title }}</b></a><br/>
+{{ paper.authors }}<br/>
+<i>{{ paper.journal }}</i> {{ paper.volume }}<b>{{ paper.issue }}</b> ({{ year[0] }}) doi: `{{ paper.doi }}`<br/>
 
 {% if paper.github %}
-<a href="{{paper.github}}" target="_blank" class="button button--small">GitHub Repository</a>
+<a href="{{ paper.github }}" target="_blank" class="button button--small">GitHub Repository</a>
 {% endif %}
 
 {% if paper.paper_website %}
-<a href="{{paper.paper_website}}" target="_blank" class="button button--small">Additional Paper Website</a>
-{% endif %}
-
-{% if paper.notes %}
-{{paper.notes}}
+<a href="{{ paper.paper_website }}" target="_blank" class="button button--small">Additional Paper Website</a>
 {% endif %}
 
 {% if paper.preprint %}
-<a href="{{paper.preprint}}" target="_blank" class="button button--small">Preprint</a>
+<a href="{{ paper.preprint }}" target="_blank" class="button button--small">Preprint</a>
+{% endif %}
+
+{% if paper.notes %}
+<p>{{ paper.notes }}</p>
 {% endif %}
 
 {% endfor %}
 {% endfor %}
-
-
-
-{% for paper in year[1] %}
-<a href="https://doi.org/{{paper.doi}}"><b>{{paper.title}}</b></a><br/>
-{{paper.authors}}<br/>
-<i>{{paper.journal}}</i> {{paper.volume}}<b>{{paper.issue}}</b> ({{year[0]}}) doi: `{{paper.doi}}`<br/>{% if paper.github|default() %} <a href="{{paper.github}}" target="_blank" class="button button--small"> GitHub Repository</a>{% endif %}{% if paper.paper_website|default() %} <a href="{{paper.paper_website}}" target="_blank" class="button button--small">Additional Paper Website</a> {% endif %}{% if paper.notes|default() %}{{paper.notes}} {% endif %}
-
