@@ -189,6 +189,6 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
 /* Nudges for Academicons */
 .icon-wrapper i.ai {
   top: 2px;        // vertical adjustment
-  left: 2px;       // horizontal shift right
+  left: 1.5px;       // horizontal shift right
   transform: scale(0.9); // shrink slightly for visual balance
 }
