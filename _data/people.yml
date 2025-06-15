@@ -13,7 +13,10 @@
   image: jonas.jpg
   socials:
     email: jonas.cremer@stanford.edu
+    orcid: https://orcid.org/0000-0003-2328-5152
+    scholar: https://scholar.google.com/citations?user=qFigxd4AAAAJ&hl=en
     twitter: https://twitter.com/jonasbcremer
+    
 
 - name: Mathis Leblanc
   title: PhD Student in Biophysics
