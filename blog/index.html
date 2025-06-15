@@ -15,7 +15,7 @@ permalink: /people/
 	<div class="wrap">
 
 		<h1>The Group</h1>
-		<p>We’re an interdisciplinary team passionate about doing science that’s rigorous, reproducible, and built on open collaboration.
+		<p>We’re an interdisciplinary team passionate about doing science that’s rigorous, reproducible, and built on open collaboration.</p>
 	</div>
 
 </section>
@@ -65,26 +65,34 @@ permalink: /people/
 
 		<h2>Alumni</h2>
 		<ul class="alumni-list">
-			{% for alum in site.data.alumni %}
-			<li class="alumni-entry" style="margin-bottom: 1.5em;">
-				<strong>{{ alum.name }}</strong>
-				{% if alum.dates %} ({{ alum.dates }}){% endif %}
-				{% if alum.email %} — <a href="mailto:{{ alum.email }}">{{ alum.email }}</a>{% endif %}
-				{% if alum.website %} — <a href="{{ alum.website }}" target="_blank">Website</a>{% endif %}
-				
-				{% if alum.image or alum.profile %}
-				<details style="margin-top: 0.5em;">
-					<summary>More info</summary>
-					{% if alum.image %}
-						<img src="{{ alum.image }}" alt="{{ alum.name }}" style="max-width: 150px; margin-top: 0.5em;" />
-					{% endif %}
-					{% if alum.profile %}
-						<p>{{ alum.profile }}</p>
-					{% endif %}
-				</details>
+		{% for alum in site.data.alumni %}
+		<li class="alumni-entry" style="margin-bottom: 1em;">
+			<p>
+			<strong>{{ alum.name }}</strong>
+			{% if alum.dates %} ({{ alum.dates }}){% endif %}
+			{% if alum.email %} — <a href="mailto:{{ alum.email }}">{{ alum.email }}</a>{% endif %}
+			{% if alum.website %} — <a href="{{ alum.website }}" target="_blank">Website</a>{% endif %}
+			{% if alum.now %} — <em>Now at {{ alum.now }}</em>{% endif %}
+			</p>
+			
+			{% if alum.image or alum.profile or alum.title %}
+			<details style="margin-top: 0.5em;">
+			<summary style="cursor:pointer;">More info</summary>
+			<div style="margin-top:0.5em;">
+				{% if alum.image %}
+				<img src="/images/{{ alum.image }}" alt="{{ alum.name }}" style="max-width: 150px;" />
 				{% endif %}
-			</li>
-			{% endfor %}
+				{% if alum.title %}
+				<p><strong>Previous title:</strong> {{ alum.title }}</p>
+				{% endif %}
+				{% if alum.profile %}
+				<p style="margin-top:0.5em;">{{ alum.profile }}</p>
+				{% endif %}
+			</div>
+			</details>
+			{% endif %}
+		</li>
+		{% endfor %}
 		</ul>
 
 	</div>
