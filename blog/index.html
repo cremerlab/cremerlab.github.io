@@ -66,6 +66,8 @@ permalink: /people/
 		<p></p>
 		<hr style="margin: 4em 0 2em 0; border: none; border-top: 2px solid #eee;" />
 		<h2 style="margin-top: 4em;">Alumni</h2>
+		
+
 		<ul class="alumni-list" style="list-style: none; padding-left: 0;">
 		{% for alum in site.data.alumni %}
 		<li class="alumni-entry" style="margin-bottom: 2em;">
@@ -75,31 +77,33 @@ permalink: /people/
 			{% if alum.email %} — <a href="mailto:{{ alum.email }}">{{ alum.email }}</a>{% endif %}
 			{% if alum.website %} — <a href="{{ alum.website }}" target="_blank">Website</a>{% endif %}
 			{% if alum.now %} — <em>Now at {{ alum.now }}</em>{% endif %}
-			{% if alum.image or alum.bio or alum.title %}
-				— <details style="display: inline;">
-					<summary style="display: inline; cursor: pointer;">
-					<i class="fa fa-chevron-right" aria-hidden="true" style="margin-right: 0.3em;"></i>More info
-					</summary>
-					<div style="display: flex; flex-wrap: wrap; gap: 1.5em; margin-top: 1em; align-items: flex-start;">
-					{% if alum.image %}
-					<div style="flex: 0 0 150px;">
-						<img src="/images/{{ alum.image }}" alt="{{ alum.name }}" style="max-width: 100%;" />
-					</div>
-					{% endif %}
-					<div style="flex: 1;">
-						{% if alum.title %}
-						<p><strong>Previous position:</strong> {{ alum.title }}</p>
-						{% endif %}
-						{% if alum.bio %}
-						<p>{{ alum.bio }}</p>
-						{% endif %}
-					</div>
-					</div>
-				</details>
-			{% endif %}
 			</p>
+
+			{% if alum.image or alum.bio or alum.title %}
+			<details style="margin-top: 0.2em;">
+			<summary style="cursor: pointer; font-weight: 500;">
+				<i class="fa fa-chevron-right" style="margin-right: 0.4em;"></i>More info
+			</summary>
+			<div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 1.5em; margin-top: 1em;">
+				{% if alum.image %}
+				<div style="flex: 0 0 auto; max-width: 180px;">
+				<img src="/images/{{ alum.image }}" alt="{{ alum.name }}" style="max-width: 100%; border-radius: 4px;" />
+				</div>
+				{% endif %}
+				<div style="flex: 1 1 60%;">
+				{% if alum.title %}
+				<p style="margin: 0 0 0.5em;"><strong>Previous position:</strong> {{ alum.title }}</p>
+				{% endif %}
+				{% if alum.bio %}
+				<p style="margin: 0;">{{ alum.bio }}</p>
+				{% endif %}
+				</div>
+			</div>
+			</details>
+			{% endif %}
 		</li>
 		{% endfor %}
+
 		</ul>
 
 	</div>
