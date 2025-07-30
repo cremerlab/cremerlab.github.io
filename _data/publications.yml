@@ -1,5 +1,13 @@
 2025:
 - title: >
+      Quantifying the varying harvest of fermentation products from the human gut microbiota
+  authors: Markus Arnoldini, Richa Sharma, Claudia Moresi, Griffin Chure, Julien Chabbey, Emma Slack, and Jonas Cremer
+  github: https://github.com/cremerlab/fermentation_products
+  paper_website: https://cremerlab.github.io/microbiome-fermentation-products
+  journal: Cell
+  preprint: 10.1101/2024.01.05.573977
+  doi: https://doi.org/10.1016/j.cell.2025.07.005
+- title: >
       Diurnal Variations in Digestion and Flow Drive Microbial Dynamics in the Gut
   authors: Alinaghi Salari and Jonas Cremer
   github: https://github.com/cremerlab/diurnal_growthvariations
@@ -8,6 +16,7 @@
   volume: 3
   page: 023012
   preprint: 10.1101/2024.05.22.595260
+  notes: 'Featured in a <a href="https://physics.aps.org/articles/v18/121"> Physics Viewpoint </a>' by Anne-Florence Bitbol
 2024:
 - title: >
       hplc-py: A Python Package For Rapid Peak Quantification in Complex Chromatograms
@@ -20,14 +29,6 @@
   github: https://github.com/cremerlab/hplc-py
   preprint: 10.26434/chemrxiv-2023-m2n4r
   page: 6270
-- title: >
-      Quantifying the daily harvest of fermentation products from the human gut microbiota
-  authors: Markus Arnoldini, Richa Sharma, Claudia Moresi, Griffin Chure, Julien Chabbey, Emma Slack, and Jonas Cremer
-  github: https://github.com/cremerlab/fermentation_products
-  paper_website: https://cremerlab.github.io/microbiome-fermentation-products/study-explorer
-  journal: bioRxiv
-  doi: 10.1101/2024.01.05.573977
-  
   
 2023:
 - title: >
