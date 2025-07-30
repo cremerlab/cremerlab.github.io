@@ -16,7 +16,7 @@
   volume: 3
   page: 023012
   preprint: 10.1101/2024.05.22.595260
-  notes: 'Featured in a <a href="https://physics.aps.org/articles/v18/121"> Physics Viewpoint </a>' by Anne-Florence Bitbol
+  notes: 'Featured in a <a href="https://physics.aps.org/articles/v18/121"> Physics Viewpoint </a> by Anne-Florence Bitbol'
 2024:
 - title: >
       hplc-py: A Python Package For Rapid Peak Quantification in Complex Chromatograms
