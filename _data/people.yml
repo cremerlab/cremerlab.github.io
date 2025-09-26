@@ -16,7 +16,25 @@
     orcid: https://orcid.org/0000-0003-2328-5152
     scholar: https://scholar.google.com/citations?user=qFigxd4AAAAJ&hl=en
     twitter: https://twitter.com/jonasbcremer
-    
+
+- name: Théo Gervais
+  title: Postdoctoral Scholar
+  dates: January 2020 - present
+  bio: >
+    Théo Gervais is a Postdoctoral scholar in Biology and is jointly advised by Jonas Cremer and KC Huang.
+    Théo followed an interdisciplinary track with a focus on molecular biology at ENS in Paris. 
+    He obtained his PhD in November 2023 from the Biozentrum of Basel University in Switzerland, 
+    after studying quantitative microbial physiology, using microfluidics combined with time-lapse fluorescent microscopy 
+    and data analysis to study <i>E. coli</i> carbon starvation at the single-cell level. He is interested in quantitatively 
+    linking individual bacterial species physiology to the formation of complex communities, and in understanding the importance 
+    of relevant environmental variables, such as fluid flow and temporal fluctuations in this process. Outside of the lab, 
+    Théo enjoys spending time outdoor, rock-climbing and hiking, or in the kitchen, baking and cooking. 
+  image: theo.png
+  socials:
+    email: tgervais@stanford.edu
+    github: https://github.com/TheoGervais
+    orcid: https://orcid.org/0000-0001-6364-6720
+    scholar: https://scholar.google.com/citations?hl=en&user=jLhB_JkAAAAJ&view_op=list_works&gmla=AH8HC4yy0idxLpgIlv5P5zHmspqOa3vPmAxnAjMfwC83_bKyMP2GHJsqEncYJ7dAqnFeohZmPVY5g6CGmmt28M-km9n6lBKd0BpE9AjPlicmpzaV64wiCEviiV7VBO5eGAgGWa_05qUaRbambPSoBS5qGLc
 
 - name: Mathis Leblanc
   title: PhD Student in Biophysics
