@@ -1,10 +1,22 @@
 2025:
 - title: >
+      Maintenance of cytoplasmic and membrane densities shapes cellular geometry in Escherichia coli
+  authors: Griffin Chure, Roshali de Silva, Richa Sharma, Michael C Lanz and Jonas Cremer
+  journal: Nature Communications
+  github: https://github.com/cremerlab/density_maintenance
+  volume: 16
+  page: 11557
+  doi: 10.1038/s41467-025-67553-3
+  preprint: 10.1101/2023.10.28.564462
+- title: >
       Quantifying the varying harvest of fermentation products from the human gut microbiota
   authors: Markus Arnoldini, Richa Sharma, Claudia Moresi, Griffin Chure, Julien Chabbey, Emma Slack, and Jonas Cremer
   github: https://github.com/cremerlab/fermentation_products
   paper_website: https://cremerlab.github.io/fermentation_products/
   journal: Cell
+  volume: 188
+  issue: 19
+  page: 5332
   preprint: 10.1101/2024.01.05.573977
   doi: https://doi.org/10.1016/j.cell.2025.07.005
 - title: >
@@ -31,12 +43,6 @@
   page: 6270
   
 2023:
-- title: >
-      Stringent Control Over Cytoplasmic and Membrane Densities Defines Cell Geometry in Escherichia coli
-  authors: Griffin Chure, Roshali de Silva, Richa Sharma, Michael C Lanz and Jonas Cremer
-  journal: bioRxiv
-  github: https://github.com/cremerlab/density_maintenance
-  doi: 10.1101/2023.10.28.564462
 - title: >
       The differing prevalences of propionate and butyrate-producing bacteria in the human gut microbiota
   authors: Rebecca Christensen, Yu Han Daisy Wang, Markus Arnoldini, and Jonas Cremer
