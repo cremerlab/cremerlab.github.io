@@ -179,28 +179,28 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "The human gut microbiota is a central focus of the lab. We connect fundamental principles of bacterial physiology with intestinal physiology, diet, and host metabolism to quantify the exchange of chemical fluxes between the microbiota and the human host. Towards a mechanistic understanding, we integrate in-vitro experimentation with mathematical modeling, linking bacterial metabolism, microbial population dynamics, and intestinal physiology. Building on these quantitative foundations, we investigate how the microbiome’s metabolic activities vary across individuals and health conditions — with the broader goal of mechanistically understanding the role of the microbiome in disease development and progression."
+    "text": "The human gut microbiota is a central focus of the lab. We connect fundamental principles of bacterial physiology with intestinal physiology, diet, and host metabolism to quantify the exchange of chemical fluxes between the microbiota and the human host. Towards a mechanistic understanding, we tightly integrate in-vitro experimentation with mathematical modeling and the quantitative analysis of food intake and digestion. Building on these quantitative foundations, we investigate how the microbiome’s metabolic activities vary across individuals and health conditions, aiming to reveal the mechanistic role of the microbiome in disease development and progression."
   },
   {
     "objectID": "research.html#the-human-gut-microbiota",
     "href": "research.html#the-human-gut-microbiota",
     "title": "Research",
     "section": "",
-    "text": "The human gut microbiota is a central focus of the lab. We connect fundamental principles of bacterial physiology with intestinal physiology, diet, and host metabolism to quantify the exchange of chemical fluxes between the microbiota and the human host. Towards a mechanistic understanding, we integrate in-vitro experimentation with mathematical modeling, linking bacterial metabolism, microbial population dynamics, and intestinal physiology. Building on these quantitative foundations, we investigate how the microbiome’s metabolic activities vary across individuals and health conditions — with the broader goal of mechanistically understanding the role of the microbiome in disease development and progression."
+    "text": "The human gut microbiota is a central focus of the lab. We connect fundamental principles of bacterial physiology with intestinal physiology, diet, and host metabolism to quantify the exchange of chemical fluxes between the microbiota and the human host. Towards a mechanistic understanding, we tightly integrate in-vitro experimentation with mathematical modeling and the quantitative analysis of food intake and digestion. Building on these quantitative foundations, we investigate how the microbiome’s metabolic activities vary across individuals and health conditions, aiming to reveal the mechanistic role of the microbiome in disease development and progression."
   },
   {
     "objectID": "research.html#microbial-cell-physiology",
     "href": "research.html#microbial-cell-physiology",
     "title": "Research",
     "section": "Microbial cell physiology",
-    "text": "Microbial cell physiology\nHow do microbial cells coordinate thousands of enzymes and molecular processes to grow and replicate? We seek the essential physiological principles governing microbial growth by combining quantitative experiments across conditions with mathematical modeling and data analysis — with Escherichia coli as our primary model organism, but increasingly also including other microbes across biological domains."
+    "text": "Microbial cell physiology\nHow do microbial cells coordinate thousands of enzymes and molecular processes to grow and replicate? We seek the essential physiological principles governing microbial growth by combining controlled culturing experiments across conditions with omics approaches — including proteomics and transcriptomics — and mathematical modeling. To generate biological insights into growth, we use low-dimensional modeling approaches in tight connection with experiments, building on resource allocation models. We work primarily with E. coli, but increasingly also include other microbes across biological domains."
   },
   {
     "objectID": "research.html#physiology-ecology-and-evolution",
     "href": "research.html#physiology-ecology-and-evolution",
     "title": "Research",
     "section": "Physiology, ecology, and evolution",
-    "text": "Physiology, ecology, and evolution\nOur quantitative investigations extend well beyond the cellular level. Integrating ecological and evolutionary considerations, we explore how cell-physiological constraints shape adaptation to specific environments and habitats.\nA striking observation from our growth studies is that large fractions of the proteome are expressed at significant levels under standard laboratory conditions — even when not immediately required for growth. We refer to these as conditionally unutilized proteins, and we aim to understand their role in ecological adaptation. Are they a form of anticipatory preparedness, poised for rapid deployment when conditions shift? How does the expression of these proteins reflect the ecological niche of a species, and what does this tell us about the physiological identity of a species and its evolutionary history?\n\n\n\nThe triangle of microbial life"
+    "text": "Physiology, ecology, and evolution\nIntegrating ecological and evolutionary considerations with our physiological studies, we explore how fundamental cell-physiological constraints shape adaptation to specific environments and habitats.\nA striking example revealed from systematic growth studies including omics is that across conditions, large fractions of the proteome are expressed even when not immediately required for growth. We aim to understand the role of these conditionally unutilized proteins — how they shape growth, and how they reflect ecological adaptation to specific niches. Are they part of an anticipatory adaptation strategy, poised for rapid deployment when conditions shift? How does the expression of these proteins reflect the ecological niche of a species, and what does this tell us about the physiological identity of a species and its evolutionary history?\n\n\n\nThe triangle of microbial life"
   },
   {
     "objectID": "courses.html",
