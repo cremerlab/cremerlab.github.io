@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://cremerlab.github.io/website-next/join.html</loc>
+    <lastmod>2026-03-01T05:57:24.477Z</lastmod>
+  </url>
+  <url>
     <loc>https://cremerlab.github.io/website-next/people.html</loc>
-    <lastmod>2026-03-01T05:13:27.372Z</lastmod>
+    <lastmod>2026-03-01T05:57:24.478Z</lastmod>
   </url>
   <url>
     <loc>https://cremerlab.github.io/website-next/publications.html</loc>
-    <lastmod>2026-03-01T05:11:28.747Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cremerlab.github.io/website-next/join.html</loc>
-    <lastmod>2026-03-01T05:12:17.035Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cremerlab.github.io/website-next/contact.html</loc>
-    <lastmod>2026-03-01T03:44:04.666Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cremerlab.github.io/website-next/research.html</loc>
-    <lastmod>2026-03-01T03:44:04.710Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cremerlab.github.io/website-next/courses.html</loc>
-    <lastmod>2026-03-01T05:11:59.139Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cremerlab.github.io/website-next/lab-values.html</loc>
-    <lastmod>2026-03-01T05:11:32.815Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cremerlab.github.io/website-next/index.html</loc>
-    <lastmod>2026-03-01T05:11:38.905Z</lastmod>
+    <lastmod>2026-03-01T05:57:24.478Z</lastmod>
   </url>
   <url>
     <loc>https://cremerlab.github.io/website-next/software.html</loc>
-    <lastmod>2026-03-01T05:12:34.640Z</lastmod>
+    <lastmod>2026-03-01T05:57:24.478Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cremerlab.github.io/website-next/index.html</loc>
+    <lastmod>2026-03-01T05:57:24.477Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cremerlab.github.io/website-next/contact.html</loc>
+    <lastmod>2026-03-01T05:57:24.451Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cremerlab.github.io/website-next/lab-values.html</loc>
+    <lastmod>2026-03-01T05:57:24.478Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cremerlab.github.io/website-next/research.html</loc>
+    <lastmod>2026-03-01T05:57:24.478Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cremerlab.github.io/website-next/courses.html</loc>
+    <lastmod>2026-03-01T05:57:24.451Z</lastmod>
   </url>
 </urlset>
