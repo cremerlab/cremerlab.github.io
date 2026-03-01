@@ -4,7 +4,7 @@
     "href": "people.html",
     "title": "People",
     "section": "",
-    "text": "Jonas Cremer\n\n\nPrincipal Investigator\n\n\nJanuary 2020 – present\n\n\n\n\n\n\n\n\nThéo Gervais\n\n\nPostdoctoral Scholar\n\n\nJanuary 2025 – present\n\n\n\n\n\n\n\n\nMathis Leblanc\n\n\nPhD Student in Biophysics\n\n\nJuly 2022 – present\n\n\n\n\n\n\n\n\nShaili Mathur\n\n\nPhD Student in Biology\n\n\nJune 2022 – present\n\n\n\n\n\n\n\n\nLeron Perez\n\n\nPhD Candidate in Biophysics\n\n\nJuly 2021 – present\n\n\n\n\n\n\n\n\nRicha Sharma\n\n\nPostdoctoral Scholar\n\n\nJanuary 2021 – present"
+    "text": "Jonas Cremer\n\n\nPrincipal Investigator\n\n\nJanuary 2020 – present\n\n\n\n\nAbout\n\n\nJonas Cremer is an Assistant Professor in Biology. He is interested in the physiology and growth of prokaryotes. Jonas studied physics and biophysics in Munich. He was a postdoctoral researcher at the University of California, San Diego. Before joining Stanford, he was an Assistant Professor at the University of Groningen. His current research focuses on gut bacteria and the model organism Escherichia coli.\n\n\n\n\n\n\nThéo Gervais\n\n\nPostdoctoral Scholar\n\n\nJanuary 2025 – present\n\n\n\n\nAbout\n\n\nThéo Gervais is a Postdoctoral Scholar jointly advised by Jonas Cremer and KC Huang. He obtained his PhD from the Biozentrum of Basel University studying quantitative microbial physiology using microfluidics and fluorescent microscopy to study E. coli carbon starvation at the single-cell level.\n\n\n\n\n\n\nMathis Leblanc\n\n\nPhD Student in Biophysics\n\n\nJuly 2022 – present\n\n\n\n\nAbout\n\n\nMathis Leblanc is a graduate student in Biophysics. Trained in protein thermodynamics, Mathis is now interested in the intersection of molecular biophysics and bacterial physiology. He uses numerical simulations to investigate cell-shape regulation in Escherichia coli. Mathis received his B.A. in Biophysics at Johns Hopkins in 2021.\n\n\n\n\n\n\nShaili Mathur\n\n\nPhD Student in Biology\n\n\nJune 2022 – present\n\n\n\n\nAbout\n\n\nShaili Mathur (she/her) is a PhD student in Biology in the Ecology and Evolution Track, jointly advised by Jonas Cremer and Dmitri Petrov. She combines mathematical, computational, and experimental techniques to study complex biological systems in dynamic environments. Shaili received her B.S. in Computational and Systems Biology and M.S. in Bioinformatics from UCLA in 2021.\n\n\n\n\n\n\nLeron Perez\n\n\nPhD Candidate in Biophysics\n\n\nJuly 2021 – present\n\n\n\n\nAbout\n\n\nLeron Perez (he/him) is a PhD student in Biophysics, jointly advised by Jonas Cremer and Drew Endy. He is interested in understanding microbial adaptation to uncertain and changing environments to improve synthetic biological design. Leron received his B.S. in Molecular Engineering at the University of Chicago in 2020.\n\n\n\n\n\n\nRicha Sharma\n\n\nPostdoctoral Scholar\n\n\nJanuary 2021 – present\n\n\n\n\nAbout\n\n\nRicha Sharma is a Postdoctoral Research Fellow interested in the eco-physiology of human gut strains including Escherichia coli and beyond. She aims to understand the functional aspects of resident gut strains and their impact on human health. She attained her doctoral degree in Soil Microbial Ecology from IIT Delhi in November 2019."
   },
   {
     "objectID": "people.html#alumni",
@@ -25,56 +25,56 @@
     "href": "join.html",
     "title": "Join the Lab",
     "section": "",
-    "text": "If you are currently enrolled at Stanford and interested in doing a rotation in our lab, please contact Jonas to schedule a meeting. We love to hear about your scientific ideas and visions.\nWe have experimental projects available in microbiology and microbiota research — ranging from fundamental questions of bacterial physiology to more biomedical questions, depending on your interests. Experimentally, we focus on the quantitative culturing of bacteria, integrating a range of methods (bioreactors, microscopy, HPLC, etc.), alongside modeling approaches to understand how the human gut microbiota forms and interacts with the host.\nNot at Stanford yet? Consider applying to the Biology graduate program, the Biophysics program, or any other Bio Sciences graduate program at Stanford."
+    "text": "Postdoctoral Scholar — Quantitative Flux Analyses in the Human Gut\n\n\n\nWe are looking for a postdoc to lead projects on quantitative flux analyses in the human gut microbiota. The position combines in-vitro experimentation (HPLC, bioreactors, anaerobic culturing) with mathematical modeling to understand how gut bacteria metabolize substrates and produce fermentation products. Strong quantitative background and interest in microbial physiology or metabolism required.\nContact jonas.cremer@stanford.edu with a CV and brief statement of interest.\n\n\n\n\n\n\n\n\nPostdoctoral Scholar — Physiological Principles of Growth\n\n\n\nWe are looking for a postdoc to work on the physiological principles underlying bacterial growth, with a focus on E. coli as a model organism. Projects combine quantitative experiments (growth physiology, proteomics, microscopy) with mathematical modeling. Experience in microbiology, quantitative biology, or biophysics is welcome.\nContact jonas.cremer@stanford.edu with a CV and brief statement of interest."
+  },
+  {
+    "objectID": "join.html#open-positions",
+    "href": "join.html#open-positions",
+    "title": "Join the Lab",
+    "section": "",
+    "text": "Postdoctoral Scholar — Quantitative Flux Analyses in the Human Gut\n\n\n\nWe are looking for a postdoc to lead projects on quantitative flux analyses in the human gut microbiota. The position combines in-vitro experimentation (HPLC, bioreactors, anaerobic culturing) with mathematical modeling to understand how gut bacteria metabolize substrates and produce fermentation products. Strong quantitative background and interest in microbial physiology or metabolism required.\nContact jonas.cremer@stanford.edu with a CV and brief statement of interest.\n\n\n\n\n\n\n\n\nPostdoctoral Scholar — Physiological Principles of Growth\n\n\n\nWe are looking for a postdoc to work on the physiological principles underlying bacterial growth, with a focus on E. coli as a model organism. Projects combine quantitative experiments (growth physiology, proteomics, microscopy) with mathematical modeling. Experience in microbiology, quantitative biology, or biophysics is welcome.\nContact jonas.cremer@stanford.edu with a CV and brief statement of interest."
   },
   {
     "objectID": "join.html#graduate-students",
     "href": "join.html#graduate-students",
     "title": "Join the Lab",
-    "section": "",
-    "text": "If you are currently enrolled at Stanford and interested in doing a rotation in our lab, please contact Jonas to schedule a meeting. We love to hear about your scientific ideas and visions.\nWe have experimental projects available in microbiology and microbiota research — ranging from fundamental questions of bacterial physiology to more biomedical questions, depending on your interests. Experimentally, we focus on the quantitative culturing of bacteria, integrating a range of methods (bioreactors, microscopy, HPLC, etc.), alongside modeling approaches to understand how the human gut microbiota forms and interacts with the host.\nNot at Stanford yet? Consider applying to the Biology graduate program, the Biophysics program, or any other Bio Sciences graduate program at Stanford."
-  },
-  {
-    "objectID": "join.html#postdocs",
-    "href": "join.html#postdocs",
-    "title": "Join the Lab",
-    "section": "Postdocs",
-    "text": "Postdocs\nReach out to Jonas if you are interested in our work and want to discuss research ideas and perspectives. We are particularly interested in researchers who bring strong quantitative backgrounds. Currently we can best support postdocs who bring their own fellowship funding."
+    "section": "Graduate Students",
+    "text": "Graduate Students\nIf you are currently enrolled at Stanford and interested in doing a rotation in our lab, please contact Jonas to schedule a meeting. We love to hear about your scientific ideas and visions.\nWe have experimental projects available in microbiology and microbiota research — ranging from fundamental questions of bacterial physiology to more biomedical questions. Experimentally, we focus on the quantitative culturing of bacteria, integrating bioreactors, microscopy, HPLC, and mathematical modeling.\nNot at Stanford yet? Consider applying to the Biology graduate program, the Biophysics program, or any other Bio Sciences graduate program at Stanford."
   },
   {
     "objectID": "join.html#undergraduate-students",
     "href": "join.html#undergraduate-students",
     "title": "Join the Lab",
     "section": "Undergraduate Students",
-    "text": "Undergraduate Students\nWe participate in the Bio-X Summer Research Program and the B-SURP Program and encourage motivated students to apply. Feel free to contact Jonas via email with information about your background and interests."
+    "text": "Undergraduate Students\nWe participate in the Bio-X SURF Program and the B-SURP Program. Feel free to contact Jonas via email with information about your background and interests."
   },
   {
     "objectID": "join.html#lab-community",
     "href": "join.html#lab-community",
     "title": "Join the Lab",
     "section": "Lab Community",
-    "text": "Lab Community\nTo learn more about our commitment to building an inclusive and supportive lab community, please read our lab guidelines and community statement.\n\nContact: jonas.cremer@stanford.edu"
+    "text": "Lab Community\nTo learn more about our commitment to building an inclusive and collaborative lab environment, please read our lab values and community guidelines.\n\nContact: jonas.cremer@stanford.edu"
   },
   {
-    "objectID": "courses.html",
-    "href": "courses.html",
-    "title": "Courses",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
     "section": "",
-    "text": "Current and previous teaching activities can also be found on the Stanford course explore website."
+    "text": "Jonas Cremer Assistant Professor, Department of Biology Stanford University\nEmail: jonas.cremer@stanford.edu\nOffice: Department of Biology, Stanford University, Stanford, CA 94305\nGitHub: github.com/cremerlab"
   },
   {
-    "objectID": "courses.html#bio165-quantitative-cell-biology-from-molecules-to-evolution",
-    "href": "courses.html#bio165-quantitative-cell-biology-from-molecules-to-evolution",
-    "title": "Courses",
-    "section": "BIO165 — Quantitative Cell Biology: From Molecules to Evolution",
-    "text": "BIO165 — Quantitative Cell Biology: From Molecules to Evolution\nStarting Winter Quarter 2022/23\nA combination of classical lectures and dry-lab classes exploring how major cellular processes need to be orchestrated and fine-tuned with the encountered environment to form a functional unit. Python-based dry-lab sessions allow analysis of recently collected data and provide an introduction to modern modeling approaches. For undergraduate and graduate students from biology and related disciplines.\n→ Course website"
+    "objectID": "contact.html#cremer-lab-stanford-university",
+    "href": "contact.html#cremer-lab-stanford-university",
+    "title": "Contact",
+    "section": "",
+    "text": "Jonas Cremer Assistant Professor, Department of Biology Stanford University\nEmail: jonas.cremer@stanford.edu\nOffice: Department of Biology, Stanford University, Stanford, CA 94305\nGitHub: github.com/cremerlab"
   },
   {
-    "objectID": "courses.html#bio120-integrative-and-experimental-microbiology",
-    "href": "courses.html#bio120-integrative-and-experimental-microbiology",
-    "title": "Courses",
-    "section": "BIO120 — Integrative and Experimental Microbiology",
-    "text": "BIO120 — Integrative and Experimental Microbiology\nStarting Spring Quarter 2022/23\nA lab course in microbiology taught together with Sharon Long."
+    "objectID": "contact.html#lab-guidelines-community",
+    "href": "contact.html#lab-guidelines-community",
+    "title": "Contact",
+    "section": "Lab Guidelines & Community",
+    "text": "Lab Guidelines & Community\nWe are committed to building an open, inclusive, and collaborative lab environment. Our lab community statement and guidelines can be found here."
   },
   {
     "objectID": "research.html",
@@ -105,25 +105,88 @@
     "text": "The human gut microbiota\nWe further build on our cell-physiological understanding to better rationalize the composition of the human gut microbiota and its effect on host health. Towards a more mechanistic understanding, we follow quantitative approaches that combine in-vitro experimentation and mathematical modeling to link considerations of cell metabolism, microbial population dynamics, and intestinal physiology."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses",
     "section": "",
-    "text": "Jonas Cremer Assistant Professor, Department of Biology Stanford University\nEmail: jonas.cremer@stanford.edu\nOffice: Department of Biology, Stanford University, Stanford, CA 94305\nGitHub: github.com/cremerlab"
+    "text": "Current and previous teaching activities can also be found on the Stanford ExploreCourses website."
   },
   {
-    "objectID": "contact.html#cremer-lab-stanford-university",
-    "href": "contact.html#cremer-lab-stanford-university",
-    "title": "Contact",
-    "section": "",
-    "text": "Jonas Cremer Assistant Professor, Department of Biology Stanford University\nEmail: jonas.cremer@stanford.edu\nOffice: Department of Biology, Stanford University, Stanford, CA 94305\nGitHub: github.com/cremerlab"
+    "objectID": "courses.html#bio165265-quantitative-cell-biology-from-molecules-to-evolution",
+    "href": "courses.html#bio165265-quantitative-cell-biology-from-molecules-to-evolution",
+    "title": "Courses",
+    "section": "BIO165/265 — Quantitative Cell Biology: From Molecules to Evolution",
+    "text": "BIO165/265 — Quantitative Cell Biology: From Molecules to Evolution\nWinter Quarter · Undergraduate (BIO165) and Graduate (BIO265)\nA combination of classical lectures and Python-based dry-lab sessions exploring how major cellular processes must be orchestrated and fine-tuned within the cellular environment to form a functional unit. Students analyze recently collected experimental data and are introduced to modern mathematical modeling approaches. Designed for students from biology and related disciplines interested in quantitative approaches to cell biology.\n→ Course website · → ExploreCourses"
   },
   {
-    "objectID": "contact.html#lab-guidelines-community",
-    "href": "contact.html#lab-guidelines-community",
-    "title": "Contact",
-    "section": "Lab Guidelines & Community",
-    "text": "Lab Guidelines & Community\nWe are committed to building an open, inclusive, and collaborative lab environment. Our lab community statement and guidelines can be found here."
+    "objectID": "courses.html#bio120220-integrative-and-experimental-microbiology",
+    "href": "courses.html#bio120220-integrative-and-experimental-microbiology",
+    "title": "Courses",
+    "section": "BIO120/220 — Integrative and Experimental Microbiology",
+    "text": "BIO120/220 — Integrative and Experimental Microbiology\nSpring Quarter · Undergraduate (BIO120) and Graduate (BIO220)\nA hands-on lab course in microbiology co-taught with Sharon Long. Students gain practical experience with core microbiology techniques alongside an integrative understanding of microbial physiology and growth. The course combines experimental work with quantitative analysis.\n→ ExploreCourses"
+  },
+  {
+    "objectID": "lab-values.html",
+    "href": "lab-values.html",
+    "title": "Lab Community",
+    "section": "",
+    "text": "Science can be a truly inspiring process, particularly when working together in a diverse team. This document was put together jointly by Jonas and many lab members (last updated August 2023)."
+  },
+  {
+    "objectID": "lab-values.html#we-foster-an-inclusive-research-environment",
+    "href": "lab-values.html#we-foster-an-inclusive-research-environment",
+    "title": "Lab Community",
+    "section": "We foster an inclusive research environment",
+    "text": "We foster an inclusive research environment\nWe are committed to building a lab that is welcoming to all, regardless of ethnic, socioeconomic, gender, or sexual orientation background. We acknowledge the systemic failures that exist in academia and call on each lab member to actively help combat microaggressions and bias in our day-to-day work. Reports of harassment can be directed to the biology department’s reporting channels, and Jonas will always be available to discuss concerns directly."
+  },
+  {
+    "objectID": "lab-values.html#we-keep-life-and-work-in-a-healthy-balance",
+    "href": "lab-values.html#we-keep-life-and-work-in-a-healthy-balance",
+    "title": "Lab Community",
+    "section": "We keep life and work in a healthy balance",
+    "text": "We keep life and work in a healthy balance\nThe health and wellbeing of lab members is our top priority. There is no expectation of evening or weekend work, nor of prompt replies to Slack or email outside of working hours. If you ever feel overwhelmed — by workload, personal circumstances, or anything else — please speak with Jonas. We want everyone to thrive both inside and outside the lab."
+  },
+  {
+    "objectID": "lab-values.html#we-respect-the-intellectual-work-of-other-lab-members",
+    "href": "lab-values.html#we-respect-the-intellectual-work-of-other-lab-members",
+    "title": "Lab Community",
+    "section": "We respect the intellectual work of other lab members",
+    "text": "We respect the intellectual work of other lab members\nOpen exchange of ideas is one of the great joys of science. Collaborative projects require active, ongoing discussion around contributions, authorship, and attribution. We make these conversations explicit and early rather than leaving them for later."
+  },
+  {
+    "objectID": "lab-values.html#we-discuss-openly-but-always-respect-our-co-scientists",
+    "href": "lab-values.html#we-discuss-openly-but-always-respect-our-co-scientists",
+    "title": "Lab Community",
+    "section": "We discuss openly but always respect our co-scientists",
+    "text": "We discuss openly but always respect our co-scientists\nIdeas should be freely raised and challenged on scientific grounds. We maintain a culture of intellectual honesty and directness while always treating colleagues with respect, regardless of experience level or place in the lab hierarchy."
+  },
+  {
+    "objectID": "lab-values.html#safety-first",
+    "href": "lab-values.html#safety-first",
+    "title": "Lab Community",
+    "section": "Safety first",
+    "text": "Safety first\nThe lab operates at BSL-2. All safety procedures must be followed at all times. Communicate any doubts or concerns about safety practices to Jonas or the lab safety officer — there is no such thing as a trivial safety question."
+  },
+  {
+    "objectID": "lab-values.html#we-jointly-contribute-to-keeping-the-lab-well-maintained",
+    "href": "lab-values.html#we-jointly-contribute-to-keeping-the-lab-well-maintained",
+    "title": "Lab Community",
+    "section": "We jointly contribute to keeping the lab well-maintained",
+    "text": "We jointly contribute to keeping the lab well-maintained\nEveryone shares responsibility for chemicals, consumables, equipment, and waste. Participation in at least one annual lab cleaning day is expected from all members."
+  },
+  {
+    "objectID": "lab-values.html#we-respect-each-others-experimental-workspace",
+    "href": "lab-values.html#we-respect-each-others-experimental-workspace",
+    "title": "Lab Community",
+    "section": "We respect each other’s experimental workspace",
+    "text": "We respect each other’s experimental workspace\nA strict rule: personal bench space, chemical stocks, and pipettes must not be used without prior permission from the owner. When in doubt, ask."
+  },
+  {
+    "objectID": "lab-values.html#we-promote-open-science",
+    "href": "lab-values.html#we-promote-open-science",
+    "title": "Lab Community",
+    "section": "We promote open science",
+    "text": "We promote open science\nManuscripts and data should be made openly available wherever possible — via preprint servers, GitHub, and data repositories. Raw data storage approaches are documented on the lab Wiki. Openness and reproducibility are values, not afterthoughts."
   },
   {
     "objectID": "index.html",
@@ -137,7 +200,7 @@
     "href": "index.html#recent-news",
     "title": "Cremer Lab",
     "section": "Recent News",
-    "text": "Recent News\n\n\n  Jul 2025\n  New paper in Cell: Quantifying the varying harvest of fermentation products from the human gut microbiota. → Read\n\n\n  Feb 2025\n  New paper in Nature Communications: Maintenance of cytoplasmic and membrane densities shapes cellular geometry in E. coli. → Read\n\n\n  Feb 2025\n  2025\n  PRX Life paper on diurnal variations in gut microbial dynamics featured in a Physics Viewpoint by Anne-Florence Bitbol.\n\n\n  Jan 2025\n  Welcome to Théo Gervais, new postdoctoral scholar jointly advised with KC Huang!"
+    "text": "Recent News\n\n2025-07 New paper in Cell: Quantifying the varying harvest of fermentation products from the human gut microbiota. Read paper →\n\n\n2025-02 New paper in Nature Communications: Maintenance of cytoplasmic and membrane densities shapes cellular geometry in E. coli. Read paper →\n\n\n2025-01 PRX Life paper on diurnal variations in gut microbial dynamics featured in a Physics Viewpoint by Anne-Florence Bitbol. Read viewpoint →\n\n\n2025-01 Welcome to Théo Gervais! New postdoctoral scholar jointly advised with KC Huang.\n\n\n2024-06 We are hiring! Open postdoc positions in quantitative flux analyses and physiological principles of growth. See open positions →"
   },
   {
     "objectID": "index.html#research-themes",

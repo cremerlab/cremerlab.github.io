@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4a4413a048f65ada6dadb832458f714b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-12c0b500e5dde367c9de494080afce63.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -114,6 +114,10 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Join</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./lab-values.html"> 
+<span class="menu-text">Lab Values</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
@@ -161,7 +165,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="people-grid">
 <div class="person-card">
-<img src="images/jonas.jpg" alt="Jonas Cremer">
+<img src="images/jonas.jpg" alt="Jonas Cremer" onerror="this.src='images/placeholder.png'">
 <div class="person-name">
 Jonas Cremer
 </div>
@@ -172,11 +176,17 @@ Principal Investigator
 January 2020 – present
 </div>
 <div class="person-socials">
-<a href="mailto:jonas.cremer@stanford.edu" title="email"><i class="bi bi-envelope"></i></a><a href="https://twitter.com/jonasbcremer" title="twitter"><i class="bi bi-twitter"></i></a><a href="https://scholar.google.com/citations?user=qFigxd4AAAAJ&amp;hl=en" title="scholar"><i class="bi bi-graduation-cap"></i></a><a href="https://orcid.org/0000-0003-2328-5152" title="orcid"><i class="bi bi-id-card"></i></a>
+<a href="mailto:jonas.cremer@stanford.edu" title="Email" target="_blank"><i class="bi bi-envelope"></i></a><a href="https://twitter.com/jonasbcremer" title="Twitter" target="_blank"><i class="bi bi-twitter"></i></a><a href="https://orcid.org/0000-0003-2328-5152" title="Orcid" target="_blank"><i class="bi bi-person-badge"></i></a><a href="https://scholar.google.com/citations?user=qFigxd4AAAAJ&amp;hl=en" title="Scholar" target="_blank"><i class="bi bi-mortarboard-fill"></i></a>
+</div>
+<button class="bio-toggle" onclick="toggleBio('person-0')" title="About Jonas Cremer">About</button>
+<div id="person-0" class="bio-popup" style="display:none">
+<p>
+Jonas Cremer is an Assistant Professor in Biology. He is interested in the physiology and growth of prokaryotes. Jonas studied physics and biophysics in Munich. He was a postdoctoral researcher at the University of California, San Diego. Before joining Stanford, he was an Assistant Professor at the University of Groningen. His current research focuses on gut bacteria and the model organism Escherichia coli.
+</p>
 </div>
 </div>
 <div class="person-card">
-<img src="images/theo.png" alt="Théo Gervais">
+<img src="images/theo.png" alt="Théo Gervais" onerror="this.src='images/placeholder.png'">
 <div class="person-name">
 Théo Gervais
 </div>
@@ -187,11 +197,17 @@ Postdoctoral Scholar
 January 2025 – present
 </div>
 <div class="person-socials">
-<a href="mailto:tgervais@stanford.edu" title="email"><i class="bi bi-envelope"></i></a><a href="https://github.com/TheoGervais" title="github"><i class="bi bi-github"></i></a><a href="https://scholar.google.com/citations?hl=en&amp;user=jLhB_JkAAAAJ" title="scholar"><i class="bi bi-graduation-cap"></i></a><a href="https://orcid.org/0000-0001-6364-6720" title="orcid"><i class="bi bi-id-card"></i></a>
+<a href="mailto:tgervais@stanford.edu" title="Email" target="_blank"><i class="bi bi-envelope"></i></a><a href="https://orcid.org/0000-0001-6364-6720" title="Orcid" target="_blank"><i class="bi bi-person-badge"></i></a><a href="https://scholar.google.com/citations?hl=en&amp;user=jLhB_JkAAAAJ" title="Scholar" target="_blank"><i class="bi bi-mortarboard-fill"></i></a><a href="https://github.com/TheoGervais" title="Github" target="_blank"><i class="bi bi-github"></i></a>
+</div>
+<button class="bio-toggle" onclick="toggleBio('person-1')" title="About Théo Gervais">About</button>
+<div id="person-1" class="bio-popup" style="display:none">
+<p>
+Théo Gervais is a Postdoctoral Scholar jointly advised by Jonas Cremer and KC Huang. He obtained his PhD from the Biozentrum of Basel University studying quantitative microbial physiology using microfluidics and fluorescent microscopy to study E. coli carbon starvation at the single-cell level.
+</p>
 </div>
 </div>
 <div class="person-card">
-<img src="images/mathis.jpg" alt="Mathis Leblanc">
+<img src="images/mathis.jpg" alt="Mathis Leblanc" onerror="this.src='images/placeholder.png'">
 <div class="person-name">
 Mathis Leblanc
 </div>
@@ -202,11 +218,17 @@ PhD Student in Biophysics
 July 2022 – present
 </div>
 <div class="person-socials">
-<a href="mailto:mleblan6@stanford.edu" title="email"><i class="bi bi-envelope"></i></a><a href="https://twitter.com/mathisjleblanc" title="twitter"><i class="bi bi-twitter"></i></a>
+<a href="mailto:mleblan6@stanford.edu" title="Email" target="_blank"><i class="bi bi-envelope"></i></a><a href="https://twitter.com/mathisjleblanc" title="Twitter" target="_blank"><i class="bi bi-twitter"></i></a>
+</div>
+<button class="bio-toggle" onclick="toggleBio('person-2')" title="About Mathis Leblanc">About</button>
+<div id="person-2" class="bio-popup" style="display:none">
+<p>
+Mathis Leblanc is a graduate student in Biophysics. Trained in protein thermodynamics, Mathis is now interested in the intersection of molecular biophysics and bacterial physiology. He uses numerical simulations to investigate cell-shape regulation in Escherichia coli. Mathis received his B.A. in Biophysics at Johns Hopkins in 2021.
+</p>
 </div>
 </div>
 <div class="person-card">
-<img src="images/shaili.jpg" alt="Shaili Mathur">
+<img src="images/shaili.jpg" alt="Shaili Mathur" onerror="this.src='images/placeholder.png'">
 <div class="person-name">
 Shaili Mathur
 </div>
@@ -217,11 +239,17 @@ PhD Student in Biology
 June 2022 – present
 </div>
 <div class="person-socials">
-<a href="mailto:shailim@stanford.edu" title="email"><i class="bi bi-envelope"></i></a><a href="https://twitter.com/MathurShaili" title="twitter"><i class="bi bi-twitter"></i></a>
+<a href="mailto:shailim@stanford.edu" title="Email" target="_blank"><i class="bi bi-envelope"></i></a><a href="https://twitter.com/MathurShaili" title="Twitter" target="_blank"><i class="bi bi-twitter"></i></a>
+</div>
+<button class="bio-toggle" onclick="toggleBio('person-3')" title="About Shaili Mathur">About</button>
+<div id="person-3" class="bio-popup" style="display:none">
+<p>
+Shaili Mathur (she/her) is a PhD student in Biology in the Ecology and Evolution Track, jointly advised by Jonas Cremer and Dmitri Petrov. She combines mathematical, computational, and experimental techniques to study complex biological systems in dynamic environments. Shaili received her B.S. in Computational and Systems Biology and M.S. in Bioinformatics from UCLA in 2021.
+</p>
 </div>
 </div>
 <div class="person-card">
-<img src="images/leron.png" alt="Leron Perez">
+<img src="images/leron.png" alt="Leron Perez" onerror="this.src='images/placeholder.png'">
 <div class="person-name">
 Leron Perez
 </div>
@@ -232,11 +260,17 @@ PhD Candidate in Biophysics
 July 2021 – present
 </div>
 <div class="person-socials">
-<a href="mailto:leron@stanford.edu" title="email"><i class="bi bi-envelope"></i></a><a href="https://twitter.com/leron_perez" title="twitter"><i class="bi bi-twitter"></i></a><a href="https://github.com/codercahol" title="github"><i class="bi bi-github"></i></a><a href="https://leronperez.com" title="website"><i class="bi bi-globe"></i></a>
+<a href="mailto:leron@stanford.edu" title="Email" target="_blank"><i class="bi bi-envelope"></i></a><a href="https://twitter.com/leron_perez" title="Twitter" target="_blank"><i class="bi bi-twitter"></i></a><a href="https://leronperez.com" title="Website" target="_blank"><i class="bi bi-globe"></i></a><a href="https://github.com/codercahol" title="Github" target="_blank"><i class="bi bi-github"></i></a>
+</div>
+<button class="bio-toggle" onclick="toggleBio('person-4')" title="About Leron Perez">About</button>
+<div id="person-4" class="bio-popup" style="display:none">
+<p>
+Leron Perez (he/him) is a PhD student in Biophysics, jointly advised by Jonas Cremer and Drew Endy. He is interested in understanding microbial adaptation to uncertain and changing environments to improve synthetic biological design. Leron received his B.S. in Molecular Engineering at the University of Chicago in 2020.
+</p>
 </div>
 </div>
 <div class="person-card">
-<img src="images/richa.png" alt="Richa Sharma">
+<img src="images/richa.png" alt="Richa Sharma" onerror="this.src='images/placeholder.png'">
 <div class="person-name">
 Richa Sharma
 </div>
@@ -247,10 +281,22 @@ Postdoctoral Scholar
 January 2021 – present
 </div>
 <div class="person-socials">
-<a href="mailto:sricha@stanford.edu" title="email"><i class="bi bi-envelope"></i></a>
+<a href="mailto:sricha@stanford.edu" title="Email" target="_blank"><i class="bi bi-envelope"></i></a>
+</div>
+<button class="bio-toggle" onclick="toggleBio('person-5')" title="About Richa Sharma">About</button>
+<div id="person-5" class="bio-popup" style="display:none">
+<p>
+Richa Sharma is a Postdoctoral Research Fellow interested in the eco-physiology of human gut strains including Escherichia coli and beyond. She aims to understand the functional aspects of resident gut strains and their impact on human health. She attained her doctoral degree in Soil Microbial Ecology from IIT Delhi in November 2019.
+</p>
 </div>
 </div>
 </div>
+<script>
+function toggleBio(id) {
+  var el = document.getElementById(id);
+  el.style.display = el.style.display === 'none' ? 'block' : 'none';
+}
+</script>
 <hr>
 <section id="alumni" class="level2">
 <h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
@@ -283,7 +329,7 @@ NSF Postdoctoral Fellow
 January 2021 – April 2025
 </td>
 <td>
-<a href="https://gchure.github.io">Profluent Bio</a>
+<a href="https://gchure.github.io" target="_blank">Profluent Bio</a>
 </td>
 </tr>
 <tr>
@@ -297,7 +343,7 @@ Postdoctoral Scholar
 January 2020 – August 2023
 </td>
 <td>
-<a href="https://search.asu.edu/profile/4928513">Arizona State University</a>
+<a href="https://search.asu.edu/profile/4928513" target="_blank">Arizona State University</a>
 </td>
 </tr>
 <tr>
