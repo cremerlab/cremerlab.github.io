@@ -1,0 +1,191 @@
+[
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "Jonas Cremer\n\n\nPrincipal Investigator\n\n\nJanuary 2020 – present\n\n\n\n\n\n\n\n\nThéo Gervais\n\n\nPostdoctoral Scholar\n\n\nJanuary 2025 – present\n\n\n\n\n\n\n\n\nMathis Leblanc\n\n\nPhD Student in Biophysics\n\n\nJuly 2022 – present\n\n\n\n\n\n\n\n\nShaili Mathur\n\n\nPhD Student in Biology\n\n\nJune 2022 – present\n\n\n\n\n\n\n\n\nLeron Perez\n\n\nPhD Candidate in Biophysics\n\n\nJuly 2021 – present\n\n\n\n\n\n\n\n\nRicha Sharma\n\n\nPostdoctoral Scholar\n\n\nJanuary 2021 – present"
+  },
+  {
+    "objectID": "people.html#alumni",
+    "href": "people.html#alumni",
+    "title": "People",
+    "section": "Alumni",
+    "text": "Alumni\n\n\n\n\nName\n\n\nRole\n\n\nDates\n\n\nNow\n\n\n\n\n\n\nGriffin Chure\n\n\nNSF Postdoctoral Fellow\n\n\nJanuary 2021 – April 2025\n\n\nProfluent Bio\n\n\n\n\nRoshali de Silva\n\n\nPostdoctoral Scholar\n\n\nJanuary 2020 – August 2023\n\n\nArizona State University\n\n\n\n\nRebecca Christensen\n\n\nResearch Assistant\n\n\nJanuary 2022 – February 2023\n\n\nColumbia University\n\n\n\n\nAugust Burton\n\n\nSummer Undergraduate Researcher\n\n\nJuly 2022 – August 2023\n\n\nUniversity of Rochester SOM\n\n\n\n\nAli Salari\n\n\nPostdoctoral Scholar\n\n\nJanuary 2021 – July 2021"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "2025\n\n\n\nMaintenance of cytoplasmic and membrane densities shapes cellular geometry in Escherichia coli\n\n\nGriffin Chure, Roshali de Silva, Richa Sharma, Michael C Lanz and Jonas Cremer\n\n\nNature Communications, 16, p.11557\n\n\nDOI Preprint Code\n\n\n\n\nQuantifying the varying harvest of fermentation products from the human gut microbiota\n\n\nMarkus Arnoldini, Richa Sharma, Claudia Moresi, Griffin Chure, Julien Chabbey, Emma Slack, and Jonas Cremer\n\n\nCell, 188, 19, p.5332\n\n\nDOI Preprint Code Website\n\n\n\n\nDiurnal Variations in Digestion and Flow Drive Microbial Dynamics in the Gut\n\n\nAlinaghi Salari and Jonas Cremer\n\n\nPRX Life, 3, p.023012\n\n\nDOI Preprint Code\n\n\nFeatured in a Physics Viewpoint by Anne-Florence Bitbol (https://physics.aps.org/articles/v18/121)\n\n\n\n2024\n\n\n\nhplc-py: A Python Package For Rapid Peak Quantification in Complex Chromatograms\n\n\nGriffin Chure and Jonas Cremer\n\n\nJournal of Open Source Software, 9, (94), p.6270\n\n\nDOI Preprint Code Website\n\n\n\n2023\n\n\n\nThe differing prevalences of propionate and butyrate-producing bacteria in the human gut microbiota\n\n\nRebecca Christensen, Yu Han Daisy Wang, Markus Arnoldini, and Jonas Cremer\n\n\nbioRxiv\n\n\nDOI Code\n\n\n\n\nConditionally unutilized proteins and their profound effects on growth and adaptation across microbial species\n\n\nRohan Balakrishnan and Jonas Cremer\n\n\nCurrent Opinion in Microbiology, 75, p.102366\n\n\nDOI Preprint\n\n\n\n\nAn optimal regulation of fluxes dictates microbial growth in and out of steady-state\n\n\nGriffin Chure and Jonas Cremer\n\n\neLife\n\n\nDOI Code Website\n\n\nFeatured as a Spotlight Article by Avi Flamholz and Akshit Goyal. Trends in Microbiology 2023 (https://doi.org/10.1016/j.tim.2023.06.003)\n\n\n\n2022\n\n\n\nChanging flows balance nutrient absorption and bacterial growth along the gut\n\n\nAgnese Codutti, Jonas Cremer, and Karen Alim\n\n\nPRL, 129\n\n\nDOI\n\n\nEditors suggestion; featured in Physics (https://physics.aps.org/articles/v15/146)\n\n\n\n\nCoordination of gene expression with cell size enables Escherichia coli to efficiently maintain motility across conditions\n\n\nTomoya Honda, Jonas Cremer, Leonardo Mancini, Zhongge Zhang, Teuta Pilizota, and Terence Hwa\n\n\nPNAS, 119, (37)\n\n\nDOI\n\n\n\n2021\n\n\n\nSuboptimal resource allocation during changing environments constrains bacterial response and growth recovery\n\n\nRohan Balakrishnan, Roshali T. de Silva, Terrence Hwa, and Jonas Cremer\n\n\nMolecular Systems Biology, 17\n\n\nDOI Code\n\n\n\n\nA traveling-wave solution for bacterial chemotaxis with growth\n\n\nAvaneesh V. Narla, Jonas Cremer, and Terrence Hwa\n\n\nPNAS, 118, (48)\n\n\nDOI\n\n\n\n2019\n\n\n\nSpatiotemporal establishment of dense bacterial colonies growing on hard agar\n\n\nMya R. Warren, Hui Sun, Yue Yan, Jonas Cremer, Bo Li, and Terence Hwa.\n\n\neLife\n\n\nDOI\n\n\n\n\nAn evolutionarily stable strategy to colonize spatially extended habitats\n\n\nWeirong Liu*, Jonas Cremer, Dengjin Li, Terence Hwa, and Chenli Liu.\n\n\nNature, 575\n\n\nDOI\n\n\n\n\nChemotaxis as a navigation strategy to boost range expansion\n\n\nJonas Cremer, Tomoya Honda, Ying Tang, Jerome Wong-Ng, Massimo Vergassola, and Terrence Hwa\n\n\nNature, 575\n\n\nDOI\n\n\n\n\nCooperation in microbial populations: Theory and experimental model systems\n\n\nJonas Cremer, Anna Melbinger, Karl Wienand, Tania Henriquez, Heinrich Jung, and Erwin Frey.\n\n\nJournal of Molecular Biology, 431\n\n\nDOI\n\n\n\n2018\n\n\n\nBacterial growth, flow, and mixing shape human gut microbiota density and composition\n\n\nMarkus Arnoldini, Jonas Cremer, and Terence Hwa.\n\n\nGut Microbes, 9, (6)\n\n\nDOI\n\n\n\n2017\n\n\n\nEffect of water flow and chemical environment on microbiota growth and composition in the human colon\n\n\nJonas Cremer, Markus Arnoldini, and Terence Hwa.\n\n\nPNAS, 114, (25)\n\n\nDOI\n\n\n\n2016\n\n\n\nEffect of flow and peristaltic mixing on bacterial growth in a gut-like channel\n\n\nJonas Cremer, Igor Segota, Chih-yu Yang, Markus Arnoldini, John T. Sauls, Zhongge Zhang, Edgar Guitierrez, Alex Groisman, and Terence Hwa.\n\n\nPNAS, 113, (41)\n\n\nDOI\n\n\n\n2015\n\n\n\nThe emergence of cooperation from a single mutant during microbial life cycles\n\n\nAnna Melbinger, Jonas Cremer, and Erwin Frey.\n\n\nInterface, 12, (108)\n\n\nDOI\n\n\n\n2013\n\n\n\nMobility, fitness collection, and the breakdown of cooperation\n\n\nAnatolij Gelimson, Jonas Cremer, and Erwin Frey.\n\n\nPhysical Review E, 87\n\n\nDOI\n\n\n\n2012\n\n\n\nGrowth dynamics and the evolution of cooperation in microbial populations\n\n\nJonas Cremer, Anna Melbinger, and Erwin Frey.\n\n\nScientific Reports, 281\n\n\nDOI\n\n\n\n2011\n\n\n\nEvolutionary and population dynamics: A coupled approach\n\n\nJonas Cremer, Anna Melbinger, and Erwin Frey.\n\n\nPhysical Review E, 84\n\n\nDOI\n\n\n\n2010\n\n\n\nEvolutionary game theory in growing populations\n\n\nAnna Melbinger, Jonas Cremer, and Erwin Frey\n\n\nPhysical Review Letters, 105\n\n\nDOI\n\n\n\n\nEntropy production of cyclic population dynamics\n\n\nBenjamin Andrae, Jonas Cremer, Tobias Reichenbach, and Erwin Frey.\n\n\nPhysical Review Letters, 104\n\n\nDOI\n\n\n\n2009\n\n\n\nThe edge of neutral evolution in social dilemmas\n\n\nJonas Cremer, Tobias Reichenbach, and Erwin Frey.\n\n\nNew Journal of Physics, 11\n\n\nDOI\n\n\n\n2008\n\n\n\nAnomalous finite-size effects in the battle of the sexes\n\n\nJonas Cremer, Tobias Reichenbach, and Erwin Frey.\n\n\nEuropean Physical Journal B, 63\n\n\nDOI"
+  },
+  {
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Join the Lab",
+    "section": "",
+    "text": "If you are currently enrolled at Stanford and interested in doing a rotation in our lab, please contact Jonas to schedule a meeting. We love to hear about your scientific ideas and visions.\nWe have experimental projects available in microbiology and microbiota research — ranging from fundamental questions of bacterial physiology to more biomedical questions, depending on your interests. Experimentally, we focus on the quantitative culturing of bacteria, integrating a range of methods (bioreactors, microscopy, HPLC, etc.), alongside modeling approaches to understand how the human gut microbiota forms and interacts with the host.\nNot at Stanford yet? Consider applying to the Biology graduate program, the Biophysics program, or any other Bio Sciences graduate program at Stanford."
+  },
+  {
+    "objectID": "join.html#graduate-students",
+    "href": "join.html#graduate-students",
+    "title": "Join the Lab",
+    "section": "",
+    "text": "If you are currently enrolled at Stanford and interested in doing a rotation in our lab, please contact Jonas to schedule a meeting. We love to hear about your scientific ideas and visions.\nWe have experimental projects available in microbiology and microbiota research — ranging from fundamental questions of bacterial physiology to more biomedical questions, depending on your interests. Experimentally, we focus on the quantitative culturing of bacteria, integrating a range of methods (bioreactors, microscopy, HPLC, etc.), alongside modeling approaches to understand how the human gut microbiota forms and interacts with the host.\nNot at Stanford yet? Consider applying to the Biology graduate program, the Biophysics program, or any other Bio Sciences graduate program at Stanford."
+  },
+  {
+    "objectID": "join.html#postdocs",
+    "href": "join.html#postdocs",
+    "title": "Join the Lab",
+    "section": "Postdocs",
+    "text": "Postdocs\nReach out to Jonas if you are interested in our work and want to discuss research ideas and perspectives. We are particularly interested in researchers who bring strong quantitative backgrounds. Currently we can best support postdocs who bring their own fellowship funding."
+  },
+  {
+    "objectID": "join.html#undergraduate-students",
+    "href": "join.html#undergraduate-students",
+    "title": "Join the Lab",
+    "section": "Undergraduate Students",
+    "text": "Undergraduate Students\nWe participate in the Bio-X Summer Research Program and the B-SURP Program and encourage motivated students to apply. Feel free to contact Jonas via email with information about your background and interests."
+  },
+  {
+    "objectID": "join.html#lab-community",
+    "href": "join.html#lab-community",
+    "title": "Join the Lab",
+    "section": "Lab Community",
+    "text": "Lab Community\nTo learn more about our commitment to building an inclusive and supportive lab community, please read our lab guidelines and community statement.\n\nContact: jonas.cremer@stanford.edu"
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses",
+    "section": "",
+    "text": "Current and previous teaching activities can also be found on the Stanford course explore website."
+  },
+  {
+    "objectID": "courses.html#bio165-quantitative-cell-biology-from-molecules-to-evolution",
+    "href": "courses.html#bio165-quantitative-cell-biology-from-molecules-to-evolution",
+    "title": "Courses",
+    "section": "BIO165 — Quantitative Cell Biology: From Molecules to Evolution",
+    "text": "BIO165 — Quantitative Cell Biology: From Molecules to Evolution\nStarting Winter Quarter 2022/23\nA combination of classical lectures and dry-lab classes exploring how major cellular processes need to be orchestrated and fine-tuned with the encountered environment to form a functional unit. Python-based dry-lab sessions allow analysis of recently collected data and provide an introduction to modern modeling approaches. For undergraduate and graduate students from biology and related disciplines.\n→ Course website"
+  },
+  {
+    "objectID": "courses.html#bio120-integrative-and-experimental-microbiology",
+    "href": "courses.html#bio120-integrative-and-experimental-microbiology",
+    "title": "Courses",
+    "section": "BIO120 — Integrative and Experimental Microbiology",
+    "text": "BIO120 — Integrative and Experimental Microbiology\nStarting Spring Quarter 2022/23\nA lab course in microbiology taught together with Sharon Long."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Admittedly, we are a bit obsessed with microbial growth. How do tiny microbial cells harbor thousands of enzymes and coordinate a myriad of processes to replicate and thrive? Can we find in a sea of complexity the essential principles which determine growth? We approach these fundamental questions of systems biology by tightly combining experiments across conditions with mathematical modeling and data analysis — mostly for Escherichia coli, this wonderfully studied model organism, but increasingly also for other microbes across biological domains."
+  },
+  {
+    "objectID": "research.html#microbial-cell-physiology",
+    "href": "research.html#microbial-cell-physiology",
+    "title": "Research",
+    "section": "",
+    "text": "Admittedly, we are a bit obsessed with microbial growth. How do tiny microbial cells harbor thousands of enzymes and coordinate a myriad of processes to replicate and thrive? Can we find in a sea of complexity the essential principles which determine growth? We approach these fundamental questions of systems biology by tightly combining experiments across conditions with mathematical modeling and data analysis — mostly for Escherichia coli, this wonderfully studied model organism, but increasingly also for other microbes across biological domains."
+  },
+  {
+    "objectID": "research.html#microbial-life-at-the-triangle-of-physiology-ecology-and-evolution",
+    "href": "research.html#microbial-life-at-the-triangle-of-physiology-ecology-and-evolution",
+    "title": "Research",
+    "section": "Microbial life at the triangle of physiology, ecology, and evolution",
+    "text": "Microbial life at the triangle of physiology, ecology, and evolution\nOur quantitative investigations also go well beyond the cellular level. Integrating ecological and evolutionary considerations, we explore how cell physiological constraints determine adaptation to specific environments and habitats.\n\n\n\nThe triangle of microbial life"
+  },
+  {
+    "objectID": "research.html#the-human-gut-microbiota",
+    "href": "research.html#the-human-gut-microbiota",
+    "title": "Research",
+    "section": "The human gut microbiota",
+    "text": "The human gut microbiota\nWe further build on our cell-physiological understanding to better rationalize the composition of the human gut microbiota and its effect on host health. Towards a more mechanistic understanding, we follow quantitative approaches that combine in-vitro experimentation and mathematical modeling to link considerations of cell metabolism, microbial population dynamics, and intestinal physiology."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Jonas Cremer Assistant Professor, Department of Biology Stanford University\nEmail: jonas.cremer@stanford.edu\nOffice: Department of Biology, Stanford University, Stanford, CA 94305\nGitHub: github.com/cremerlab"
+  },
+  {
+    "objectID": "contact.html#cremer-lab-stanford-university",
+    "href": "contact.html#cremer-lab-stanford-university",
+    "title": "Contact",
+    "section": "",
+    "text": "Jonas Cremer Assistant Professor, Department of Biology Stanford University\nEmail: jonas.cremer@stanford.edu\nOffice: Department of Biology, Stanford University, Stanford, CA 94305\nGitHub: github.com/cremerlab"
+  },
+  {
+    "objectID": "contact.html#lab-guidelines-community",
+    "href": "contact.html#lab-guidelines-community",
+    "title": "Contact",
+    "section": "Lab Guidelines & Community",
+    "text": "Lab Guidelines & Community\nWe are committed to building an open, inclusive, and collaborative lab environment. Our lab community statement and guidelines can be found here."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Cremer Lab",
+    "section": "",
+    "text": "Laboratory of Quantitative Microbial Physiology\n  \n    We combine experimentation, data analysis, and mathematical modeling to\n    understand how microbial cells grow, adapt, and shape their environments —\n    from individual E. coli to the human gut microbiota.\n    Jonas Cremer lab · Stanford University · Department of Biology\n  \n  \n    Our Research\n    Meet the Team\n    Publications"
+  },
+  {
+    "objectID": "index.html#recent-news",
+    "href": "index.html#recent-news",
+    "title": "Cremer Lab",
+    "section": "Recent News",
+    "text": "Recent News\n\n\n  Jul 2025\n  New paper in Cell: Quantifying the varying harvest of fermentation products from the human gut microbiota. → Read\n\n\n  Feb 2025\n  New paper in Nature Communications: Maintenance of cytoplasmic and membrane densities shapes cellular geometry in E. coli. → Read\n\n\n  Feb 2025\n  2025\n  PRX Life paper on diurnal variations in gut microbial dynamics featured in a Physics Viewpoint by Anne-Florence Bitbol.\n\n\n  Jan 2025\n  Welcome to Théo Gervais, new postdoctoral scholar jointly advised with KC Huang!"
+  },
+  {
+    "objectID": "index.html#research-themes",
+    "href": "index.html#research-themes",
+    "title": "Cremer Lab",
+    "section": "Research Themes",
+    "text": "Research Themes\nMicrobial cell physiology How do cells coordinate growth across thousands of processes? We study the essential principles of microbial physiology in E. coli.\nPhysiology–ecology–evolution How do cell-physiological constraints shape adaptation and evolution in complex environments?\nHuman gut microbiota How do microbial physiology and intestinal conditions jointly determine gut microbiome composition and function?\n→ Learn more about our research"
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "Python · Griffin Chure · 2024\nA Python package for rapid, automated peak quantification in complex chromatograms. Designed for high-throughput analysis of HPLC data in microbial physiology experiments.\n→ GitHub · → Documentation"
+  },
+  {
+    "objectID": "software.html#hplc-py",
+    "href": "software.html#hplc-py",
+    "title": "Software",
+    "section": "",
+    "text": "Python · Griffin Chure · 2024\nA Python package for rapid, automated peak quantification in complex chromatograms. Designed for high-throughput analysis of HPLC data in microbial physiology experiments.\n→ GitHub · → Documentation"
+  },
+  {
+    "objectID": "software.html#optimal-allocation-and-flux-parity-model",
+    "href": "software.html#optimal-allocation-and-flux-parity-model",
+    "title": "Software",
+    "section": "Optimal Allocation and Flux Parity Model",
+    "text": "Optimal Allocation and Flux Parity Model\nPython · Griffin Chure · 2022\nCode and analysis for the flux parity model of optimal resource allocation in microbial growth.\n→ GitHub · → Paper website"
+  },
+  {
+    "objectID": "software.html#collective-movement-by-chemotaxis",
+    "href": "software.html#collective-movement-by-chemotaxis",
+    "title": "Software",
+    "section": "Collective Movement by Chemotaxis",
+    "text": "Collective Movement by Chemotaxis\nPython · Jonas Cremer · 2019\nSimulations and analysis of collective bacterial range expansion driven by chemotaxis.\n→ GitHub"
+  },
+  {
+    "objectID": "software.html#analyzing-bacterial-swimming-behavior",
+    "href": "software.html#analyzing-bacterial-swimming-behavior",
+    "title": "Software",
+    "section": "Analyzing Bacterial Swimming Behavior",
+    "text": "Analyzing Bacterial Swimming Behavior\nPython · Jonas Cremer · 2019\nTools for quantifying individual bacterial swimming trajectories and run-tumble statistics from microscopy data.\n→ GitHub"
+  },
+  {
+    "objectID": "software.html#modeling-growth-of-human-gut-microbiota",
+    "href": "software.html#modeling-growth-of-human-gut-microbiota",
+    "title": "Software",
+    "section": "Modeling Growth of Human Gut Microbiota",
+    "text": "Modeling Growth of Human Gut Microbiota\nPython · Jonas Cremer · 2019\nMathematical models linking bacterial physiology, flow, and nutrient gradients to microbiota composition in the human gut.\n→ GitHub"
+  }
+]
