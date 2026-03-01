@@ -25,14 +25,14 @@
     "href": "join.html#graduate-students",
     "title": "Join the Lab",
     "section": "Graduate Students",
-    "text": "Graduate Students\nIf you are currently enrolled at Stanford and interested in doing a rotation in our lab, please contact Jonas to schedule a meeting. We love to hear about your scientific ideas and visions.\nWe have experimental projects available in microbiology and microbiota research — from fundamental questions of bacterial physiology to more biomedical questions. Experimentally, we focus on the quantitative culturing of bacteria, integrating bioreactors, microscopy, HPLC, and mathematical modeling.\nNot at Stanford yet? Consider applying to the Biology graduate program, the Biophysics program, or any other Bio Sciences graduate program at Stanford."
+    "text": "Graduate Students\nIf you are currently enrolled at Stanford and interested in doing a rotation in our lab, please contact Jonas to schedule a meeting. We love to hear about your scientific ideas and research interests.\nWe have experimental projects available in microbiology and microbiota research — from fundamental questions of bacterial physiology to more biomedical questions. Experimentally, we focus on the quantitative culturing of bacteria, integrating bioreactors, microscopy, HPLC, and mathematical modeling.\nNot at Stanford yet? Consider applying to the Biology graduate program, the Biophysics program, or any other Bio Sciences graduate program at Stanford."
   },
   {
     "objectID": "join.html#undergraduate-students",
     "href": "join.html#undergraduate-students",
     "title": "Join the Lab",
     "section": "Undergraduate Students",
-    "text": "Undergraduate Students\nWe participate in the Bio-X SURF Program and the B-SURP Program. Feel free to contact Jonas with information about your background and interests."
+    "text": "Undergraduate Students\nWe participate in the Bio-X undergraduate summer research program and BSURP. Feel free to contact Jonas with information about your background and interests."
   },
   {
     "objectID": "join.html#lab-community",
@@ -130,21 +130,28 @@
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Jonas Cremer Assistant Professor, Department of Biology Stanford University\nEmail: jonas.cremer@stanford.edu\nOffice: Department of Biology, Stanford University, Stanford, CA 94305\nGitHub: github.com/cremerlab"
+    "text": "Jonas Cremer Assistant Professor, Department of Biology Stanford University\nEmail: jonas.cremer@stanford.edu\nGitHub: github.com/cremerlab"
   },
   {
     "objectID": "contact.html#cremer-lab-stanford-university",
     "href": "contact.html#cremer-lab-stanford-university",
     "title": "Contact",
     "section": "",
-    "text": "Jonas Cremer Assistant Professor, Department of Biology Stanford University\nEmail: jonas.cremer@stanford.edu\nOffice: Department of Biology, Stanford University, Stanford, CA 94305\nGitHub: github.com/cremerlab"
+    "text": "Jonas Cremer Assistant Professor, Department of Biology Stanford University\nEmail: jonas.cremer@stanford.edu\nGitHub: github.com/cremerlab"
   },
   {
-    "objectID": "contact.html#lab-guidelines-community",
-    "href": "contact.html#lab-guidelines-community",
+    "objectID": "contact.html#location",
+    "href": "contact.html#location",
     "title": "Contact",
-    "section": "Lab Guidelines & Community",
-    "text": "Lab Guidelines & Community\nWe are committed to building an open, inclusive, and collaborative lab environment. Our lab community statement and guidelines can be found here."
+    "section": "Location",
+    "text": "Location\nYou can find us on the 3rd floor of the Clark Center, West Wing. Currently, access to the Clark Center is limited, so please arrange a virtual meeting or contact a lab member first."
+  },
+  {
+    "objectID": "contact.html#address",
+    "href": "contact.html#address",
+    "title": "Contact",
+    "section": "Address",
+    "text": "Address\nNeed to send us something? Please address as follows:\nJonas Cremer\nAssistant Professor\nDepartment of Biology\nClark Center\n318 Campus Drive\nRooms W3.3/W300B\nStanford, CA\n94305"
   },
   {
     "objectID": "lab-values.html",
