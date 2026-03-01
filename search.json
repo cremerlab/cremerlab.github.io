@@ -4,14 +4,14 @@
     "href": "join.html",
     "title": "Join the Lab",
     "section": "",
-    "text": "TipPostdoctoral Scholar — Quantitative Flux Analyses in the Human Gut\n\n\n\nWe are looking for a postdoctoral scholar with a strong background in physics, mathematics, or a related quantitative discipline to lead projects on flux analyses in the human gut microbiota. The position is centered on mathematical modeling to understand how gut bacteria metabolize substrates and produce fermentation products. Depending on interest, the position can also involve experimental work combining HPLC, bioreactors, and anaerobic culturing techniques.\nPlease contact Jonas with a CV and a brief description of your research interests.\n\n\n\n\n\n\n\n\nTipPostdoctoral Scholar — Principles of Bacterial Growth Physiology and Metabolism\n\n\n\nWe are looking for a postdoctoral scholar to work on the physiological principles underlying bacterial growth, with a focus on the interdependence of metabolism, growth, and cellular composition — including envelope and proteome allocation. The position emphasizes quantitative experimentation across a range of conditions (growth physiology, proteomics, microscopy) tightly integrated with mathematical modeling. Experience in microbiology, biophysics, or quantitative biology is welcome.\nPlease contact Jonas with a CV and a brief description of your research interests."
+    "text": "TipPostdoctoral Scholar — Quantitative Flux Analyses in the Human Gut\n\n\n\nWe are looking for a postdoctoral scholar with a strong background in physics, mathematics, or a related quantitative discipline to lead our efforts on flux analyses in the human gut microbiota. The goal is the development of novel mathematical models that reveal how the interplay between bacterial metabolism, diet, and intestinal physiology shapes the exchange of chemical fluxes between the gut microbiota and the human host. Depending on interest, the position can also involve experimental work building on our HPLC and anaerobic culturing techniques.\nPlease contact Jonas with a CV and a brief description of your research interests.\n\n\n\n\n\n\n\n\nTipPostdoctoral Scholar — Principles of Bacterial Growth Physiology and Metabolism\n\n\n\nWe are looking for a postdoctoral scholar to reveal the physiological and regulatory principles connecting metabolism, growth, proteome allocation, and the envelope proteome. The position emphasizes quantitative culturing approaches and the integration of compositional, rate, and regulatory measurements across conditions. Strong previous experience in microbiology, biophysics, or quantitative biology is required.\nPlease contact Jonas with a CV and a brief description of your research interests."
   },
   {
     "objectID": "join.html#open-positions",
     "href": "join.html#open-positions",
     "title": "Join the Lab",
     "section": "",
-    "text": "TipPostdoctoral Scholar — Quantitative Flux Analyses in the Human Gut\n\n\n\nWe are looking for a postdoctoral scholar with a strong background in physics, mathematics, or a related quantitative discipline to lead projects on flux analyses in the human gut microbiota. The position is centered on mathematical modeling to understand how gut bacteria metabolize substrates and produce fermentation products. Depending on interest, the position can also involve experimental work combining HPLC, bioreactors, and anaerobic culturing techniques.\nPlease contact Jonas with a CV and a brief description of your research interests.\n\n\n\n\n\n\n\n\nTipPostdoctoral Scholar — Principles of Bacterial Growth Physiology and Metabolism\n\n\n\nWe are looking for a postdoctoral scholar to work on the physiological principles underlying bacterial growth, with a focus on the interdependence of metabolism, growth, and cellular composition — including envelope and proteome allocation. The position emphasizes quantitative experimentation across a range of conditions (growth physiology, proteomics, microscopy) tightly integrated with mathematical modeling. Experience in microbiology, biophysics, or quantitative biology is welcome.\nPlease contact Jonas with a CV and a brief description of your research interests."
+    "text": "TipPostdoctoral Scholar — Quantitative Flux Analyses in the Human Gut\n\n\n\nWe are looking for a postdoctoral scholar with a strong background in physics, mathematics, or a related quantitative discipline to lead our efforts on flux analyses in the human gut microbiota. The goal is the development of novel mathematical models that reveal how the interplay between bacterial metabolism, diet, and intestinal physiology shapes the exchange of chemical fluxes between the gut microbiota and the human host. Depending on interest, the position can also involve experimental work building on our HPLC and anaerobic culturing techniques.\nPlease contact Jonas with a CV and a brief description of your research interests.\n\n\n\n\n\n\n\n\nTipPostdoctoral Scholar — Principles of Bacterial Growth Physiology and Metabolism\n\n\n\nWe are looking for a postdoctoral scholar to reveal the physiological and regulatory principles connecting metabolism, growth, proteome allocation, and the envelope proteome. The position emphasizes quantitative culturing approaches and the integration of compositional, rate, and regulatory measurements across conditions. Strong previous experience in microbiology, biophysics, or quantitative biology is required.\nPlease contact Jonas with a CV and a brief description of your research interests."
   },
   {
     "objectID": "join.html#postdocs",
@@ -32,7 +32,7 @@
     "href": "join.html#undergraduate-students",
     "title": "Join the Lab",
     "section": "Undergraduate Students",
-    "text": "Undergraduate Students\nWe participate in the Bio-X undergraduate summer research program and BSURP. Feel free to contact Jonas with information about your background and interests."
+    "text": "Undergraduate Students\nWe participate in the Bio-X undergraduate summer research program and BSURP. We warmly encourage you to reach out to Jonas — your scientific curiosity and enthusiasm are what matter most."
   },
   {
     "objectID": "join.html#lab-community",
@@ -65,51 +65,16 @@
   {
     "objectID": "software.html",
     "href": "software.html",
-    "title": "Software",
+    "title": "Tools & Code",
     "section": "",
-    "text": "Python · Griffin Chure · 2024\nA Python package for rapid, automated peak quantification in complex chromatograms. Designed for high-throughput analysis of HPLC data in microbial physiology experiments.\n→ GitHub · → Project site"
-  },
-  {
-    "objectID": "software.html#hplc-py",
-    "href": "software.html#hplc-py",
-    "title": "Software",
-    "section": "",
-    "text": "Python · Griffin Chure · 2024\nA Python package for rapid, automated peak quantification in complex chromatograms. Designed for high-throughput analysis of HPLC data in microbial physiology experiments.\n→ GitHub · → Project site"
-  },
-  {
-    "objectID": "software.html#optimal-allocation-and-flux-parity-model",
-    "href": "software.html#optimal-allocation-and-flux-parity-model",
-    "title": "Software",
-    "section": "Optimal Allocation and Flux Parity Model",
-    "text": "Optimal Allocation and Flux Parity Model\nPython · Griffin Chure · 2022\nCode and analysis for the flux parity model of optimal resource allocation in microbial growth.\n→ GitHub · → Project site"
-  },
-  {
-    "objectID": "software.html#collective-movement-by-chemotaxis",
-    "href": "software.html#collective-movement-by-chemotaxis",
-    "title": "Software",
-    "section": "Collective Movement by Chemotaxis",
-    "text": "Collective Movement by Chemotaxis\nPython · Jonas Cremer · 2019\nSimulations and analysis of collective bacterial range expansion driven by chemotaxis.\n→ GitHub"
-  },
-  {
-    "objectID": "software.html#analyzing-bacterial-swimming-behavior",
-    "href": "software.html#analyzing-bacterial-swimming-behavior",
-    "title": "Software",
-    "section": "Analyzing Bacterial Swimming Behavior",
-    "text": "Analyzing Bacterial Swimming Behavior\nPython · Jonas Cremer · 2019\nTools for quantifying individual bacterial swimming trajectories and run-tumble statistics from microscopy data.\n→ GitHub"
-  },
-  {
-    "objectID": "software.html#modeling-growth-of-human-gut-microbiota",
-    "href": "software.html#modeling-growth-of-human-gut-microbiota",
-    "title": "Software",
-    "section": "Modeling Growth of Human Gut Microbiota",
-    "text": "Modeling Growth of Human Gut Microbiota\nPython · Jonas Cremer · 2019\nMathematical models linking bacterial physiology, flow, and nutrient gradients to microbiota composition in the human gut.\n→ GitHub"
+    "text": "&lt;div class=\"resource-title\"&gt;hplc-py&lt;/div&gt;\n&lt;div class=\"resource-meta\"&gt;Python · 2024&lt;/div&gt;\n&lt;div class=\"resource-desc\"&gt;A Python package for rapid, automated peak quantification in complex chromatograms. Designed for high-throughput analysis of HPLC data in microbial physiology experiments.&lt;/div&gt;\n&lt;div class=\"resource-links\"&gt;&lt;a href=\"https://github.com/cremerlab/hplc-py\"&gt;GitHub&lt;/a&gt; · &lt;a href=\"https://cremerlab.github.io/hplc-py/\"&gt;Project site&lt;/a&gt;&lt;/div&gt;\n\n\n\n\n\n\n\n&lt;div class=\"resource-title\"&gt;Optimal Allocation and Flux Parity Model&lt;/div&gt;\n&lt;div class=\"resource-meta\"&gt;Python · 2022&lt;/div&gt;\n&lt;div class=\"resource-desc\"&gt;Code and analysis for the flux parity model of optimal resource allocation in microbial growth.&lt;/div&gt;\n&lt;div class=\"resource-links\"&gt;&lt;a href=\"https://github.com/cremerlab/flux_parity\"&gt;GitHub&lt;/a&gt; · &lt;a href=\"https://cremerlab.github.io/flux_parity/\"&gt;Project site&lt;/a&gt;&lt;/div&gt;\n\n\n\n\n\n\n\n&lt;div class=\"resource-title\"&gt;Collective Movement by Chemotaxis&lt;/div&gt;\n&lt;div class=\"resource-meta\"&gt;Python · 2019&lt;/div&gt;\n&lt;div class=\"resource-desc\"&gt;Simulations and analysis of collective bacterial range expansion driven by chemotaxis.&lt;/div&gt;\n&lt;div class=\"resource-links\"&gt;&lt;a href=\"https://github.com/cremerlab/chemotaxis_range_expansion\"&gt;GitHub&lt;/a&gt;&lt;/div&gt;\n\n\n\n\n\n\n\n&lt;div class=\"resource-title\"&gt;Analyzing Bacterial Swimming Behavior&lt;/div&gt;\n&lt;div class=\"resource-meta\"&gt;Python · 2019&lt;/div&gt;\n&lt;div class=\"resource-desc\"&gt;Tools for quantifying individual bacterial swimming trajectories and run-tumble statistics from microscopy data.&lt;/div&gt;\n&lt;div class=\"resource-links\"&gt;&lt;a href=\"https://github.com/cremerlab/bacterial_swimming\"&gt;GitHub&lt;/a&gt;&lt;/div&gt;\n\n\n\n\n\n\n\n&lt;div class=\"resource-title\"&gt;Modeling Growth of Human Gut Microbiota&lt;/div&gt;\n&lt;div class=\"resource-meta\"&gt;Python · 2019&lt;/div&gt;\n&lt;div class=\"resource-desc\"&gt;Mathematical models linking bacterial physiology, flow, and nutrient gradients to microbiota composition in the human gut.&lt;/div&gt;\n&lt;div class=\"resource-links\"&gt;&lt;a href=\"https://github.com/cremerlab/gut_microbiota_growth\"&gt;GitHub&lt;/a&gt;&lt;/div&gt;"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Laboratory of Quantitative Microbial Physiology",
     "section": "",
-    "text": "Jonas Cremer · Stanford University · Department of Biology\n  \n    We combine experimentation, data analysis, and mathematical modeling to\n    understand how microbial cells grow, adapt, and shape their environments —\n    from metabolism and individual cells to the gut microbiome and the human host.\n  \n  \n    Our Research\n    Meet the Team\n    Publications"
+    "text": "Jonas Cremer · Stanford University · Department of Biology\n  \n    We combine experimentation, data analysis, and mathematical modeling to\n    understand how microbial cells grow and adapt across environments —\n    from the molecular machinery of individual cells to the dynamics of the gut microbiome\n    and its impact on the human host.\n  \n  \n    Our Research\n    Meet the Team\n    Publications"
   },
   {
     "objectID": "index.html#recent-news",
@@ -123,7 +88,7 @@
     "href": "index.html#research-themes",
     "title": "Laboratory of Quantitative Microbial Physiology",
     "section": "Research Themes",
-    "text": "Research Themes\nMicrobial cell physiology How do cells coordinate growth across thousands of processes? We study the essential principles of microbial physiology in E. coli.\nPhysiology–ecology–evolution How do cell-physiological constraints shape adaptation and evolution in complex environments?\nHuman gut microbiota How do microbial physiology and intestinal conditions jointly determine gut microbiome composition and function?\n→ Learn more about our research"
+    "text": "Research Themes\nHuman gut microbiota How do bacterial metabolism, diet, and intestinal physiology jointly shape the gut microbiome and its chemical exchanges with the human host?\nMicrobial cell physiology How do cells coordinate growth across thousands of molecular processes? We study the essential principles of microbial physiology in E. coli.\nPhysiology–ecology–evolution How do cell-physiological constraints shape ecological adaptation and determine what a species fundamentally is?\n→ Learn more about our research"
   },
   {
     "objectID": "contact.html#cremer-lab-stanford-university",
@@ -214,48 +179,48 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Admittedly, we are a bit obsessed with microbial growth. How do tiny microbial cells harbor thousands of enzymes and coordinate a myriad of processes to replicate and thrive? Can we find in a sea of complexity the essential principles which determine growth? We approach these fundamental questions of systems biology by tightly combining experiments across conditions with mathematical modeling and data analysis — mostly for Escherichia coli, this wonderfully studied model organism, but increasingly also for other microbes across biological domains."
-  },
-  {
-    "objectID": "research.html#microbial-cell-physiology",
-    "href": "research.html#microbial-cell-physiology",
-    "title": "Research",
-    "section": "",
-    "text": "Admittedly, we are a bit obsessed with microbial growth. How do tiny microbial cells harbor thousands of enzymes and coordinate a myriad of processes to replicate and thrive? Can we find in a sea of complexity the essential principles which determine growth? We approach these fundamental questions of systems biology by tightly combining experiments across conditions with mathematical modeling and data analysis — mostly for Escherichia coli, this wonderfully studied model organism, but increasingly also for other microbes across biological domains."
-  },
-  {
-    "objectID": "research.html#microbial-life-at-the-triangle-of-physiology-ecology-and-evolution",
-    "href": "research.html#microbial-life-at-the-triangle-of-physiology-ecology-and-evolution",
-    "title": "Research",
-    "section": "Microbial life at the triangle of physiology, ecology, and evolution",
-    "text": "Microbial life at the triangle of physiology, ecology, and evolution\nOur quantitative investigations also go well beyond the cellular level. Integrating ecological and evolutionary considerations, we explore how cell physiological constraints determine adaptation to specific environments and habitats.\n\n\n\nThe triangle of microbial life"
+    "text": "The human gut microbiota is a central focus of the lab. We connect fundamental principles of bacterial physiology with intestinal physiology, diet, and host metabolism to quantify the exchange of chemical fluxes between the microbiota and the human host. Towards a mechanistic understanding, we integrate in-vitro experimentation with mathematical modeling, linking bacterial metabolism, microbial population dynamics, and intestinal physiology. Building on these quantitative foundations, we investigate how the microbiome’s metabolic activities vary across individuals and health conditions — with the broader goal of mechanistically understanding the role of the microbiome in disease development and progression."
   },
   {
     "objectID": "research.html#the-human-gut-microbiota",
     "href": "research.html#the-human-gut-microbiota",
     "title": "Research",
-    "section": "The human gut microbiota",
-    "text": "The human gut microbiota\nWe further build on our cell-physiological understanding to better rationalize the composition of the human gut microbiota and its effect on host health. Towards a more mechanistic understanding, we follow quantitative approaches that combine in-vitro experimentation and mathematical modeling to link considerations of cell metabolism, microbial population dynamics, and intestinal physiology."
+    "section": "",
+    "text": "The human gut microbiota is a central focus of the lab. We connect fundamental principles of bacterial physiology with intestinal physiology, diet, and host metabolism to quantify the exchange of chemical fluxes between the microbiota and the human host. Towards a mechanistic understanding, we integrate in-vitro experimentation with mathematical modeling, linking bacterial metabolism, microbial population dynamics, and intestinal physiology. Building on these quantitative foundations, we investigate how the microbiome’s metabolic activities vary across individuals and health conditions — with the broader goal of mechanistically understanding the role of the microbiome in disease development and progression."
+  },
+  {
+    "objectID": "research.html#microbial-cell-physiology",
+    "href": "research.html#microbial-cell-physiology",
+    "title": "Research",
+    "section": "Microbial cell physiology",
+    "text": "Microbial cell physiology\nHow do microbial cells coordinate thousands of enzymes and molecular processes to grow and replicate? We seek the essential physiological principles governing microbial growth by combining quantitative experiments across conditions with mathematical modeling and data analysis — with Escherichia coli as our primary model organism, but increasingly also including other microbes across biological domains."
+  },
+  {
+    "objectID": "research.html#physiology-ecology-and-evolution",
+    "href": "research.html#physiology-ecology-and-evolution",
+    "title": "Research",
+    "section": "Physiology, ecology, and evolution",
+    "text": "Physiology, ecology, and evolution\nOur quantitative investigations extend well beyond the cellular level. Integrating ecological and evolutionary considerations, we explore how cell-physiological constraints shape adaptation to specific environments and habitats.\nA striking observation from our growth studies is that large fractions of the proteome are expressed at significant levels under standard laboratory conditions — even when not immediately required for growth. We refer to these as conditionally unutilized proteins, and we aim to understand their role in ecological adaptation. Are they a form of anticipatory preparedness, poised for rapid deployment when conditions shift? How does the expression of these proteins reflect the ecological niche of a species, and what does this tell us about the physiological identity of a species and its evolutionary history?\n\n\n\nThe triangle of microbial life"
   },
   {
     "objectID": "courses.html",
     "href": "courses.html",
     "title": "Courses",
     "section": "",
-    "text": "Current and previous teaching activities can also be found on Stanford ExploreCourses."
+    "text": "We are passionate about teaching quantitative biology and microbiology. All courses can also be found on the Stanford Course Explorer."
   },
   {
     "objectID": "courses.html#bio-165265-quantitative-approaches-in-modern-biology",
     "href": "courses.html#bio-165265-quantitative-approaches-in-modern-biology",
     "title": "Courses",
     "section": "BIO 165/265 — Quantitative Approaches in Modern Biology",
-    "text": "BIO 165/265 — Quantitative Approaches in Modern Biology\nWinter Quarter · Undergraduate (BIO 165) and Graduate (BIO 265)\nModern research approaches tightly integrate experimentation with data analysis and mathematical modeling to provide unprecedented insights into the organization and functioning of living systems. This course explores the quantitative basis of major cellular processes and their coordination to form a cohesive physiological entity capable of rapid growth and acclimation to changing environments. Weekly lectures are accompanied by dry-lab sessions in which students analyze experimental data sets and develop a fundamental skill set in quantitative biology — coding, dynamical systems modeling, and statistics.\n→ ExploreCourses"
+    "text": "BIO 165/265 — Quantitative Approaches in Modern Biology\nWinter Quarter · Undergraduate (BIO 165) and Graduate (BIO 265)\nModern research approaches tightly integrate experimentation with data analysis and mathematical modeling to provide unprecedented insights into the organization and functioning of living systems. This course explores the quantitative basis of major cellular processes and their coordination to form a cohesive physiological entity capable of rapid growth and acclimation to changing environments. Weekly lectures are accompanied by dry-lab sessions in which students analyze experimental data sets and develop a fundamental skill set in quantitative biology — coding, dynamical systems modeling, and statistics.\n→ Stanford Course Explorer"
   },
   {
     "objectID": "courses.html#bio-120220-integrative-and-experimental-microbiology",
     "href": "courses.html#bio-120220-integrative-and-experimental-microbiology",
     "title": "Courses",
     "section": "BIO 120/220 — Integrative and Experimental Microbiology",
-    "text": "BIO 120/220 — Integrative and Experimental Microbiology\nSpring Quarter · Undergraduate (BIO 120) and Graduate (BIO 220)\nTo survive, grow, and reproduce, organisms coordinate different molecular processes to use available resources and cope with environmental conditions. This laboratory course explores molecular and cellular integration in bacteria. Experiments include the quantification of growth, mutational screens and mutant analysis, gene cloning, and measuring/engineering gene expression. These wet-lab approaches are combined with dry-lab approaches to analyze experimental findings and explore the link between molecular processes, cell physiology, and ecology.\n→ ExploreCourses"
+    "text": "BIO 120/220 — Integrative and Experimental Microbiology\nSpring Quarter · Undergraduate (BIO 120) and Graduate (BIO 220)\nTo survive, grow, and reproduce, organisms coordinate different molecular processes to use available resources and cope with environmental conditions. This laboratory course explores molecular and cellular integration in bacteria. Experiments include the quantification of growth, mutational screens and mutant analysis, gene cloning, and measuring/engineering gene expression. These wet-lab approaches are combined with dry-lab approaches to analyze experimental findings and explore the link between molecular processes, cell physiology, and ecology.\n→ Stanford Course Explorer"
   }
 ]
