@@ -1,0 +1,77 @@
+---
+title: ""
+page-layout: full
+toc: false
+---
+
+```{=html}
+<div class="hero-banner">
+  <p class="hero-description">
+    We combine experimentation, data analysis, and mathematical modeling to unravel
+    the eco-physiology of microbes — from individual cells to the gut microbiome
+    and its impact on the human host.
+  </p>
+  <div class="hero-buttons">
+    <a href="research.qmd" class="btn btn-light btn-lg">Our Research</a>
+    <a href="people.qmd" class="btn btn-outline-light btn-lg">Meet the Team</a>
+    <a href="publications.qmd" class="btn btn-outline-light btn-lg">Publications</a>
+  </div>
+</div>
+
+<div class="hiring-banner">
+  <strong>Join us!</strong> Open postdoc positions in
+  <em>Quantitative flux analyses in the human gut</em> and
+  <em>Physiological principles of growth</em>.
+  <a href="join.html">Learn more →</a>
+</div>
+```
+
+::: {.container .mt-4}
+::: {.row}
+::: {.col-lg-7}
+
+## Recent News
+
+```{python}
+#| echo: false
+#| output: asis
+
+import pandas as pd
+import re
+
+df = pd.read_csv("data/news.csv", dtype=str).fillna("").sort_values("date", ascending=False)
+
+def md_inline(text):
+    text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
+    text = re.sub(r'\*(.+?)\*', r'<em>\1</em>', text)
+    return text
+
+for _, row in df.iterrows():
+    link_html = ""
+    if row["link"] and row["link_text"]:
+        link_html = f' <a href="{row["link"]}">{row["link_text"]} →</a>'
+    print(f"""<div class="news-item">
+  <span class="news-date">{row['date']}</span>
+  <span class="news-text">{md_inline(row['text'])}{link_html}</span>
+</div>""")
+```
+
+:::
+::: {.col-lg-5}
+
+## Research Themes
+
+**Human gut microbiota**
+How do bacterial metabolism, diet, and intestinal physiology jointly shape the gut microbiome and its chemical exchanges with the human host?
+
+**Microbial cell physiology**
+How do cells coordinate growth across thousands of molecular processes? We study the essential principles of microbial physiology in *E. coli*.
+
+**Physiology–ecology–evolution**
+How do cell-physiological constraints shape ecological adaptation and determine what a species fundamentally is?
+
+[→ Learn more about our research](research.qmd)
+
+:::
+:::
+:::

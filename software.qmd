@@ -1,0 +1,38 @@
+---
+title: "Tools & Code"
+subtitle: "Open source tools and code developed in the Cremer Lab."
+---
+
+```{python}
+#| echo: false
+
+import pandas as pd
+from IPython.display import HTML, display
+
+df = pd.read_csv("data/software.csv", dtype=str).fillna("")
+
+parts = []
+for _, row in df.iterrows():
+    links = []
+    if row["github"]:
+        links.append(f'<a href="{row["github"]}">GitHub</a>')
+    if row["website"]:
+        links.append(f'<a href="{row["website"]}">Project site</a>')
+    link_str = " · ".join(links)
+
+    img = row["image"].strip()
+    img_tag = f'<img src="images/{img}" alt="{row["title"]}">' \
+              if img else '<img src="images/tools_and_code/placeholder.svg" alt="">'
+
+    parts.append(f"""<div class="resource-item">
+  <div class="resource-thumb">{img_tag}</div>
+  <div class="resource-content">
+    <div class="resource-title">{row['title']}</div>
+    <div class="resource-meta">{row['language']} · {row['year']}</div>
+    <div class="resource-desc">{row['description']}</div>
+    <div class="resource-links">{link_str}</div>
+  </div>
+</div>""")
+
+display(HTML("\n".join(parts)))
+```

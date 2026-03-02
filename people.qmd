@@ -1,0 +1,128 @@
+---
+title: "People"
+subtitle: "The Cremer Lab at Stanford University"
+---
+
+```{=html}
+<div id="bio-modal" class="bio-modal-overlay" onclick="closeBioModal(event)">
+  <div class="bio-modal-box">
+    <button class="bio-modal-close" onclick="document.getElementById('bio-modal').style.display='none'">&times;</button>
+    <div class="bio-modal-name" id="bio-modal-name"></div>
+    <div class="bio-modal-title" id="bio-modal-title"></div>
+    <div class="bio-modal-text" id="bio-modal-text"></div>
+  </div>
+</div>
+
+<script>
+function openBio(btn) {
+  document.getElementById('bio-modal-name').textContent  = btn.dataset.name;
+  document.getElementById('bio-modal-title').textContent = btn.dataset.title;
+  document.getElementById('bio-modal-text').textContent  = btn.dataset.bio;
+  document.getElementById('bio-modal').style.display = 'flex';
+}
+function closeBioModal(e) {
+  if (e.target.id === 'bio-modal') document.getElementById('bio-modal').style.display = 'none';
+}
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') document.getElementById('bio-modal').style.display = 'none';
+});
+</script>
+```
+
+```{python}
+#| echo: false
+#| output: asis
+
+import pandas as pd
+import re
+import html
+
+df = pd.read_csv("data/people.csv", dtype=str).fillna("")
+
+def year_left(dates):
+    years = re.findall(r'\b\d{4}\b', dates)
+    return years[-1] if years else ""
+
+_all     = df[df["alumni"] != "true"].copy()
+_jonas   = _all[_all["name"] == "Jonas Cremer"]
+_others  = _all[_all["name"] != "Jonas Cremer"].copy()
+_others["_last"] = _others["name"].str.split().str[-1]
+_others  = _others.sort_values("_last").drop(columns="_last")
+current  = pd.concat([_jonas, _others], ignore_index=True)
+
+_alumni  = df[df["alumni"] == "true"].copy()
+_alumni["_year"] = _alumni["dates"].apply(year_left)
+alumni   = _alumni.sort_values("_year", ascending=False).drop(columns="_year")
+
+SOCIAL_ICONS = [
+    ("email",   "envelope",         "mailto:"),
+    ("twitter", "twitter",          ""),
+    ("bluesky", "cloud",            ""),
+    ("website", "globe",            ""),
+    ("orcid",   "person-badge",     ""),
+    ("scholar", "mortarboard-fill", ""),
+    ("github",  "github",           ""),
+]
+
+def social_icons(row):
+    parts = []
+    for key, icon, prefix in SOCIAL_ICONS:
+        val = row.get(key, "")
+        if val:
+            url = prefix + val if key == "email" else val
+            label = key.capitalize()
+            parts.append(f'<a href="{url}" title="{label}" target="_blank"><i class="bi bi-{icon}"></i></a>')
+    return "".join(parts)
+
+# ── Current members grid ──────────────────────────────────────────────────────
+print('<div class="people-grid">')
+for _, row in current.iterrows():
+    img = row["image"].strip()
+    bio = row["bio"].strip()
+
+    if bio:
+        click_attrs = (
+            f' onclick="openBio(this)"'
+            f' data-name="{html.escape(row["name"])}"'
+            f' data-title="{html.escape(row["title"])}"'
+            f' data-bio="{html.escape(bio)}"'
+            f' style="cursor:pointer"'
+        )
+    else:
+        click_attrs = ""
+
+    if img:
+        img_tag = f'<img src="images/members/{img}" alt="{html.escape(row["name"])}" onerror="this.src=\'images/members/placeholder.svg\'"{click_attrs}>'
+    else:
+        img_tag = f'<img src="images/members/placeholder.svg" alt="Portrait coming soon"{click_attrs}>'
+
+    bio_btn = ""
+    if bio:
+        bio_btn = (
+            f'<button class="bio-toggle" onclick="openBio(this)"'
+            f' data-name="{html.escape(row["name"])}"'
+            f' data-title="{html.escape(row["title"])}"'
+            f' data-bio="{html.escape(bio)}">About</button>'
+        )
+
+    print(f"""
+<div class="person-card">
+  {img_tag}
+  <div class="person-name">{row['name']}</div>
+  <div class="person-title">{row['title']}</div>
+  <div class="person-socials">{social_icons(row)}</div>
+  {bio_btn}
+</div>""")
+print("</div>")
+
+# ── Alumni table ──────────────────────────────────────────────────────────────
+print("\n---\n\n## Alumni\n")
+print('<table class="alumni-table">')
+print("<thead><tr><th>Name</th><th>Role</th><th>Year</th><th>Now</th></tr></thead><tbody>")
+for _, row in alumni.iterrows():
+    now      = row.get("now", "")
+    now_link = row.get("now_link", "")
+    now_text = f'<a href="{now_link}" target="_blank">{now}</a>' if now_link and now else now
+    print(f"<tr><td><strong>{row['name']}</strong></td><td>{row['title']}</td><td>{year_left(row['dates'])}</td><td>{now_text}</td></tr>")
+print("</tbody></table>")
+```

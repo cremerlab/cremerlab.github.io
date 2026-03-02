@@ -1,0 +1,40 @@
+---
+title: "Contact"
+---
+
+```{=html}
+<div class="contact-banner">
+  <img src="images/clark_center_banner.jpg" alt="Clark Center, Stanford University">
+</div>
+```
+
+## Cremer Lab · Stanford University
+
+**Jonas Cremer**
+Assistant Professor, Department of Biology
+Stanford University
+
+**Email:** [jonas.cremer@stanford.edu](mailto:jonas.cremer@stanford.edu)
+
+**GitHub:** [github.com/cremerlab](https://github.com/cremerlab)
+
+---
+
+## Location
+
+You can find us on the 3rd floor of the Clark Center, West Wing. Enter through door W3.3.
+
+## Address
+
+Need to send us something? Please address as follows:
+
+```
+Jonas Cremer
+Assistant Professor
+Department of Biology
+Clark Center
+318 Campus Drive
+Rooms W3.3/W300B
+Stanford, CA
+94305
+```

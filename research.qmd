@@ -1,0 +1,113 @@
+---
+title: "Research"
+subtitle: "From the function of individual microbial cells to the gut microbiome and its interaction with the human host, below we summarize our research."
+---
+
+```{python}
+#| echo: false
+
+from IPython.display import HTML, display
+import pandas as pd
+import html as htmllib
+
+df = pd.read_csv("data/research_highlights.csv", dtype=str).fillna("")
+
+def doi_url(doi):
+    doi = doi.strip()
+    return doi if doi.startswith("http") else f"https://doi.org/{doi}"
+
+SECTIONS = [
+    {
+        "id": "gut",
+        "title": "The human gut microbiota",
+        "float": "left",
+        "image": "images/tools_and_code/fermentation_products.jpg",
+        "text": (
+            "The human gut microbiota is a central focus of the lab. We connect fundamental principles of "
+            "bacterial physiology with intestinal physiology, diet, and host metabolism to quantify the exchange "
+            "of chemical fluxes between the microbiota and the human host. Towards a mechanistic understanding, "
+            "we tightly integrate in-vitro experimentation with mathematical modeling and the "
+            "analysis of food intake and digestion. Building on these quantitative foundations, we investigate "
+            "how the microbiome's metabolic activities vary across individuals and health conditions, aiming to "
+            "reveal the mechanistic role of the microbiome in disease development and progression."
+        ),
+    },
+    {
+        "id": "physiology",
+        "title": "Microbial cell physiology",
+        "float": "right",
+        "image": "images/tools_and_code/envelope_proteome_partitioning.png",
+        "text": (
+            "How do microbial cells coordinate thousands of enzymes and molecular processes to grow and "
+            "replicate? We seek the essential physiological principles governing microbial growth by combining "
+            "controlled culturing experiments across conditions with omics approaches, including proteomics "
+            "and transcriptomics, and mathematical modeling. To generate biological insights into growth, we "
+            "use low-dimensional modeling approaches building on and expanding the idea of resource allocation. "
+            "We work primarily with <em>E. coli</em>, but increasingly also include other "
+            "microbes across biological domains."
+        ),
+    },
+    {
+        "id": "evolution",
+        "title": "Physiology, ecology, and evolution",
+        "float": "left",
+        "image": "images/research/microbial_life_triangle.png",
+        "text": (
+            "Incorporating ecological and evolutionary considerations with our physiological studies, we explore "
+            "how fundamental cell-physiological constraints shape adaptation to specific environments and habitats. "
+            "For example, systematic omics studies have revealed that large fractions of the proteome account for "
+            "proteins not immediately required for growth in probed conditions. We aim to understand the role of "
+            "these conditionally unutilized proteins, how they shape growth and how they reflect ecological "
+            "adaptation. Are they part of an anticipatory adaptation strategy, poised for rapid deployment when "
+            "conditions shift? How does the expression of these proteins reflect the ecological niche of a species, "
+            "and what does this tell us about the physiological identity of a species and its evolutionary history?"
+        ),
+    },
+]
+
+parts = []
+for section in SECTIONS:
+    theme_papers = df[df["theme"] == section["id"]]
+
+    # Build expandable papers
+    papers_html = ""
+    if not theme_papers.empty:
+        paper_items = []
+        for _, p in theme_papers.iterrows():
+            doi_link = (
+                f'<a href="{doi_url(p["doi"])}" target="_blank">DOI</a>'
+                if p["doi"] else ""
+            )
+            paper_items.append(f"""<details class="research-paper">
+  <summary>{htmllib.escape(p["title"])} <span class="paper-year">({p["year"]})</span></summary>
+  <div class="research-paper-body">
+    <div class="research-paper-authors">{htmllib.escape(p["authors"])}</div>
+    <div class="research-paper-journal"><em>{htmllib.escape(p["journal"])}</em></div>
+    <div class="research-paper-abstract">{htmllib.escape(p["abstract"])}</div>
+    {doi_link}
+  </div>
+</details>""")
+        papers_html = (
+            '<div class="research-papers-area">'
+            '<div class="research-papers-label">Recent work</div>'
+            + "".join(paper_items)
+            + "</div>"
+        )
+
+    float_class = f'research-float-{section["float"]}'
+    img_html = (
+        f'<img class="{float_class}" src="{section["image"]}" alt="{htmllib.escape(section["title"])}">'
+        if section.get("image") else ""
+    )
+
+    parts.append(
+        f'<div class="research-section">'
+        f'{img_html}'
+        f'<h2>{section["title"]}</h2>'
+        f'<p>{section["text"]}</p>'
+        f'{papers_html}'
+        f'</div>'
+    )
+
+display(HTML("\n".join(parts)))
+```

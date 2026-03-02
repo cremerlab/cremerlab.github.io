@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <!-- Background -->
+  <rect width="160" height="160" rx="8" fill="#f4f7fa" stroke="#e0e0e0" stroke-width="1.5"/>
+  <!-- Terminal window frame -->
+  <rect x="18" y="30" width="124" height="100" rx="6" fill="#e8edf2"/>
+  <!-- Title bar -->
+  <rect x="18" y="30" width="124" height="22" rx="6" fill="#c5d0dc"/>
+  <rect x="18" y="44" width="124" height="8" fill="#c5d0dc"/>
+  <!-- Window dots -->
+  <circle cx="34" cy="41" r="5" fill="#ffffff" opacity="0.7"/>
+  <circle cx="50" cy="41" r="5" fill="#ffffff" opacity="0.7"/>
+  <circle cx="66" cy="41" r="5" fill="#ffffff" opacity="0.7"/>
+  <!-- Code lines -->
+  <rect x="28" y="62" width="50" height="5" rx="2.5" fill="#2a6496" opacity="0.55"/>
+  <rect x="28" y="75" width="84" height="5" rx="2.5" fill="#2a6496" opacity="0.35"/>
+  <rect x="36" y="88" width="36" height="5" rx="2.5" fill="#2a6496" opacity="0.55"/>
+  <rect x="36" y="101" width="64" height="5" rx="2.5" fill="#2a6496" opacity="0.35"/>
+  <rect x="28" y="114" width="72" height="5" rx="2.5" fill="#2a6496" opacity="0.45"/>
+</svg>

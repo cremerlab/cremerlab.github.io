@@ -1,0 +1,65 @@
+---
+title: "Publications"
+subtitle: "Publications from Jonas Cremer and the Cremer Lab. For a complete list, see [ORCID](https://orcid.org/0000-0003-2328-5152)."
+---
+
+```{python}
+#| echo: false
+#| output: asis
+
+import pandas as pd
+import numpy as np
+
+df = pd.read_csv("data/publications.csv", dtype=str).fillna("")
+
+def doi_url(doi):
+    """Normalize DOI to a full URL."""
+    if not doi:
+        return ""
+    doi = doi.strip()
+    if doi.startswith("http"):
+        return doi
+    return f"https://doi.org/{doi}"
+
+def render_links(row):
+    links = []
+    if row["doi"]:
+        links.append(f'<a href="{doi_url(row["doi"])}">DOI</a>')
+    if row["preprint"]:
+        links.append(f'<a href="{doi_url(row["preprint"])}">Preprint</a>')
+    if row["github"]:
+        links.append(f'<a href="{row["github"]}">Code</a>')
+    if row["paper_website"]:
+        links.append(f'<a href="{row["paper_website"]}">Project</a>')
+    return " ".join(links)
+
+def render_journal_info(row):
+    parts = [f"<em>{row['journal']}</em>"]
+    if row["volume"]:
+        parts.append(row["volume"])
+    if row["issue"]:
+        parts.append(row["issue"])
+    if row["page"]:
+        parts.append(f"p.{row['page']}")
+    return ", ".join(parts)
+
+# Sort by year descending
+df["year"] = df["year"].astype(int)
+df = df.sort_values("year", ascending=False)
+
+for year, group in df.groupby("year", sort=False):
+    print(f'\n<div class="pub-year-header">{year}</div>\n')
+    for _, row in group.iterrows():
+        links = render_links(row)
+        journal_info = render_journal_info(row)
+        note_html = f'<div class="pub-note">{row["notes"]}</div>' if row["notes"] else ""
+        print(f"""
+<div class="pub-entry">
+  <div class="pub-title">{row['title']}</div>
+  <div class="pub-authors">{row['authors']}</div>
+  <div class="pub-journal">{journal_info}</div>
+  <div class="pub-links">{links}</div>
+  {note_html}
+</div>
+""")
+```

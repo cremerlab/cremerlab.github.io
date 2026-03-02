@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Cremer Lab"
+  site-url: "https://cremerlab.github.io"
+  description: "Laboratory of Quantitative Microbial Physiology — Jonas Cremer lab at Stanford University"
+  favicon: images/favicon.png
+
+  navbar:
+    left:
+      - text: "Research"
+        href: research.qmd
+      - text: "People"
+        href: people.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Tools & Code"
+        href: software.qmd
+      - text: "Courses"
+        href: courses.qmd
+      - text: "Join"
+        href: join.qmd
+      - text: "Lab Values"
+        href: lab-values.qmd
+      - text: "Contact"
+        href: contact.qmd
+    right:
+      - icon: github
+        href: https://github.com/cremerlab
+        aria-label: GitHub
+
+  page-footer:
+    background: "#ffffff"
+    border: true
+    left: "<div class='footer-lab-name'>Cremer Lab</div><div class='footer-lab-subtitle'>Quantitative Microbial Physiology</div>"
+    center: "<a href='https://biology.stanford.edu' class='footer-logo-link'><img src='images/logos/stanford_biology.png' height='75' alt='Stanford Biology' class='footer-logo'></a><span style='display:inline-block;width:3rem'></span><a href='https://biox.stanford.edu' class='footer-logo-link'><img src='images/logos/bio-x.png' height='75' alt='Stanford Bio-X' class='footer-logo'></a>"
+    right:
+      - icon: github
+        href: https://github.com/cremerlab
+        aria-label: GitHub
+
+format:
+  html:
+    theme:
+      - flatly
+      - styles.scss
+    toc: false
+    link-external-newwindow: true
+
+execute:
+  freeze: false

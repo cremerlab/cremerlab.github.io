@@ -1,0 +1,20 @@
+---
+title: "Lab Community"
+subtitle: "Science can be a truly inspiring process, particularly when working together in an interdisciplinary team. These guidelines and best practices were jointly formulated by Jonas and all lab members to help us thrive as scientists and support each other."
+---
+
+**We foster an inclusive research environment.** We are committed to building a lab that is welcoming to all, regardless of ethnic, socioeconomic, gender, or sexual orientation background. If you ever have concerns, Jonas is always available to discuss them directly; reports of harassment can also be directed to the biology department's reporting channels.
+
+**We keep life and work in a healthy balance.** The health and wellbeing of lab members is our top priority. There is no expectation of evening or weekend work, nor of prompt replies to Slack or email outside of working hours. If you ever feel overwhelmed — by workload, personal circumstances, or anything else — please speak with Jonas. We want everyone to thrive both inside and outside the lab.
+
+**We respect the intellectual work of other lab members.** Open exchange of ideas is one of the great joys of science. Collaborative projects require active, ongoing discussion around contributions, authorship, and attribution. We make these conversations explicit and early rather than leaving them for later.
+
+**We discuss openly but always respect our co-scientists.** Ideas should be freely raised and challenged on scientific grounds. We maintain a culture of intellectual honesty and directness while always treating colleagues with respect, regardless of experience level or place in the lab hierarchy.
+
+**Safety first.** The lab operates at BSL-2. All safety procedures must be followed at all times. Communicate any doubts or concerns about safety practices to Jonas or the lab safety officer — there is no such thing as a trivial safety question.
+
+**We jointly contribute to keeping the lab well-maintained.** Everyone shares responsibility for chemicals, consumables, equipment, and waste. Participation in at least one annual lab cleaning day is expected from all members.
+
+**We respect each other's experimental workspace.** A strict rule: personal bench space, chemical stocks, and pipettes must not be used without prior permission from the owner. When in doubt, ask.
+
+**We promote open science.** Manuscripts and data should be made openly available wherever possible — via preprint servers, GitHub, and data repositories. Raw data storage approaches are documented on the lab Wiki. Openness and reproducibility are values, not afterthoughts.

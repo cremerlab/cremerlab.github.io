@@ -1,0 +1,44 @@
+---
+title: "Join the Lab"
+subtitle: "We are looking for creative, driven scientists who enjoy tackling challenging quantitative problems in microbiology."
+---
+
+## Open Positions
+
+::: {.callout-tip icon=false}
+### Postdoctoral Scholar — Quantitative Flux Analyses in the Human Gut
+
+We are looking for a postdoctoral scholar with a strong background in physics, mathematics, or a related quantitative discipline to lead our efforts on flux analyses in the human gut microbiota. The goal is the development of novel mathematical models that reveal how the interplay between bacterial metabolism, diet, and intestinal physiology shapes the exchange of chemical fluxes between the gut microbiota and the human host. Depending on interest, the position can also involve experimental work building on our HPLC and anaerobic culturing techniques.
+
+Please contact Jonas with a CV and a brief description of your research interests.
+:::
+
+::: {.callout-tip icon=false}
+### Postdoctoral Scholar — Principles of Bacterial Growth Physiology and Metabolism
+
+We are looking for a postdoctoral scholar to reveal physiological and regulatory principles connecting metabolism, growth, proteome allocation, and the envelope proteome. The work centers on quantitative culturing approaches and the integration of compositional, rate, and regulatory measurements across conditions. Previous experience in microbiology, biophysics, or quantitative biology is required.
+
+Please contact Jonas with a CV and a brief description of your research interests.
+:::
+
+---
+
+## Postdocs
+
+We are always interested in hearing from exceptional postdoctoral candidates. In addition to the open positions above, feel free to reach out if our research directions resonate with your interests — we are happy to discuss potential projects and funding options.
+
+## Graduate Students
+
+Not yet at Stanford? Consider applying to the [Biology graduate program](https://biology.stanford.edu/academics/phd-program), the [Biophysics program](https://biophysics.stanford.edu), or any other Bio Sciences graduate program at Stanford. Please feel free to reach out to Jonas — we are always happy to connect with prospective students.
+
+If you are currently enrolled at Stanford and interested in doing a rotation in our lab, please contact Jonas to schedule a meeting. We love to hear about your scientific ideas and research interests.
+
+We have experimental projects available in microbiology and microbiota research — from fundamental questions of bacterial physiology to more biomedical questions. Experimentally, we focus on the quantitative culturing of bacteria, integrating bioreactors, microscopy, HPLC, and mathematical modeling.
+
+## Undergraduate Students
+
+We participate in the [Bio-X undergraduate summer research program](https://biox.stanford.edu/research/undergraduate-research) and [BSURP](https://biology.stanford.edu/academics/undergraduate-program/doing-research/biology-summer-undergraduate-research-program-bsurp). We encourage you to reach out to Jonas — your scientific curiosity and enthusiasm are what matter most.
+
+## Lab Community
+
+To learn more about our commitment to building an inclusive and collaborative lab environment, please read our [lab values and community guidelines](lab-values.qmd).

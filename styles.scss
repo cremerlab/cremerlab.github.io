@@ -1,0 +1,580 @@
+/*-- scss:defaults --*/
+
+// Colors — adjust these to taste
+$primary:       #2a6496;   // deep blue, used for links and accents
+$navbar-bg:     #1a3a4a;   // dark teal navbar
+$navbar-fg:     #ffffff;
+$body-bg:       #ffffff;
+$body-color:    #2d2d2d;
+$headings-color:#1a3a4a;
+
+// Typography
+$font-family-sans-serif: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+$headings-font-weight: 600;
+
+/*-- scss:rules --*/
+
+// ── Navbar ────────────────────────────────────────────────────────────────────
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: 0.02em;
+}
+
+// ── Hero / landing banner ─────────────────────────────────────────────────────
+.hero-banner {
+  background: linear-gradient(135deg, #1a3a4a 0%, #2a6496 100%);
+  color: #fff;
+  padding: 5rem 2rem 4rem;
+  text-align: center;
+
+  h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 0.15rem;
+    color: #fff;
+  }
+
+  .hero-subtitle {
+    font-size: 1.05rem;
+    opacity: 0.8;
+    margin-bottom: 1.8rem;
+  }
+
+  .hero-description {
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    opacity: 0.92;
+  }
+
+  .hero-buttons .btn {
+    margin: 0.25rem;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+}
+
+// ── Hiring banner ─────────────────────────────────────────────────────────────
+.hiring-banner {
+  background: #fff8e1;
+  border-left: 4px solid #f0a500;
+  padding: 0.85rem 1.5rem;
+  font-size: 0.97rem;
+  text-align: center;
+
+  a { color: $primary; font-weight: 600; }
+}
+
+// ── News section ──────────────────────────────────────────────────────────────
+.news-section {
+  padding: 3rem 0 2rem;
+
+  h2 {
+    font-size: 1.6rem;
+    border-bottom: 2px solid $primary;
+    padding-bottom: 0.4rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.news-item {
+  display: flex;
+  gap: 1.2rem;
+  margin-bottom: 1rem;
+  align-items: flex-start;
+
+  .news-date {
+    min-width: 100px;
+    color: #888;
+    font-size: 0.88rem;
+    padding-top: 0.1rem;
+  }
+
+  .news-text {
+    font-size: 0.97rem;
+    line-height: 1.5;
+  }
+}
+
+// ── People grid ───────────────────────────────────────────────────────────────
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.8rem;
+  margin: 2rem 0;
+}
+
+.person-card {
+  text-align: center;
+
+  img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #e8e8e8;
+    margin-bottom: 0.8rem;
+    transition: border-color 0.2s;
+  }
+
+  &:hover img {
+    border-color: $primary;
+  }
+
+  .person-name {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 0.15rem;
+    color: $headings-color;
+  }
+
+  .person-title {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 0.15rem;
+  }
+
+  .person-dates {
+    font-size: 0.8rem;
+    color: #999;
+    margin-bottom: 0.5rem;
+  }
+
+  .person-socials a {
+    color: #888;
+    margin: 0 0.2rem;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+
+    &:hover { color: $primary; }
+  }
+
+  .bio-toggle {
+    margin-top: 0.5rem;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: $primary;
+    background: none;
+    border: 1px solid $primary;
+    border-radius: 12px;
+    padding: 0.15rem 0.7rem;
+    cursor: pointer;
+    transition: all 0.2s;
+
+    &:hover {
+      background: $primary;
+      color: #fff;
+    }
+  }
+}
+
+// ── Bio modal overlay ─────────────────────────────────────────────────────────
+.bio-modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.bio-modal-box {
+  background: #fff;
+  border-radius: 10px;
+  padding: 2rem 2.2rem 1.8rem;
+  max-width: 520px;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+
+  .bio-modal-close {
+    position: absolute;
+    top: 0.7rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #888;
+    cursor: pointer;
+    line-height: 1;
+    &:hover { color: #333; }
+  }
+
+  .bio-modal-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: $headings-color;
+    margin-bottom: 0.15rem;
+  }
+
+  .bio-modal-title {
+    font-size: 0.88rem;
+    color: #777;
+    margin-bottom: 1rem;
+  }
+
+  .bio-modal-text {
+    font-size: 0.92rem;
+    line-height: 1.65;
+    color: #333;
+  }
+}
+
+// ── Publications ──────────────────────────────────────────────────────────────
+.pub-year-header {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: $headings-color;
+  border-bottom: 2px solid $primary;
+  padding-bottom: 0.3rem;
+  margin: 2.5rem 0 1rem;
+}
+
+.pub-entry {
+  margin-bottom: 1.2rem;
+  padding-left: 1rem;
+  border-left: 3px solid #e0e0e0;
+  transition: border-color 0.2s;
+
+  &:hover { border-left-color: $primary; }
+
+  .pub-title {
+    font-weight: 600;
+    font-size: 0.97rem;
+    margin-bottom: 0.2rem;
+    line-height: 1.4;
+  }
+
+  .pub-authors {
+    font-size: 0.88rem;
+    color: #555;
+    margin-bottom: 0.2rem;
+  }
+
+  .pub-journal {
+    font-size: 0.88rem;
+    color: #777;
+    margin-bottom: 0.35rem;
+    font-style: italic;
+  }
+
+  .pub-links a {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-right: 0.6rem;
+    text-decoration: none;
+    padding: 0.15rem 0.5rem;
+    border-radius: 3px;
+    background: #f0f4f8;
+    color: $primary;
+    transition: background 0.2s;
+
+    &:hover { background: darken(#f0f4f8, 8%); }
+  }
+
+  .pub-note {
+    font-size: 0.82rem;
+    color: #888;
+    margin-top: 0.3rem;
+    font-style: italic;
+  }
+}
+
+// ── Tools & Code resource items ───────────────────────────────────────────────
+.resource-item {
+  display: flex;
+  gap: 1.4rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e8e8e8;
+
+  &:last-child { border-bottom: none; }
+}
+
+.resource-thumb {
+  flex-shrink: 0;
+  width: 180px;
+  height: 180px;
+
+  img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    background: #f4f7fa;
+  }
+}
+
+.resource-content {
+  flex: 1;
+}
+
+.resource-title {
+  font-weight: 700;
+  font-size: 1rem;
+  color: $headings-color;
+  margin-bottom: 0.15rem;
+}
+
+.resource-meta {
+  font-size: 0.82rem;
+  color: #888;
+  margin-bottom: 0.4rem;
+}
+
+.resource-desc {
+  font-size: 0.92rem;
+  line-height: 1.55;
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+.resource-links {
+  font-size: 0.85rem;
+
+  a {
+    color: $primary;
+    font-weight: 600;
+    margin-right: 0.6rem;
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
+  }
+}
+
+// ── Alumni table ──────────────────────────────────────────────────────────────
+.alumni-table {
+  width: 100%;
+  font-size: 0.92rem;
+
+  td { padding: 0.5rem 0.75rem; vertical-align: top; }
+  tr:nth-child(even) td { background: #f9f9f9; }
+}
+
+// ── Contact page banner ───────────────────────────────────────────────────────
+.contact-banner {
+  width: 100%;
+  max-height: 280px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+}
+
+// ── Research sections (float image, text wraps, papers full-width) ────────────
+.research-section {
+  margin-bottom: 3.5rem;
+  padding-bottom: 3.5rem;
+
+  // clearfix so section expands around floated image
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+    color: $headings-color;
+    border-bottom: 3px solid #d0d5db;
+    padding-bottom: 0.3rem;
+  }
+
+  p {
+    font-size: 0.97rem;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 1rem;
+    text-align: justify;
+  }
+}
+
+.research-float-left {
+  float: left;
+  width: 300px;
+  height: auto;
+  margin: 0.25rem 2.2rem 1rem 0;
+  border-radius: 8px;
+  border: 3px solid #d0d5db;
+
+  @media (max-width: 768px) {
+    float: none;
+    width: 100%;
+    margin: 0 0 1.2rem;
+  }
+}
+
+.research-float-right {
+  float: right;
+  width: 300px;
+  height: auto;
+  margin: 0.25rem 0 1rem 2.2rem;
+  border-radius: 8px;
+  border: 3px solid #d0d5db;
+
+  @media (max-width: 768px) {
+    float: none;
+    width: 100%;
+    margin: 0 0 1.2rem;
+  }
+}
+
+// ── Expandable research papers ─────────────────────────────────────────────────
+.research-papers-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-top: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.research-papers-area {
+  clear: both;
+  padding-top: 0;
+}
+
+.research-papers-list {
+  margin-top: 0;
+}
+
+.research-paper {
+  border-left: 3px solid #e0e0e0;
+  padding-left: 0.85rem;
+  margin-bottom: 0.5rem;
+  transition: border-color 0.2s;
+
+  &[open] { border-left-color: $primary; }
+
+  summary {
+    cursor: pointer;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: $headings-color;
+    padding: 0.35rem 0.6rem;
+    margin-left: -0.6rem;
+    border-radius: 4px;
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    gap: 0.4rem;
+    transition: background 0.15s;
+
+    &:hover { background: #eef2f7; }
+    &::-webkit-details-marker { display: none; }
+
+    &::before {
+      content: "▶";
+      font-size: 0.6rem;
+      color: $primary;
+      flex-shrink: 0;
+      margin-top: 0.1em;
+      transition: transform 0.2s;
+    }
+  }
+
+  &[open] summary::before {
+    transform: rotate(90deg);
+  }
+
+  .paper-year {
+    font-weight: 400;
+    color: #999;
+    font-size: 0.82rem;
+  }
+}
+
+.research-paper-body {
+  padding: 0.5rem 0 0.6rem;
+  font-size: 0.87rem;
+
+  .research-paper-authors {
+    color: #555;
+    margin-bottom: 0.2rem;
+  }
+
+  .research-paper-journal {
+    color: #777;
+    margin-bottom: 0.5rem;
+  }
+
+  .research-paper-abstract {
+    line-height: 1.65;
+    color: #444;
+    margin-bottom: 0.6rem;
+  }
+
+  a {
+    color: $primary;
+    font-weight: 600;
+    font-size: 0.82rem;
+    text-decoration: none;
+    padding: 0.1rem 0.45rem;
+    background: #f0f4f8;
+    border-radius: 3px;
+
+    &:hover { background: darken(#f0f4f8, 8%); }
+  }
+}
+
+// ── Footer logos ──────────────────────────────────────────────────────────────
+.footer-logo-link {
+  display: inline-block;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+  line-height: 0;
+
+  &:hover { opacity: 1; }
+}
+
+.footer-logo {
+  display: block;
+  height: 75px;
+  width: auto;
+}
+
+.nav-footer {
+  border-top: 4px solid #9aa5b1 !important;
+  align-items: flex-start !important;
+
+  .bi-github {
+    font-size: 56px;
+    line-height: 1;
+  }
+
+  .footer-lab-name {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: $headings-color;
+    line-height: 1.1;
+  }
+
+  .footer-lab-subtitle {
+    font-size: 1.2rem;
+    color: #555;
+  }
+}
+
+// ── Section page headers ──────────────────────────────────────────────────────
+.page-header {
+  background: #f4f7fa;
+  padding: 2.5rem 0 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #e0e0e0;
+
+  h1 { color: $headings-color; margin-bottom: 0.4rem; }
+  .page-subtitle { color: #666; font-size: 1.05rem; }
+}

@@ -1,0 +1,22 @@
+---
+title: "Courses"
+subtitle: "Teaching at Stanford University"
+---
+
+## BIO 165/265 — Quantitative Approaches in Modern Biology
+
+*Winter Quarter · Undergraduate (BIO 165) and Graduate (BIO 265)*
+
+Modern research approaches tightly integrate experimentation with data analysis and mathematical modeling to provide unprecedented insights into the organization and functioning of living systems. This course explores the quantitative basis of major cellular processes and their coordination to form a cohesive physiological entity capable of rapid growth and acclimation to changing environments. Weekly lectures are accompanied by dry-lab sessions in which students analyze experimental data sets and develop a fundamental skill set in quantitative biology — coding, dynamical systems modeling, and statistics.
+
+[→ Stanford Course Explorer](https://explorecourses.stanford.edu/search?q=bio165)
+
+---
+
+## BIO 120/220 — Integrative and Experimental Microbiology
+
+*Spring Quarter · Undergraduate (BIO 120) and Graduate (BIO 220)*
+
+To survive, grow, and reproduce, organisms coordinate different molecular processes to use available resources and cope with environmental conditions. This laboratory course explores molecular and cellular integration in bacteria. Experiments include the quantification of growth, mutational screens and mutant analysis, gene cloning, and measuring/engineering gene expression. These wet-lab approaches are combined with dry-lab approaches to analyze experimental findings and explore the link between molecular processes, cell physiology, and ecology.
+
+[→ Stanford Course Explorer](https://explorecourses.stanford.edu/search?q=bio120)
