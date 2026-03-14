@@ -126,3 +126,25 @@ for _, row in alumni.iterrows():
     print(f"<tr><td><strong>{row['name']}</strong></td><td>{row['title']}</td><td>{year_left(row['dates'])}</td><td>{now_text}</td></tr>")
 print("</tbody></table>")
 ```
+
+---
+
+## Lab Life
+
+```{python}
+#| echo: false
+#| output: asis
+import glob, os
+
+photos = sorted(glob.glob("images/social/*"))
+photos = [p for p in photos if os.path.splitext(p)[1].lower() in {".jpg", ".jpeg", ".png", ".gif", ".webp"}]
+
+if photos:
+    print('<div class="social-gallery">')
+    for path in photos:
+        desc = os.path.splitext(os.path.basename(path))[0].replace("_", " ").title()
+        print(f'<a href="{path}" class="lightbox" data-gallery="lab-social" title="{desc}">')
+        print(f'  <img src="{path}" alt="{desc}" class="social-photo">')
+        print('</a>')
+    print('</div>')
+```

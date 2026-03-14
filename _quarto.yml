@@ -48,6 +48,7 @@ format:
       - styles.scss
     toc: false
     link-external-newwindow: true
+    lightbox: true
 
 execute:
   freeze: false
