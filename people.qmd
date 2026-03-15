@@ -115,6 +115,26 @@ for _, row in current.iterrows():
 </div>""")
 print("</div>")
 
+# ── Lab Life gallery ──────────────────────────────────────────────────────────
+import glob, os
+
+captions_df = pd.read_csv("data/social_photos.csv", dtype=str).fillna("")
+captions = dict(zip(captions_df["filename"], captions_df["caption"]))
+
+photos = sorted(glob.glob("images/social/*"))
+photos = [p for p in photos if os.path.splitext(p)[1].lower() in {".jpg", ".jpeg", ".png", ".gif", ".webp"}]
+
+if photos:
+    print("\n---\n\n## Lab Life\n")
+    print('<div class="social-gallery">')
+    for path in photos:
+        fname = os.path.basename(path)
+        desc = captions.get(fname, os.path.splitext(fname)[0].replace("_", " ").title())
+        print(f'<a href="{path}" class="lightbox" data-gallery="lab-social" title="{html.escape(desc)}">')
+        print(f'  <img src="{path}" alt="{html.escape(desc)}" class="social-photo">')
+        print('</a>')
+    print('</div>')
+
 # ── Alumni table ──────────────────────────────────────────────────────────────
 print("\n---\n\n## Alumni\n")
 print('<table class="alumni-table">')
@@ -125,26 +145,4 @@ for _, row in alumni.iterrows():
     now_text = f'<a href="{now_link}" target="_blank">{now}</a>' if now_link and now else now
     print(f"<tr><td><strong>{row['name']}</strong></td><td>{row['title']}</td><td>{year_left(row['dates'])}</td><td>{now_text}</td></tr>")
 print("</tbody></table>")
-```
-
----
-
-## Lab Life
-
-```{python}
-#| echo: false
-#| output: asis
-import glob, os
-
-photos = sorted(glob.glob("images/social/*"))
-photos = [p for p in photos if os.path.splitext(p)[1].lower() in {".jpg", ".jpeg", ".png", ".gif", ".webp"}]
-
-if photos:
-    print('<div class="social-gallery">')
-    for path in photos:
-        desc = os.path.splitext(os.path.basename(path))[0].replace("_", " ").title()
-        print(f'<a href="{path}" class="lightbox" data-gallery="lab-social" title="{desc}">')
-        print(f'  <img src="{path}" alt="{desc}" class="social-photo">')
-        print('</a>')
-    print('</div>')
 ```
