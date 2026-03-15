@@ -130,9 +130,12 @@ if photos:
     for path in photos:
         fname = os.path.basename(path)
         desc = captions.get(fname, os.path.splitext(fname)[0].replace("_", " ").title())
-        print(f'<a href="{path}" class="lightbox" data-gallery="lab-social" title="{html.escape(desc)}">')
-        print(f'  <img src="{path}" alt="{html.escape(desc)}" class="social-photo">')
-        print('</a>')
+        print(f'<figure class="social-figure">')
+        print(f'  <a href="{path}" class="lightbox" data-gallery="lab-social" data-description="{html.escape(desc)}">')
+        print(f'    <img src="{path}" alt="{html.escape(desc)}" class="social-photo">')
+        print(f'  </a>')
+        print(f'  <figcaption class="social-caption">{html.escape(desc)}</figcaption>')
+        print(f'</figure>')
     print('</div>')
 
 # ── Alumni table ──────────────────────────────────────────────────────────────

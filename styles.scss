@@ -571,21 +571,33 @@ $headings-font-weight: 600;
 // ── Lab Life / social photo gallery ───────────────────────────────────────────
 .social-gallery {
   display: flex;
-  gap: 1rem;
+  gap: 1.25rem;
   flex-wrap: wrap;
   margin: 1.5rem 0;
+}
+
+.social-figure {
+  margin: 0;
+  text-align: center;
 
   img.social-photo {
-    height: 260px;
+    height: 240px;
     width: auto;
     object-fit: cover;
     border-radius: 6px;
     cursor: pointer;
+    display: block;
     transition: opacity 0.2s, transform 0.2s;
 
     &:hover { opacity: 0.85; transform: scale(1.02); }
   }
+}
 
+.social-caption {
+  margin-top: 0.4rem;
+  font-size: 0.85rem;
+  color: #666;
+  font-style: italic;
 }
 
 // ── Section page headers ──────────────────────────────────────────────────────
