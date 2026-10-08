@@ -45,7 +45,7 @@ def render_journal_info(row):
 
 # Sort by year descending
 df["year"] = df["year"].astype(int)
-df = df.sort_values("year", ascending=False)
+df = df.sort_values("year", ascending=False, kind="stable")
 
 for year, group in df.groupby("year", sort=False):
     print(f'\n<div class="pub-year-header">{year}</div>\n')
