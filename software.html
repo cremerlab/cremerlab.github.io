@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,10 +43,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-319d5d075d964fdd135c96d04c6af3f1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-3e60722f5de08a94ddcf6d693916f99b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -169,8 +172,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div id="8e6b38e2" class="cell" data-execution_count="1">
+<div id="7c7a1331" class="cell" data-execution_count="1">
 <div class="cell-output cell-output-display">
+<div class="resource-item">
+  <div class="resource-thumb"><img src="images/tools_and_code/placeholder.svg" alt=""></div>
+  <div class="resource-content">
+    <div class="resource-title">ElectronFlow — Interactive Redox Tower</div>
+    <div class="resource-meta">Python · 2026</div>
+    <div class="resource-desc">Interactive redox tower companion to Scarampi, Cremer &amp; Soyer, Community metabolism in dynamic redox landscapes (Current Opinion in Microbiology, 2026). Adjust pH, gas partial pressures, and metabolite concentrations to see how reduction potentials shift and which microbial metabolisms are thermodynamically feasible. Runs entirely in the browser.</div>
+    <div class="resource-links"><a href="https://github.com/cremerlab/redox-tower">GitHub</a> · <a href="https://cremerlab.github.io/redox-tower/">Project site</a></div>
+  </div>
+</div>
 <div class="resource-item">
   <div class="resource-thumb"><img src="images/tools_and_code/fermentation_products.jpg" alt="Fermentation Products Analysis"></div>
   <div class="resource-content">

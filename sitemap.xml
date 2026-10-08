@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://cremerlab.github.io/lab-values.html</loc>
-    <lastmod>2026-04-09T21:17:39.091Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cremerlab.github.io/courses.html</loc>
-    <lastmod>2026-04-09T21:17:39.050Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cremerlab.github.io/index.html</loc>
-    <lastmod>2026-04-09T21:17:39.091Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cremerlab.github.io/software.html</loc>
-    <lastmod>2026-04-09T21:17:39.091Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cremerlab.github.io/people.html</loc>
-    <lastmod>2026-04-09T21:17:39.091Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cremerlab.github.io/join.html</loc>
-    <lastmod>2026-04-09T21:17:39.091Z</lastmod>
+    <loc>https://cremerlab.github.io/contact.html</loc>
+    <lastmod>2026-10-08T00:57:43.519Z</lastmod>
   </url>
   <url>
     <loc>https://cremerlab.github.io/research.html</loc>
-    <lastmod>2026-04-09T21:17:39.091Z</lastmod>
+    <lastmod>2026-10-08T00:57:43.561Z</lastmod>
   </url>
   <url>
-    <loc>https://cremerlab.github.io/contact.html</loc>
-    <lastmod>2026-04-09T21:17:39.050Z</lastmod>
+    <loc>https://cremerlab.github.io/lab-values.html</loc>
+    <lastmod>2026-10-08T00:57:43.560Z</lastmod>
   </url>
   <url>
     <loc>https://cremerlab.github.io/publications.html</loc>
-    <lastmod>2026-04-09T21:17:39.091Z</lastmod>
+    <lastmod>2026-10-08T00:57:43.560Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cremerlab.github.io/courses.html</loc>
+    <lastmod>2026-10-08T00:57:43.519Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cremerlab.github.io/index.html</loc>
+    <lastmod>2026-10-08T00:57:43.560Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cremerlab.github.io/people.html</loc>
+    <lastmod>2026-10-08T00:57:43.560Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cremerlab.github.io/join.html</loc>
+    <lastmod>2026-10-08T00:57:43.560Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cremerlab.github.io/software.html</loc>
+    <lastmod>2026-10-08T00:57:43.561Z</lastmod>
   </url>
 </urlset>

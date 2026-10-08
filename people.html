@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,10 +43,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-319d5d075d964fdd135c96d04c6af3f1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-3e60722f5de08a94ddcf6d693916f99b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -267,17 +270,16 @@ PhD Student in Biology
 <p><button class="bio-toggle" onclick="openBio(this)" data-name="Shaili Mathur" data-title="PhD Student in Biology" data-bio="Shaili Mathur (she/her) is a PhD student in Biology in the Ecology and Evolution Track, jointly advised by Jonas Cremer and Dmitri Petrov. She combines mathematical, computational, and experimental techniques to study complex biological systems in dynamic environments. Shaili received her B.S. in Computational and Systems Biology and M.S. in Bioinformatics from UCLA in 2021.">About</button></p>
 </div>
 <div class="person-card">
-<img src="images/members/leron.png" alt="Leron Perez" onerror="this.src='images/members/placeholder.svg'" onclick="openBio(this)" data-name="Leron Perez" data-title="PhD Candidate in Biophysics" data-bio="Leron Perez (he/him) is a PhD student in Biophysics, jointly advised by Jonas Cremer and Drew Endy. He is interested in understanding microbial adaptation to uncertain and changing environments to improve synthetic biological design. Leron received his B.S. in Molecular Engineering at the University of Chicago in 2020." style="cursor:pointer">
+<img src="images/members/placeholder.svg" alt="Portrait coming soon">
 <div class="person-name">
-Leron Perez
+Manh-Quan Nguyen
 </div>
 <div class="person-title">
-PhD Candidate in Biophysics
+Graduate Student
 </div>
 <div class="person-socials">
-<a href="mailto:leron@stanford.edu" title="Email" target="_blank"><i class="bi bi-envelope"></i></a><a href="https://twitter.com/leron_perez" title="Twitter" target="_blank"><i class="bi bi-twitter"></i></a><a href="https://leronperez.com" title="Website" target="_blank"><i class="bi bi-globe"></i></a><a href="https://github.com/codercahol" title="Github" target="_blank"><i class="bi bi-github"></i></a>
+
 </div>
-<p><button class="bio-toggle" onclick="openBio(this)" data-name="Leron Perez" data-title="PhD Candidate in Biophysics" data-bio="Leron Perez (he/him) is a PhD student in Biophysics, jointly advised by Jonas Cremer and Drew Endy. He is interested in understanding microbial adaptation to uncertain and changing environments to improve synthetic biological design. Leron received his B.S. in Molecular Engineering at the University of Chicago in 2020.">About</button></p>
 </div>
 <div class="person-card">
 <img src="images/members/richa.png" alt="Richa Sharma" onerror="this.src='images/members/placeholder.svg'" onclick="openBio(this)" data-name="Richa Sharma" data-title="Postdoctoral Scholar" data-bio="Richa Sharma is a Postdoctoral Research Fellow interested in the eco-physiology of human gut strains including Escherichia coli and beyond. She aims to understand the functional aspects of resident gut strains and their impact on human health. She attained her doctoral degree in Soil Microbial Ecology from IIT Delhi in November 2019." style="cursor:pointer">
@@ -350,6 +352,19 @@ Now
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+<strong>Leron Perez</strong>
+</td>
+<td>
+PhD Student in Biophysics
+</td>
+<td>
+2025
+</td>
+<td>
+</td>
+</tr>
 <tr>
 <td>
 <strong>Griffin Chure</strong>
