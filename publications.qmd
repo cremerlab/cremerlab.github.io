@@ -43,9 +43,10 @@ def render_journal_info(row):
         parts.append(f"p.{row['page']}")
     return ", ".join(parts)
 
-# Sort by year descending
+# Sort by year descending, preprints first within each year
 df["year"] = df["year"].astype(int)
-df = df.sort_values("year", ascending=False, kind="stable")
+df["is_preprint"] = df["journal"].str.lower().isin(["biorxiv", "medrxiv", "arxiv", "chemrxiv"])
+df = df.sort_values(["year", "is_preprint"], ascending=False, kind="stable")
 
 for year, group in df.groupby("year", sort=False):
     print(f'\n<div class="pub-year-header">{year}</div>\n')

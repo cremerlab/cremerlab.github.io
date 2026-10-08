@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 -60 290 290" xmlns="http://www.w3.org/2000/svg">
+  <rect y="-60" width="290" height="290" fill="#f8f9fa"/>
+  <rect width="290" height="170" fill="#f8f9fa"/>
+  <rect width="290" height="20" fill="#1A3A5C"/>
+  <text x="8" y="14" fill="rgba(255,255,255,0.55)" font-size="7" font-family="system-ui,sans-serif">ElectronFlow</text>
+  <text x="75" y="14" fill="white" font-size="7" font-weight="600" font-family="system-ui,sans-serif">Interactive Redox Tower</text>
+  <!-- y-axis -->
+  <line x1="26" y1="26" x2="26" y2="155" stroke="#ccc" stroke-width="1"/>
+  <text x="2" y="38" font-size="5" fill="#aaa" font-family="monospace">+800</text>
+  <text x="2" y="78" font-size="5" fill="#aaa" font-family="monospace">+400</text>
+  <text x="2" y="104" font-size="5" fill="#aaa" font-family="monospace">0</text>
+  <text x="2" y="145" font-size="5" fill="#aaa" font-family="monospace">−400</text>
+  <!-- grid -->
+  <line x1="26" y1="38" x2="260" y2="38" stroke="#eee" stroke-width="0.5"/>
+  <line x1="26" y1="78" x2="260" y2="78" stroke="#eee" stroke-width="0.5"/>
+  <line x1="26" y1="104" x2="260" y2="104" stroke="#eee" stroke-width="0.5"/>
+  <!-- Col 0: Aerobic -->
+  <line x1="28" y1="38" x2="68" y2="38" stroke="#E65100" stroke-width="2.2"/>
+  <line x1="28" y1="148" x2="68" y2="148" stroke="#1565C0" stroke-width="2.2"/>
+  <line x1="48" y1="38" x2="48" y2="143" stroke="#E65100" stroke-width="1.5"/>
+  <polygon points="45,143 51,143 48,148" fill="#E65100"/>
+  <text x="51" y="93" font-size="6" fill="#2E7D32" font-weight="bold" font-family="system-ui">−2885 kJ</text>
+  <!-- Col 1: Anaerobic -->
+  <line x1="88" y1="43" x2="128" y2="43" stroke="#558B2F" stroke-width="2.2"/>
+  <line x1="88" y1="72" x2="128" y2="72" stroke="#827717" stroke-width="2.2"/>
+  <line x1="88" y1="77" x2="128" y2="77" stroke="#00838F" stroke-width="2.2"/>
+  <line x1="88" y1="117" x2="128" y2="117" stroke="#8D6E63" stroke-width="2.2"/>
+  <line x1="88" y1="127" x2="128" y2="127" stroke="#6A1B9A" stroke-width="2.2"/>
+  <line x1="88" y1="131" x2="128" y2="131" stroke="#2E7D32" stroke-width="2.2"/>
+  <!-- Col 2: Fermentation -->
+  <line x1="148" y1="122" x2="188" y2="122" stroke="#AD1457" stroke-width="2.2"/>
+  <line x1="148" y1="125" x2="188" y2="125" stroke="#00695C" stroke-width="2.2"/>
+  <line x1="148" y1="132" x2="188" y2="132" stroke="#B71C1C" stroke-width="2.2"/>
+  <line x1="148" y1="130" x2="188" y2="130" stroke="#6200EA" stroke-width="2.2"/>
+  <!-- Col 3: Syntrophic -->
+  <line x1="208" y1="130" x2="248" y2="130" stroke="#F9A825" stroke-width="2.2"/>
+  <line x1="208" y1="135" x2="248" y2="135" stroke="#6D4C41" stroke-width="2.2"/>
+  <line x1="208" y1="141" x2="248" y2="141" stroke="#00695C" stroke-width="2.2"/>
+  <line x1="208" y1="148" x2="248" y2="148" stroke="#37474F" stroke-width="2.2"/>
+  <!-- Column labels -->
+  <text x="48" y="163" font-size="5.5" fill="#555" font-family="system-ui" text-anchor="middle" font-weight="600">Aerobic</text>
+  <text x="108" y="163" font-size="5.5" fill="#555" font-family="system-ui" text-anchor="middle" font-weight="600">Anaerobic resp.</text>
+  <text x="168" y="163" font-size="5.5" fill="#555" font-family="system-ui" text-anchor="middle" font-weight="600">Fermentation</text>
+  <text x="228" y="163" font-size="5.5" fill="#555" font-family="system-ui" text-anchor="middle" font-weight="600">Syntrophic / C1</text>
+</svg>

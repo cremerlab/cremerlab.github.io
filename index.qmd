@@ -17,13 +17,6 @@ toc: false
     <a href="publications.qmd" class="btn btn-outline-light btn-lg">Publications</a>
   </div>
 </div>
-
-<div class="hiring-banner">
-  <strong>Join us!</strong> Open postdoc positions in
-  <em>Quantitative flux analyses in the human gut</em> and
-  <em>Physiological principles of growth</em>.
-  <a href="join.html">Learn more →</a>
-</div>
 ```
 
 ::: {.container .mt-4}
