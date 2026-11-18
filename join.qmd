@@ -3,29 +3,9 @@ title: "Join the Lab"
 subtitle: "We are looking for creative, driven scientists who enjoy tackling challenging quantitative problems in microbiology."
 ---
 
-## Open Positions
-
-::: {.callout-tip icon=false}
-### Postdoctoral Scholar — Quantitative Flux Analyses in the Human Gut
-
-We are looking for a postdoctoral scholar with a strong background in physics, mathematics, or a related quantitative discipline to lead our efforts on flux analyses in the human gut microbiota. The goal is the development of novel mathematical models that reveal how the interplay between bacterial metabolism, diet, and intestinal physiology shapes the exchange of chemical fluxes between the gut microbiota and the human host. Depending on interest, the position can also involve experimental work building on our HPLC and anaerobic culturing techniques.
-
-Please contact Jonas with a CV and a brief description of your research interests.
-:::
-
-::: {.callout-tip icon=false}
-### Postdoctoral Scholar — Principles of Bacterial Growth Physiology and Metabolism
-
-We are looking for a postdoctoral scholar to reveal physiological and regulatory principles connecting metabolism, growth, proteome allocation, and the envelope proteome. The work centers on quantitative culturing approaches and the integration of compositional, rate, and regulatory measurements across conditions. Previous experience in microbiology, biophysics, or quantitative biology is required.
-
-Please contact Jonas with a CV and a brief description of your research interests.
-:::
-
----
-
 ## Postdocs
 
-We are always interested in hearing from exceptional postdoctoral candidates. In addition to the open positions above, feel free to reach out if our research directions resonate with your interests — we are happy to discuss potential projects and funding options.
+We are always interested in hearing from exceptional postdoctoral candidates. Feel free to reach out if our research directions resonate with your interests — we are happy to discuss potential projects and funding options.
 
 ## Graduate Students
 

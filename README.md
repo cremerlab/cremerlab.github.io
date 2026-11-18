@@ -32,7 +32,7 @@ quarto publish gh-pages
 | `research.qmd` | Research page |
 | `software.qmd` | Tools & code page |
 | `courses.qmd` | Courses page |
-| `join.qmd` | Join/open positions page |
+| `join.qmd` | Join page |
 | `contact.qmd` | Contact page |
 | `styles.scss` | Custom CSS |
 
